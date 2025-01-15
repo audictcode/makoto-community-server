@@ -206,8 +206,8 @@ Library jopt-simple-5.0.4.jar loaded!
 [STEP ONE] Extracting bundled resources...
 Class not found: net.minecraftforge.installertools.ConsoleTool
 Task: BUNDLER_EXTRACT
-Input:   C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\minecraft_server.1.20.1.jar
-Output:  C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries
+Input:   C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\minecraft_server.1.20.1.jar
+Output:  C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries
 All:     false
 JarOnly: false
 Libs:    true
@@ -244,8 +244,8 @@ Extracted: libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar
 [STEP TWO] Extracting jars...
 Class not found: net.minecraftforge.installertools.ConsoleTool
 Task: BUNDLER_EXTRACT
-Input:   C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\minecraft_server.1.20.1.jar
-Output:  C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-unpacked.jar
+Input:   C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\minecraft_server.1.20.1.jar
+Output:  C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-unpacked.jar
 All:     false
 JarOnly: true
 Libs:    false
@@ -254,8 +254,8 @@ Extracted: versions/1.20.1/server-1.20.1.jar
 [STEP THREE] Getting mappings...
 Class not found: net.minecraftforge.installertools.ConsoleTool
 Task: MCP_DATA
-Input:  C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412.zip
-Output: C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings.txt
+Input:  C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412.zip
+Output: C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings.txt
 Key:    mappings
 Extracting: config/joined.tsrg
 
@@ -264,33 +264,33 @@ Class not found: net.minecraftforge.installertools.ConsoleTool
 Task: DOWNLOAD_MOJMAPS
 MC Version: 1.20.1
 Side:       server
-Output:     C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-mappings.txt
+Output:     C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-mappings.txt
 Downloaded Mojang mappings for 1.20.1
 
 [STEP FIVE] Merging mappings...
 Class not found: net.minecraftforge.installertools.ConsoleTool
 Task: MERGE_MAPPING
-Left:    C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings.txt
+Left:    C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings.txt
          Reversed=false
          null
-Right:   C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-mappings.txt
+Right:   C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-mappings.txt
          Reversed=true
          null
 Classes: true
 Fields:  false
 Methods: false
 Params:  false
-Output:  C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt
+Output:  C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt
 
 [STEP SIX] Splitting server jar...
 Class not found: net.minecraftforge.jarsplitter.ConsoleTool
 Splitter: 
-  Input:    C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\minecraft_server.1.20.1.jar
-  Slim:     C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-slim.jar
+  Input:    C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\minecraft_server.1.20.1.jar
+  Slim:     C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-slim.jar
   Data:     null
-  Extra:    C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-extra.jar
+  Extra:    C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-extra.jar
   Including data in extra
-  SRG:   C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt
+  SRG:   C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt
   InputSha: 84194a2f286ef7c14ed7ce0090dba59902951553
   SrgSha:   67dc0f086ea40e91fd4ae15124fa888e6803844f
 Splitting: 
@@ -426,12 +426,12 @@ Splitting:
   Data  META-INF/versions/1.20.1/server-1.20.1.jar
 Class not found: net.minecraftforge.jarsplitter.ConsoleTool
 Splitter: 
-  Input:    C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-unpacked.jar
-  Slim:     C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-slim.jar
+  Input:    C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-unpacked.jar
+  Slim:     C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-slim.jar
   Data:     null
-  Extra:    C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-extra.jar
+  Extra:    C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-extra.jar
   Including data in extra
-  SRG:   C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt
+  SRG:   C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt
   InputSha: 9afed7fc4927dd453c68f77c98176a9473ae6942
   SrgSha:   67dc0f086ea40e91fd4ae15124fa888e6803844f
   Slim Cache Miss
@@ -11797,10 +11797,10 @@ Splitting:
 Class not found: net.minecraftforge.fart.Main
 Forge Auto Renaming Tool v0.1.22
 log: null
-input: C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-slim.jar
-output: C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar
+input: C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-slim.jar
+output: C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar
 threads: 16
-Names: C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt(reversed: false)
+Names: C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt(reversed: false)
 Fix Annotations: true
 Fix Records: true
 Fix Identifiers: ALL
@@ -11808,7 +11808,7 @@ Fix SourceFile: JAVA
 Fix Line Numbers: false
 Strip codesigning signatures: false
 Adding Libraries to Inheritance
-Reading Input: C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-slim.jar
+Reading Input: C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-slim.jar
 Adding input to inheritence map
 Processing entries
 Cant Find Class: org/jetbrains/annotations/Nullable
@@ -11821,7 +11821,7 @@ Found extra RuntimeVisibleParameterAnnotations entries in <init>(Ljava/lang/Stri
 Found extra RuntimeVisibleParameterAnnotations entries in <init>(Lnet/minecraft/server/ServerFunctionManager;Lnet/minecraft/server/ServerFunctionManager$TraceCallbacks;)V in net/minecraft/server/ServerFunctionManager$ExecutionContext: removing 1
 Adding extras
 Sorting
-Writing Output: C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar
+Writing Output: C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar
   com/
   com/mojang/
   com/mojang/math/
@@ -17512,13 +17512,13 @@ Writing Output: C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecr
 [STEP EIGHT] Patching forge jar...
 Class not found: net.minecraftforge.binarypatcher.ConsoleTool
 Applying: 
-  Clean:     C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar
-  Output:    C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraftforge\forge\1.20.1-47.2.20\forge-1.20.1-47.2.20-server.jar
+  Clean:     C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar
+  Output:    C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraftforge\forge\1.20.1-47.2.20\forge-1.20.1-47.2.20-server.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\org\magma\install\data\server.lzma
+Loading patches file: C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\org\magma\install\data\server.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 0 Exists: false
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -21433,7 +21433,7 @@ Loading patches file: C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\org\
     Checksum: aa1a46a4 Exists: true
   Reading patch net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider.binpatch
     Checksum: 92606b05 Exists: true
-Processing: C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar
+Processing: C:\Users\Daniel Aguirre\Documents\GitHub\makoto-community-server\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar
   Patching com/mojang/math/Transformation 1/1
   Patching net/minecraft/CrashReport 1/1
   Patching net/minecraft/CrashReportCategory$Entry 1/1
@@ -23331,7 +23331,3 @@ Processing: C:\Users\Daniel Aguirre\Desktop\MAKOTOCRAFT\libraries\net\minecraft\
   Patching net/minecraft/client/resources/model/WeightedBakedModel 1/1
   Patching net/minecraft/client/renderer/ShaderInstance 1/1
   Patching net/minecraft/client/Minecraft 1/1
-  Patching net/minecraft/client/ToggleKeyMapping 1/1
-  Patching net/minecraft/client/renderer/RenderType$CompositeRenderType 1/1
-  Patching net/minecraft/client/renderer/block/model/ItemTransforms$1 1/1
-  Patching net/minecraft/client/multiplayer/ClientPacketListener$DeferredPacket 1/1
