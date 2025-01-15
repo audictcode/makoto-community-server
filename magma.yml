@@ -1,0 +1,40 @@
+# This is the main configuration file for Magma.
+#
+# Site: https://magmafoundation.org
+# Discord: https://discord.gg/magma
+#
+# Value: paper.velocity.secret Default:    # Velocity Secret Key for modern forwarding
+# Value: magma.command.mods.print-ids Default: true   # Adds the mod id + version to the end of the mod name
+# Value: fakeplayer.permissions Default:    # A list of permissions that fake players should have
+# Value: debug.warn-on-null-nbt Default: false   # Prints a warning when an item tries to set an NBT tag to null
+# Value: magma.auto-update Default: true   # Auto updates the Magma jar
+# Value: debug.print-bukkit-injections Default: false   # Prints Forge Bukkit Injections
+# Value: debug.warn-on-unknown-entity Default: false   # Prints a warning when an entity unknown to bukkit is spawned
+# Value: debug.world-config Default: false   # Prints the world config on load
+# Value: forge.packet-compression-threshold Default: 8388608   # Maximum packet size before compression is applied, Default: 8388608 (8MB)
+# Value: forge.bukkitPermissionHandler.enable Default: true   # Let's Bukkit permission plugins handle forge/modded commands
+# Value: forge.commandsIgnoreBukkitPerms Default: true   # If true, forge/modded commands will ignore Bukkit permission plugins and use Forge permissions instead, disable this to control forge commands with permission plugins like LuckPerms
+# Value: paper.velocity.enabled Default: false   # Enabled support for Velocity modern forwarding
+
+paper:
+  velocity:
+    secret: ''
+    enabled: false
+magma:
+  command:
+    mods:
+      print-ids: true
+  auto-update: true
+fakeplayer:
+  permissions: []
+debug:
+  warn-on-null-nbt: false
+  print-bukkit-injections: false
+  warn-on-unknown-entity: false
+  world-config: false
+forge:
+  packet-compression-threshold: 8388608
+  bukkitPermissionHandler:
+    enable: true
+  commandsIgnoreBukkitPerms: true
+config-version: 1
