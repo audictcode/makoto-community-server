@@ -1,0 +1,40 @@
+Fisherman:
+  fullname: Fisherman
+  shortname: Fi
+  description: Pescador de animales acuáticos
+  ChatColour: AQUA
+  chat-display: full
+  # max-level: 10
+  # slots: 10
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(joblevel-1)*0.01-((baseincome+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(joblevel-1)*0.01-((basepoints+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  Gui:
+    Id: 346
+    Data: 0
+  Fish:
+    349-0:
+      income: 15.0
+      points: 15.0
+      experience: 15.0
+    349-1:
+      income: 20.0
+      points: 20.0
+      experience: 25.0
+    349-2:
+      income: 25.0
+      points: 25.0
+      experience: 25.0
+    349-3:
+      income: 25.0
+      points: 25.0
+      experience: 25.0
+  Kill:
+    Player:
+      income: 7.5
+      points: 7.5
+      experience: 7.5
+  max-level: 200

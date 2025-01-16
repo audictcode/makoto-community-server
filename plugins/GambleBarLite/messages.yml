@@ -1,0 +1,26 @@
+#Sent when player doesn't have permission
+noPermission: "&cSorry, you don't have permission for that."
+
+#Sent when console tries to use a player-only command
+mustBePlayer: "&4This is only for players!"
+
+#Sent when a player opens the bar gui
+openedBar: "&eSelect a drink to buy for a chance to win!"
+
+#Sent when a player buys a drink
+boughtDrink: "&fYou've purchased a &c%drink% &ffor &c$%price%&f."
+
+#Sent when a player tries to buy a drink they cannot afford
+cannotAfford: "&fYou can't afford the &c$%price% &ffor this drink."
+
+#Sent when a player wins their drink
+drinkWin: "&fYou've won your drink and received &c$%reward%&f."
+
+#Sent when a player loses their drink
+drinkLose: "&cYou've lost your drink and feel dizzy!"
+
+#The help menu
+help:
+- "&6<<< &fGambleBar Help &6>>>"
+- "&6/gamblebar &f- Open the GambleBar bar inventory."
+- "&6/gamblebar help &f- Open this help menu."

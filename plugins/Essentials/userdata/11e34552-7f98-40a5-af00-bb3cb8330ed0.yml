@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 200.25.62.91
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1729841166632
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1729841536311
+  login: 1729841163878
+money: '5000'
+last-account-name: F1KKU
+lastlocation:
+  world: 12ebec25-b6fe-4c9f-a1d9-bd3265d78c8f
+  world-name: world
+  x: -39.30000001192093
+  y: 79.0
+  z: -40.872081170033155
+  yaw: -158.61529541015625
+  pitch: 26.63172149658203
+logoutlocation:
+  world: 188f99d7-0de0-4e86-8ba4-d9e53502916b
+  world-name: Spawn
+  x: -1444.6122065033137
+  y: 105.0
+  z: 179.9770591554529
+  yaw: 114.98190307617188
+  pitch: 6.469786167144775

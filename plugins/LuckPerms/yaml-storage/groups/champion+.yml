@@ -1,0 +1,71 @@
+name: champion+
+permissions:
+- cubeminiatures.use.*
+- auctionhouse.maxsell.10
+- auctionhouse.maxsell.50
+- chatcolor.color.e
+- chatformat.Arefy+
+- chatformat.arefy+
+- chatformat.donador
+- crazyauctions.sell.50
+- deluxechat.pm.toggle
+- discordminecraft.syncrank.Arefy+-(Prison)
+- essentials.hat
+- essentials.ignore
+- essentials.invsee
+- essentials.kits.Arefy+-once-keys
+- essentials.kits.Arefy+-once-loot
+- essentials.kits.arefy
+- essentials.kits.arefy+
+- essentials.kits.dios
+- essentials.nick
+- essentials.nick.color
+- essentials.nick.format
+- essentials.nick.magic
+- essentials.ptime
+- essentials.pweather
+- essentials.repair
+- essentials.repair.armor
+- essentials.repair.enchanted
+- essentials.sethome.multiple.arefy+
+- giveaway.start
+- invseeplusplus.invsee
+- medorarobots.multiply.arefyy
+- medorarobots.player
+- medorarobots.player.withdrawall
+- multiplicador.arefy+
+- privatemines.mineblocks
+- privatemines.reset.all
+- reward.Arefy+
+- reward.Champion+
+- superior.island.create
+- tab.group.Arefy+
+- tab.group.arefy+
+- trails.allpatterns
+- trails.alltrails
+- trails.block.7
+- trails.block.8
+- trails.mode.pulse
+- trails.mode.slinky
+- trails.particle.fire
+- trails.particle.lava
+- trails.particle.slime
+- trails.particle.snow
+- trails.particle.splash
+- trails.particle.void
+- trails.pattern.gradient1
+- trails.pattern.gradient2
+- trails.pattern.gradient3
+- trails.rains
+- trails.wings.demon
+- trails.wings.long
+- trails.wings.short
+- weight.600
+parents:
+- champion
+suffixes:
+- '&r &4&k!&r &c&lCHAMPION+ &4&k!&r':
+    priority: 225
+meta:
+- auctions:
+    value: '15'

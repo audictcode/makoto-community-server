@@ -1,0 +1,22 @@
+location: Spawn:-1414.512:107.500:172.516
+enabled: true
+permission: holograma.bajo
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#003BFF&l&nE&#1F53FF&l&np&#3D6AFF&l&ni&#5C82FF&l&nc'
+    height: 0.3
+  - content: '&#5C82FF➡ &7Hit to &#5C82FFPreview'
+    height: 0.3
+  - content: '&#5C82FF➡ &7Use Key to &#5C82FFOpen'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&f&o(( ʏᴏᴜ ʜᴀᴠᴇ &#5C82FF&l&o%excellentcrates_keys_epic% &#5C82FF&oᴇᴘɪᴄ
+      ᴋᴇʏs &f&o))'
+    height: 0.3
+  actions: {}

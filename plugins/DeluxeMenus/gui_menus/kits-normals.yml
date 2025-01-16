@@ -1,0 +1,54 @@
+menu_title: '&fPreviewing.. &8&nMembers'
+open_command: 
+- member
+- members
+- user
+size: 9
+update_interval: 1
+items:
+  'glasses-2':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 8
+  'glasses':
+    display_name: '&e'
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+  'member':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 0
+    priority: 2
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_kit_is_available_new%'
+          output: 'yes'
+    display_name: '&a&lMember &2(Unlocked)'
+    lore:
+    - ''
+    - '&a&lInformation'
+    - ' &a❙ &fRedeemable, 7 days cooldown'
+    left_click_commands:
+    - '[player] kits new'
+    - '[refresh]'
+    update: true
+  'member-2':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 0
+    priority: 3
+    display_name: '&e&lMember &6(In cooldown)'
+    lore:
+    - ''
+    - '&e&lInformation'
+    - ' &e❙ &fRedeemable in &e%essentials_kit_time_until_available_new%'
+    left_click_commands:
+    - '[player] kits new'

@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 185.107.56.238
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1729870588981
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1729871668565
+  login: 1729869778227
+  kits:
+    new: 1729850105166
+    infinity: 1729851684568
+    champion+: 1729851737467
+    champion: 1729851739267
+    overlord: 1729851740917
+    god: 1729851742317
+    legacy: 1729851749767
+money: '1542608.4680000000014965'
+last-account-name: xNekio
+lastlocation:
+  world: 188f99d7-0de0-4e86-8ba4-d9e53502916b
+  world-name: Spawn
+  x: -1440.4035576400527
+  y: 88.0
+  z: 216.0124794753478
+  yaw: 174.81304931640625
+  pitch: 20.315698623657227
+logoutlocation:
+  world: 188f99d7-0de0-4e86-8ba4-d9e53502916b
+  world-name: Spawn
+  x: -1416.5087399418173
+  y: 104.0
+  z: 154.33581892439312
+  yaw: 0.1240234375
+  pitch: 2.403632164001465
+homes:
+  home:
+    world: 2515389f-2800-43f7-90b8-90d96a70e6e3
+    world-name: Jartex
+    x: -1416.4931268290045
+    y: 59.0
+    z: 211.54383636939474
+    yaw: -179.31866455078125
+    pitch: 5.5518083572387695

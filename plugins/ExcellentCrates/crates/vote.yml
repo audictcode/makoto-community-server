@@ -1,0 +1,454 @@
+Name: Vote Crate
+Preview_Config: vote
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+  Ids:
+  - vote
+Block:
+  Positions:
+  - -1411,105,170,Spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: NONE
+    Particle:
+      Name: CLOUD
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    '25___':
+      Name: '#33FF00&l2#37FF05&l5#3BFF0A&lᴋ #43FF14⛃ #4BFF1E&l⎜ #52FF27&lᴍ#56FF2C&lᴏ#5AFF31&lɴ#5EFF36&lᴇ#62FF3B&lʏ'
+      Weight: 50.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 50000a00566rrde1nmspbeehpgk00hdlkmspb3e9gmct1qe1p6upj9dhigg004dpgmqp80004g02jge9nn0pbiehkmasoa000000880026sobdck00gt35f1q7asj5ec4001bmc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatidat4j6mak8pl4slqid16lekbq9pl4krapah6j2jhia9kkul376h7lemj89pmkatqedl2j4ja49lslkl2961758g9k9p26eu2q8t36kmakdds4shql6d76ki9i9pl44qafah8j8ibe64smck9t7k00m002d5i000000ia7jhf0g63kclt7bk9aco7u5m1g02801pmmirj5cdp62pjk79m6usj51000000102gnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh6it31dhkm68hqehp7ap9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8h850g54qb7d1q20orcd5hmm83kdsg66r31d5mi0a9948m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig9grr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24orfdhnn48hq48hj6cq68oo308hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8hi48m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h36crkchhg6kh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h3a8hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26cq28p330g925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2s6q8m8125gh7arj4clp6oqbecli24ej6c5m76pbt5hti4ojfdhi24ej6c5m76p9c49hmur3fe8h3k8h36gpkchhh6gh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278he56s340h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cq44hi6652i4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25okejgg24b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjaci68op3e8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1mi6i4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjadi68op468hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1mi7i4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjaga68opj28hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8m9mgh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cqkahi66cr24b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25odkgsh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cr34hi66d124b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25ikf48m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggk00ia1qm4r39cd17aqrbd5q5cobcelin62001tkn8pbdehgmeej1cdq6irreec06ssr5e9r6asj3dtmmqobecgiiaeh54kmn0qbe69i32d9g68pj8c1h74o64pj36ssj2d9nc5h30or2clhm6e1kcpj36ohpckpjac9pc8s6aohjc9ij6eb46gp6ccb560ojaohj6hi62ch0clhmu837d5r6a815e1m62ub5e8ii0chl60o3000a003m8qbje1m62u880024sobdck2c6up2ehingt1278h24b12cls78sj148t5mup2ehingt1278h348hc49hmur3fe8h3k8h36cpkchhg60h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbt5hti4t35f1q24eh26kh2o8j3dtm6ush278h26cpn8p330d925gh64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcedinqb3r49q6au3k48t25odkhcg24b12cdnmorri48t248pj8934cc2148m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8n2je1i08hc49hmur3fe8h3k8h36gpkchhh6gh2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4bh8t71048m24orfdhnn48hq48hj8gi68ooka8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278he3d4d48m24orfdhnn48hq48hjaci68op3e8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278he3d4f48m24orfdhnn48hq48hjadi68op468hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278hcjd125gh66rrcdtp24eh24cqk2hi66coi4b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4bgr91p25gh66rrcdtp24eh24cqkahi66cr24b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4b58u8hc49hmur3fe8h3k8h36op4chhj88h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblugi0049hnn4p8800000080k5ti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh250k20kj9ctk78833dhkm6qp0ehni0orcc5kmq81954h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblug02g0199mmtbcdh7nerj5e840012ec5mma0001800kk3idto6asjkd5in628011q6au3kelp6asoa00000088002lcobcelig1d35f5530miod0o68m2adhhnii9mclskkl2j61m4uibae0rkirimf5h46i9m95mmgc34910jcj3p74o5km3861i5gijccdsjat31asqmom9j99k5krihelh6qlhg9gpl4r3591932ordalr4qlq96dcl8hja9pbl4q2dat8nkjja99mlil2d65734kj99ta6ed2fatd6gjjd8lrksra5696k8jbpb9a4ic2eah0j8ji4cts5khq6d9cl8qro9p3lacqed94j4jja89kkul2h6h4msc9pcp8jqf80005g00i9cg000004ihssbo41gt35f9qt2aj61vhdgc000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3ks3cc5smasivd1im2p00
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgk00hdlkmspb3e9gmct1qe1p6upj9dhigg004dpgmqp80004g02jge9nn0pbiehkmasoa000000880026sobdck00gt35f1q7asj5ec4001bmc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatidat4j6mak8pl4slqid16lekbq9pl4krapah6j2jhia9kkul376h7lemj89pmkatqedl2j4ja49lslkl2961758g9k9p26eu2q8t36kmakdds4shql6d76ki9i9pl44qafah8j8ibe64smck9t7k00m002d5i000000ia7jhf0g63kclt7bk9aco7u5m1g02801pmmirj5cdp62pjk79m6usj51000000102gnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh6it31dhkm68hqehp7ap9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8h850g54qb7d1q20orcd5hmm83kdsg66r31d5mi0a9948m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig9grr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24orfdhnn48hq48hj6cq68oo308hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8hi48m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h36crkchhg6kh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h3a8hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26cq28p330g925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2s6q8m8125gh7arj4clp6oqbecli24ej6c5m76pbt5hti4ojfdhi24ej6c5m76p9c49hmur3fe8h3k8h36gpkchhh6gh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278he56s340h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cq44hi6652i4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25okejgg24b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjaci68op3e8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1mi6i4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjadi68op468hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1mi7i4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjaga68opj28hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8m9mgh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cqkahi66cr24b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25odkgsh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cr34hi66d124b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25ikf48m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggk00ia1qm4r39cd17aqrbd5q5cobcelin62001tkn8pbdehgmeej1cdq6irreec06ssr5e9r6asj3dtmmqobecgiiaeh54kmn0qbe69i32d9g68pj8c1h74o64pj36ssj2d9nc5h30or2clhm6e1kcpj36ohpckpjac9pc8s6aohjc9ij6eb46gp6ccb560ojaohj6hi62ch0clhmu837d5r6a815e1m62ub5e8ii0chl60o3000a003m8qbje1m62u880024sobdck2c6up2ehingt1278h24b12cls78sj148t5mup2ehingt1278h348hc49hmur3fe8h3k8h36cpkchhg60h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbt5hti4t35f1q24eh26kh2o8j3dtm6ush278h26cpn8p330d925gh64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcedinqb3r49q6au3k48t25odkhcg24b12cdnmorri48t248pj8934cc2148m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8n2je1i08hc49hmur3fe8h3k8h36gpkchhh6gh2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4bh8t71048m24orfdhnn48hq48hj8gi68ooka8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278he3d4d48m24orfdhnn48hq48hjaci68op3e8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278he3d4f48m24orfdhnn48hq48hjadi68op468hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278hcjd125gh66rrcdtp24eh24cqk2hi66coi4b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4bgr91p25gh66rrcdtp24eh24cqkahi66cr24b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4b58u8hc49hmur3fe8h3k8h36op4chhj88h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblugi0049hnn4p8800000080k5ti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh250k20kj9ctk78833dhkm6qp0ehni0orcc5kmq81954h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblug02g0199mmtbcdh7nerj5e840012ec5mma0001800kk3idto6asjkd5in628011q6au3kelp6asoa00000088002lcobcelig1d35f5530miod0o68m2adhhnii9mclskkl2j61m4uibae0rkirimf5h46i9m95mmgc34910jcj3p74o5km3861i5gijccdsjat31asqmom9j99k5krihelh6qlhg9gpl4r3591932ordalr4qlq96dcl8hja9pbl4q2dat8nkjja99mlil2d65734kj99ta6ed2fatd6gjjd8lrksra5696k8jbpb9a4ic2eah0j8ji4cts5khq6d9cl8qro9p3lacqed94j4jja89kkul2h6h4msc9pcp8jqf80005g00i9cg000004ihssbo41gt35f9qt2aj61vhdgc000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3ks3cc5smasivd1im2p00
+      Ignored_For_Permissions: []
+    '50___':
+      Name: '#33FF00&l5#37FF05&l0#3BFF0A&lᴋ #43FF14⛃ #4BFF1E&l⎜ #52FF27&lᴍ#56FF2C&lᴏ#5AFF31&lɴ#5EFF36&lᴇ#62FF3B&lʏ'
+      Weight: 40.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 50000a00566rrde1nmspbeehpgk00hdlkmspb3e9gmct1qe1p6upj9dhigg004dpgmqp80004g02jge9nn0pbiehkmasoa000000880026sobdck00gt35f1q7asj5ec4001bmc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatidat4j6mak8pl4slqid16lekbq9pl4krapah6j2jhia9kkul376h7lemj89pmkatqedl2j4ja49lslkl2961758g9k9p26eu2q8t36kmakdds4shql6d76ki9i9pl44qafah8j8ibe64smck9t7k00m002d5i000000ia7jhf0g63kclt7bk9aco7u5m1g02801pmmirj5cdp62pjk79m6usj51000000102gnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh6it31dhkm68hqehp7ap9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8h850g54qb7d1q20orcd5hmm83kdsg66r31d5mi0a9948m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig9grr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24orfdhnn48hq48hj6cq68oo308hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8hl48m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h36crkchhg6kh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h308hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26cq28p330g925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2s6q8m8125gh7arj4clp6oqbecli24ej6c5m76pbt5hti4ojfdhi24ej6c5m76p9c49hmur3fe8h3k8h36gpkchhh6gh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278he56s340h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cq44hi6652i4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25okejgg24b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjaci68op3e8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1mi6i4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjadi68op468hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1mi7i4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjaga68opj28hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8m9mgh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cqkahi66cr24b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25odkgsh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cr34hi66d124b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25ikf48m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggk00ia1qm4r39cd17aqrbd5q5cobcelin62001tkn8pbdehgmeej1cdq6irreec06ssr5e9r6asj3dtmmqobecgiiaeh54kmn0qbe6ks3ed1p60qmac9i6lijacpmcosj8d1gckpj6ohic9i36d9gchh3coho6so36p9h6osjid9h70qjcohm71i30cj5ccojgdhh64rjcop0clhmu837d5r6a815e1m62ub5e8ii0d9g60o3000a003m8qbje1m62u880024sobdck2c6up2ehingt1278h24b12cls78sj148t5mup2ehingt1278h3a8hc49hmur3fe8h3k8h36cpkchhg60h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbt5hti4t35f1q24eh260h2o8j3dtm6ush278h26cpn8p330d925gh64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcedinqb3r49q6au3k48t25odkhcg24b12cdnmorri48t248pj8934cc2148m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8n2je1i08hc49hmur3fe8h3k8h36gpkchhh6gh2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4bh8t71048m24orfdhnn48hq48hj8gi68ooka8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278he3d4d48m24orfdhnn48hq48hjaci68op3e8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278he3d4f48m24orfdhnn48hq48hjadi68op468hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278hcjd125gh66rrcdtp24eh24cqk2hi66coi4b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4bgr91p25gh66rrcdtp24eh24cqkahi66cr24b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4b58u8hc49hmur3fe8h3k8h36op4chhj88h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblugi0049hnn4p8800000080k5ti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh250k20kj9ctk78833dhkm6qp0ehni0orcc5kmq81954h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblug02g0199mmtbcdh7nerj5e840012ec5mma0001800kk3idto6asjkd5in628011q6au3kelp6asoa00000088002lcobcelig1d35f5530miod0o68m2adhhnii9mclskkl2j61m4uibae0rkirimf5h46i9m95mmgc34910jcj3p74o5km3861i5gijccdsjat31asqmom9j99k5krihelh6qlhg9gpl4r3591932ordalr4qlq96dcl8hja9pbl4q2dat8nkjja99mlil2d65734kj99ta6ed2fatd6gjjd8lrksra5696k8jbpb9a4ic2eah0j8ji4cts5khq6d9cl8qro9p3lacqed94j4jja89kkul2h6h4msc9pcp8jqf80005g00i9cg000004ihssbo41gt35f9qt2aj61vhdgc000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3ks3cc5smasivd1im2p00
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgk00hdlkmspb3e9gmct1qe1p6upj9dhigg004dpgmqp80004g02jge9nn0pbiehkmasoa000000880026sobdck00gt35f1q7asj5ec4001bmc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatidat4j6mak8pl4slqid16lekbq9pl4krapah6j2jhia9kkul376h7lemj89pmkatqedl2j4ja49lslkl2961758g9k9p26eu2q8t36kmakdds4shql6d76ki9i9pl44qafah8j8ibe64smck9t7k00m002d5i000000ia7jhf0g63kclt7bk9aco7u5m1g02801pmmirj5cdp62pjk79m6usj51000000102gnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh6it31dhkm68hqehp7ap9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8h850g54qb7d1q20orcd5hmm83kdsg66r31d5mi0a9948m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig9grr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24orfdhnn48hq48hj6cq68oo308hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8hl48m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h36crkchhg6kh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h308hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26cq28p330g925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2s6q8m8125gh7arj4clp6oqbecli24ej6c5m76pbt5hti4ojfdhi24ej6c5m76p9c49hmur3fe8h3k8h36gpkchhh6gh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278he56s340h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cq44hi6652i4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25okejgg24b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjaci68op3e8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1mi6i4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjadi68op468hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1mi7i4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjaga68opj28hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8m9mgh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cqkahi66cr24b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25odkgsh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cr34hi66d124b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25ikf48m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggk00ia1qm4r39cd17aqrbd5q5cobcelin62001tkn8pbdehgmeej1cdq6irreec06ssr5e9r6asj3dtmmqobecgiiaeh54kmn0qbe6ks3ed1p60qmac9i6lijacpmcosj8d1gckpj6ohic9i36d9gchh3coho6so36p9h6osjid9h70qjcohm71i30cj5ccojgdhh64rjcop0clhmu837d5r6a815e1m62ub5e8ii0d9g60o3000a003m8qbje1m62u880024sobdck2c6up2ehingt1278h24b12cls78sj148t5mup2ehingt1278h3a8hc49hmur3fe8h3k8h36cpkchhg60h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbt5hti4t35f1q24eh260h2o8j3dtm6ush278h26cpn8p330d925gh64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcedinqb3r49q6au3k48t25odkhcg24b12cdnmorri48t248pj8934cc2148m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8n2je1i08hc49hmur3fe8h3k8h36gpkchhh6gh2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4bh8t71048m24orfdhnn48hq48hj8gi68ooka8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278he3d4d48m24orfdhnn48hq48hjaci68op3e8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278he3d4f48m24orfdhnn48hq48hjadi68op468hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278hcjd125gh66rrcdtp24eh24cqk2hi66coi4b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4bgr91p25gh66rrcdtp24eh24cqkahi66cr24b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq4b58u8hc49hmur3fe8h3k8h36op4chhj88h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblugi0049hnn4p8800000080k5ti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh250k20kj9ctk78833dhkm6qp0ehni0orcc5kmq81954h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7ap9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblug02g0199mmtbcdh7nerj5e840012ec5mma0001800kk3idto6asjkd5in628011q6au3kelp6asoa00000088002lcobcelig1d35f5530miod0o68m2adhhnii9mclskkl2j61m4uibae0rkirimf5h46i9m95mmgc34910jcj3p74o5km3861i5gijccdsjat31asqmom9j99k5krihelh6qlhg9gpl4r3591932ordalr4qlq96dcl8hja9pbl4q2dat8nkjja99mlil2d65734kj99ta6ed2fatd6gjjd8lrksra5696k8jbpb9a4ic2eah0j8ji4cts5khq6d9cl8qro9p3lacqed94j4jja89kkul2h6h4msc9pcp8jqf80005g00i9cg000004ihssbo41gt35f9qt2aj61vhdgc000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3ks3cc5smasivd1im2p00
+      Ignored_For_Permissions: []
+    tronco_de_roble:
+      Name: Oak Log
+      Weight: 50.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180000o00lhmutbeeg00002010004qb4008mqqbeclhn4ob6egt6uobbbtm6upo0
+      Commands: []
+      Items:
+      - 180000o00lhmutbeeg00002010004qb4008mqqbeclhn4ob6egt6uobbbtm6upo0
+      Ignored_For_Permissions: []
+    tronco_de_roble_sin_corteza:
+      Name: Stripped Oak Log
+      Weight: 45.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 500003002m6rrldpq00000804000j9cg01krb9dpim6sj1cpq3ksrke9kn0s35chfmuobbbtm6upo0
+      Commands: []
+      Items:
+      - 500003002m6rrldpq00000804000j9cg01krb9dpim6sj1cpq3ksrke9kn0s35chfmuobbbtm6upo0
+      Ignored_For_Permissions: []
+    carbn:
+      Name: Coal
+      Weight: 40.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0001g01b3dtqmst000003020009km800edlkmspb3e9gmct1qcdnm2r00
+      Commands: []
+      Items:
+      - 2g0001g01b3dtqmst000003020009km800edlkmspb3e9gmct1qcdnm2r00
+      Ignored_For_Permissions: []
+    lingote_de_hierro:
+      Name: Iron Ingot
+      Weight: 35.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0000c00aorfeln7800000g0g002d5i0053dd5n6aoric5j78ej9e9nmsnr9dpjmut00
+      Commands: []
+      Items:
+      - k0000c00aorfeln7800000g0g002d5i0053dd5n6aoric5j78ej9e9nmsnr9dpjmut00
+      Ignored_For_Permissions: []
+    lingote_de_oro:
+      Name: Gold Ingot
+      Weight: 30.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0000c00aorfeln780000080g002d5i0053dd5n6aoric5j78ej7dtm68nr9dpjmut00
+      Commands: []
+      Items:
+      - k0000c00aorfeln780000080g002d5i0053dd5n6aoric5j78ej7dtm68nr9dpjmut00
+      Ignored_For_Permissions: []
+    esmeralda:
+      Name: Emerald
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180000o00lhmutbeeg00000810004qb4008mqqbeclhn4ob6egt6arb5e9gmop00
+      Commands: []
+      Items:
+      - 180000o00lhmutbeeg00000810004qb4008mqqbeclhn4ob6egt6arb5e9gmop00
+      Ignored_For_Permissions: []
+    diamante:
+      Name: Diamond
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180000o00lhmutbeeg00000410004qb4008mqqbeclhn4ob6egt68qb1dlnmsp00
+      Commands: []
+      Items:
+      - 180000o00lhmutbeeg00000410004qb4008mqqbeclhn4ob6egt68qb1dlnmsp00
+      Ignored_For_Permissions: []
+    ladrillo_del_nether:
+      Name: Nether Bricks
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180000o00lhmutbeeg00000210004qb400b6qqbeclhn4ob6egt6spbkd1in4nr2e9km6qo0
+      Commands: []
+      Items:
+      - 180000o00lhmutbeeg00000210004qb400b6qqbeclhn4ob6egt6spbkd1in4nr2e9km6qo0
+      Ignored_For_Permissions: []
+    generar_aldeano:
+      Name: Villager
+      Weight: 17.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a00006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79r6ir3cc5jmasivedo62trebtimepo0
+      Commands: []
+      Items:
+      - a00006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79r6ir3cc5jmasivedo62trebtimepo0
+      Ignored_For_Permissions: []
+    generar_bruja:
+      Name: Witch
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ejnd5q66q2vedo62trebtimepo0
+      Commands: []
+      Items:
+      - k0000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ejnd5q66q2vedo62trebtimepo0
+      Ignored_For_Permissions: []
+    frasco_con_experiencia:
+      Name: Experience Bottle
+      Weight: 16.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180000o00lhmutbeeg00000410004qb400dmqqbeclhn4ob6egt6au3gclp6ipbecdiluojfehq6op80
+      Commands: []
+      Items:
+      - 180000o00lhmutbeeg00000410004qb400dmqqbeclhn4ob6egt6au3gclp6ipbecdiluojfehq6op80
+      Ignored_For_Permissions: []
+    frasco_con_experiencia1:
+      Name: Experience Bottle
+      Weight: 13.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180000o00lhmutbeeg00000210004qb400dmqqbeclhn4ob6egt6au3gclp6ipbecdiluojfehq6op80
+      Commands: []
+      Items:
+      - 180000o00lhmutbeeg00000210004qb400dmqqbeclhn4ob6egt6au3gclp6ipbecdiluojfehq6op80
+      Ignored_For_Permissions: []
+    caja_de_shulker_amarilla:
+      Name: Yellow Shulker Box
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a00006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79smar3cdtrlusr8elm6mpbibth6uu00
+      Commands: []
+      Items:
+      - a00006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79smar3cdtrlusr8elm6mpbibth6uu00
+      Ignored_For_Permissions: []
+    tridente:
+      Name: Trident
+      Weight: 6.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggk00hapb7oh31ehgk6rrde1nmspbeehpg6006e9gn4qbkf4000003000000o00lhmutbeeg00000110004qb4008mqqbeclhn4ob6egt78sj9chimst00
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggk00hapb7oh31ehgk6rrde1nmspbeehpg6006e9gn4qbkf4000003000000o00lhmutbeeg00000110004qb4008mqqbeclhn4ob6egt78sj9chimst00
+      Ignored_For_Permissions: []
+    vote_key:
+      Name: '#FFFFFF&lV#E4FBFE&lo#C8F7FE&lt#ADF3FD&le key'
+      Weight: 3.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 50000a00566rrde1nmspbeehpgi00edlkmspb3e9gmct1qdhnn4p88000000o0bdti4pboehp628hqbdti4orfdhnn48hq49i62sjbbtjn4obp48m24qbkc5m6iop279j62r3jckm24t35f1q24eh2s6q89ik0s6q81odkjfgr91p0s6q8nodkgv58u8jtbkm24t35f1q24eh249ug0h3r49ingt3ic4h3kmrr49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t248jtbkm24t35f1q24eh249ug1irr49ingt3ic4h3kmrr49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ejke9qmab12ehingt1278h2ga10alpma83kd1kn683bclsi0obk40h7qb3r49h6ur3448t78sjlckm24orfdhnn48hq49jn4obp48m24qbkc5m6iop279q74tb55gh78pboegh3k8hfetgn4s10cdp62t35ecg24v9cfch64rrccgh3kpj1dhpmab12cdnmorri48t24pric5si4b12d5q62r39cch3kt3ieliio8jkcls788hq48kii8jtbkm24t35f1q24eh249ugk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpg200fedk6utqvd5n5ut3fdtm78qbg005001jcclr6ar3j0c01erb9dpim6sj1cpq3kobhelgluob6cpkmsqbkf40000010000g00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck0v2up2cls78sj148t5mup2c9nmop1279q74tb55gh66rrcdtp24eh24d34chi68p324b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24lh25gh7arj4clp6oqbecli24ej6c5m76pbt5hti4ojfdhi24ejke9qmab12cdnmorri48t248q56h344hi548m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq49ni4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hk6e266t34a8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8jk48m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h38524ccq68gh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h6a83bclsi4b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt1801arb9dpim6sj1cpq3korledq6uravchgn8o8a00950tb2dhkm6gjlddlmit2mc5m7apbj1001opbocdimor35dpq66sj1ehin6ej3e9gn8pavddinibj9cg008tjfehig000a00gmqqbeclhn4ob6egt6gqb4clfm2p34d5q6irrec5m5ut3fdtm78qbg00006005cdnnarjk000000g80016ip002tmmirj5cdp62pjk79q74qbgetkn4pavd1nmuqo0
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgi00edlkmspb3e9gmct1qdhnn4p88000000o0bdti4pboehp628hqbdti4orfdhnn48hq49i62sjbbtjn4obp48m24qbkc5m6iop279j62r3jckm24t35f1q24eh2s6q89ik0s6q81odkjfgr91p0s6q8nodkgv58u8jtbkm24t35f1q24eh249ug0h3r49ingt3ic4h3kmrr49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t248jtbkm24t35f1q24eh249ug1irr49ingt3ic4h3kmrr49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ejke9qmab12ehingt1278h2ga10alpma83kd1kn683bclsi0obk40h7qb3r49h6ur3448t78sjlckm24orfdhnn48hq49jn4obp48m24qbkc5m6iop279q74tb55gh78pboegh3k8hfetgn4s10cdp62t35ecg24v9cfch64rrccgh3kpj1dhpmab12cdnmorri48t24pric5si4b12d5q62r39cch3kt3ieliio8jkcls788hq48kii8jtbkm24t35f1q24eh249ugk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpg200fedk6utqvd5n5ut3fdtm78qbg005001jcclr6ar3j0c01erb9dpim6sj1cpq3kobhelgluob6cpkmsqbkf40000010000g00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck0v2up2cls78sj148t5mup2c9nmop1279q74tb55gh66rrcdtp24eh24d34chi68p324b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24lh25gh7arj4clp6oqbecli24ej6c5m76pbt5hti4ojfdhi24ejke9qmab12cdnmorri48t248q56h344hi548m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq49ni4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hk6e266t34a8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8jk48m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h38524ccq68gh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h6a83bclsi4b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt1801arb9dpim6sj1cpq3korledq6uravchgn8o8a00950tb2dhkm6gjlddlmit2mc5m7apbj1001opbocdimor35dpq66sj1ehin6ej3e9gn8pavddinibj9cg008tjfehig000a00gmqqbeclhn4ob6egt6gqb4clfm2p34d5q6irrec5m5ut3fdtm78qbg00006005cdnnarjk000000g80016ip002tmmirj5cdp62pjk79q74qbgetkn4pavd1nmuqo0
+      Ignored_For_Permissions: []
+    epic_key:
+      Name: '#0007FF&lE#1117FF&lp#2127FF&li#3237FF&lc #5358FF&lk#6368FF&le#7478FF&ly'
+      Weight: 2.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762801pmmirj5cdp62pjk79m6usj51000000301dnm8j5f1q74o9279dnm8j3dtm6ush278h68obiddfmesj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4bgr916ag3gr9071midu3d4743gr92v1mi3sl3p2fleio8jkcls788hq48h7q024fch6au3ke9gi4eirfch66rrcdtp24eh2chgn4qqvctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8h2fleio8jkcls788hq48h7q06bfch6au3ke9gi4eirfch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqehp7ap9c49q6au3k48t24a1841an6p90ehk6isp0ddini831egg24v9cfch64rrccgh3kt3ieliio8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t78sjlckm24t35f1q24eh25trm2sjg41hn4obkclpi08jt5hti4ojfdhi24ej6c5m76p9c49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ejke9qmab12ehingt1278h2ia92fleio8jkcls788hq48h7q2g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq760801tpmgrrnbtkmsnrkdtnmot39e000k006dhincpbcec1g05rdd5n6aoric5j78ej1e5qm2nr1cpj6irj9ehsg0000040002002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig6k3r49ingt3ic4h3kmrr49h6ur3448t78sjlckm24orfdhnn48hq48hj0c1g6t34c8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8i548m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h364oj2dq68oh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h708hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26chh68rkchh25gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2d4h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cpj4cpn8p324b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24op048m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h36kpjae268oh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h6m8hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26dhj6os4chh25gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2ckh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24crj8dpo8p324b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24u925gh7arj4clp6oqbecli24ej6c5m76pbtbkm24t35f1q24eh249ugk00ldlkmspb3e9gmct1qcdqn6t3fdlfm8obkc44g0325dphmgobeehmmarjkec500000044000j9cg00qobhelgluob6cpkmsqbkf41000rcepm000800c00ii39chikcr31ctpg0000445004igelh6oqb389qmmqr9ehb62r3lclpgg00scls66pbcdhimst33e9gn8pbj79hn4obkclfmmpbp5pkm8004clo6ioo01800ep39edo6oobp10008jj1dlig6k3r49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t24h925gh66rrcdtp24eh24co30c1n8p324b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq49o24b12cdnmorri48t248ph64ojehi648m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8j948m24orfdhnn48hq48hj4c9i6t34c8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278h668125gh66rrcdtp24eh24cpj4cpn8p324b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq49li4b12cdnmorri48t248pl6cqjghi648m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8j548m24orfdhnn48hq48hjccpm7134c8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278h7i8hc49hmur3fe8h3k8h36sq3ee268oh2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblugi0049hnn4p88000000o0bdti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2s6q89ik0s6q81odkjfgr91p0s6q8nodkgv58u8hc49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76pbtblug0h3r49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t248hc49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76pbtblug1irr49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t24a1841an6p90ehk6isp0ddini831egg24b12cdnmorri48t24pric5si4b12d5q62r39cch3kt3ielinqb3r49q6au3k48t24brnc5p70833e9gn8pbj40h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ejke9qmav9cfch78pboegh3k8h954h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7apbtblug000a00gmqqbeclhn4ob6egt6gqb4clfm2p34d5q6irrec5m5ut3fdtm78qbg00006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79q74qbgetkn4pavd1nmuqo0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762801pmmirj5cdp62pjk79m6usj51000000301dnm8j5f1q74o9279dnm8j3dtm6ush278h68obiddfmesj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4bgr916ag3gr9071midu3d4743gr92v1mi3sl3p2fleio8jkcls788hq48h7q024fch6au3ke9gi4eirfch66rrcdtp24eh2chgn4qqvctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8h2fleio8jkcls788hq48h7q06bfch6au3ke9gi4eirfch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqehp7ap9c49q6au3k48t24a1841an6p90ehk6isp0ddini831egg24v9cfch64rrccgh3kt3ieliio8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t78sjlckm24t35f1q24eh25trm2sjg41hn4obkclpi08jt5hti4ojfdhi24ej6c5m76p9c49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ejke9qmab12ehingt1278h2ia92fleio8jkcls788hq48h7q2g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq760801tpmgrrnbtkmsnrkdtnmot39e000k006dhincpbcec1g05rdd5n6aoric5j78ej1e5qm2nr1cpj6irj9ehsg0000040002002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig6k3r49ingt3ic4h3kmrr49h6ur3448t78sjlckm24orfdhnn48hq48hj0c1g6t34c8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8i548m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h364oj2dq68oh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h708hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26chh68rkchh25gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2d4h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24cpj4cpn8p324b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24op048m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h36kpjae268oh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h6m8hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26dhj6os4chh25gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2ckh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24crj8dpo8p324b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24u925gh7arj4clp6oqbecli24ej6c5m76pbtbkm24t35f1q24eh249ugk00ldlkmspb3e9gmct1qcdqn6t3fdlfm8obkc44g0325dphmgobeehmmarjkec500000044000j9cg00qobhelgluob6cpkmsqbkf41000rcepm000800c00ii39chikcr31ctpg0000445004igelh6oqb389qmmqr9ehb62r3lclpgg00scls66pbcdhimst33e9gn8pbj79hn4obkclfmmpbp5pkm8004clo6ioo01800ep39edo6oobp10008jj1dlig6k3r49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t24h925gh66rrcdtp24eh24co30c1n8p324b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq49o24b12cdnmorri48t248ph64ojehi648m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8j948m24orfdhnn48hq48hj4c9i6t34c8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278h668125gh66rrcdtp24eh24cpj4cpn8p324b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq49li4b12cdnmorri48t248pl6cqjghi648m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8j548m24orfdhnn48hq48hjccpm7134c8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278h7i8hc49hmur3fe8h3k8h36sq3ee268oh2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblugi0049hnn4p88000000o0bdti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2s6q89ik0s6q81odkjfgr91p0s6q8nodkgv58u8hc49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76pbtblug0h3r49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t248hc49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76pbtblug1irr49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t24a1841an6p90ehk6isp0ddini831egg24b12cdnmorri48t24pric5si4b12d5q62r39cch3kt3ielinqb3r49q6au3k48t24brnc5p70833e9gn8pbj40h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ejke9qmav9cfch78pboegh3k8h954h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7apbtblug000a00gmqqbeclhn4ob6egt6gqb4clfm2p34d5q6irrec5m5ut3fdtm78qbg00006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79q74qbgetkn4pavd1nmuqo0
+      Ignored_For_Permissions: []
+    mystic_key:
+      Name: '#00FFF5&lM#14FEF6&ly#29FDF7&ls#3DFCF8&lt#52FBF9&li#66FAFB&lc #8FF8FD&lk#A4F7FE&le#B8F6FF&ly'
+      Weight: 1.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0005002j3dtmn0rrecln78so90076qqbeclhn4ob6egt6orrick4000000c05mup2cls78sj148t5mup2cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12ehingt1278he3d44pa0e3d40s6q9nodkgsge3d4bs6q8fikf49ulqb12ehingt1278h24v808hti4pboehp628hqbdti4orfdhnn48hq49i62sjbbtjn4obp48m24qbkc5m6iop279j62r3jckm24t35f1q24eh249ulqb12ehingt1278h24v80pdti4pboehp628hqbdti4orfdhnn48hq49jn4obp48m24qbkc5m6iop279q74tb55gh78pboegh3k8h850g5asr541q6gqbj41lmau90c5q208jt5hti4ojfdhi24ejke9qmab12cdnmorri48t24pric5si4b12d5q62r39cch3kt3ieliio8jkcls788hq48nneobie0g66sj1ehin6812fkm7m8j2dtm688hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh6it31dhkm68hqehp7ap9c49q6au3k48t24a9949ulqb12ehingt1278h24v8a00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78so1007n6q3fetfmirivehnmur3kd5o002g00pm6atj5dhpg600ndlkmspb3e9gmct1qc5onaoavc5j6cqbed5q7i000000g000800amqqbeclhn4ob6egt66tbjehnmqnrec5mma11sfch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j3dtm6ush278h26c1g8p34cd925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh29kh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24coj8hi58or24b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24u925gh7arj4clp6oqbecli24ej6c5m76pbt5hti4ojfdhi24ejke9qmab12cdnmorri48t248pi75348hhn48m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq49pi4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hj6h268d33g8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8jk48m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h36kp4cgi674h2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h6i8hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26dhm8p0kcgh25gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2ccg24b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjghi6713488hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8jb48m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h384q4cdq68kh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h6a8hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26gho8or4chh25gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2f4h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q622801h2msor8c5n78rb5dpq762g00000220009km800dc5onaoavc5j6cqbed5q7i0g00dm7cr000400600991km8pa6dhgmeso0000222g02987aojcd5hk4tbbddkn8lj1dhqmaso800e6au33clm6opbeehhn4obkclpjkoric5q6anrbclsisqb40036qubjehkm600a003m8qbje1m62u880024sobdck23oup2ehingt1278h24b12cls78sj148t5mup2ehingt1278h4q8hc49hmur3fe8h3k8h360o4chi66kh2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbt5hti4t35f1q24eh2f4h2o8j3dtm6ush278h26c9k8p2kcdh25gh64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcedinqb3r49q6au3k48t24sp25gh66rrcdtp24eh24cp3ihi48ori4b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq49q24b12cdnmorri48t248pj8h346hho48m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8j948m24orfdhnn48hq48hjaci68933i8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278h668125gh66rrcdtp24eh24cr3chi18p124b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq49li4b12cdnmorri48t248po8p33ghi448m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8j548m24orfdhnn48hq48hk2d266t34a8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278h7i8hc49hmur3fe8h3k8h388s4cdi68oh2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblugi0049hnn4p88000000o0bdti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2s6q89ik0s6q81odkjfgr91p0s6q8nodkgv58u8hc49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76pbtblug0h3r49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t248hc49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76pbtblug1irr49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t24a1841an6p90ehk6isp0ddini831egg24b12cdnmorri48t24pric5si4b12d5q62r39cch3kt3ielinqb3r49q6au3k48t24brnc5p70833e9gn8pbj40h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ejke9qmav9cfch78pboegh3k8h954h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7apbtblug000a00gmqqbeclhn4ob6egt6gqb4clfm2p34d5q6irrec5m5ut3fdtm78qbg00006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79q74qbgetkn4pavd1nmuqo0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78so90076qqbeclhn4ob6egt6orrick4000000c05mup2cls78sj148t5mup2cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12ehingt1278he3d44pa0e3d40s6q9nodkgsge3d4bs6q8fikf49ulqb12ehingt1278h24v808hti4pboehp628hqbdti4orfdhnn48hq49i62sjbbtjn4obp48m24qbkc5m6iop279j62r3jckm24t35f1q24eh249ulqb12ehingt1278h24v80pdti4pboehp628hqbdti4orfdhnn48hq49jn4obp48m24qbkc5m6iop279q74tb55gh78pboegh3k8h850g5asr541q6gqbj41lmau90c5q208jt5hti4ojfdhi24ejke9qmab12cdnmorri48t24pric5si4b12d5q62r39cch3kt3ieliio8jkcls788hq48nneobie0g66sj1ehin6812fkm7m8j2dtm688hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh6it31dhkm68hqehp7ap9c49q6au3k48t24a9949ulqb12ehingt1278h24v8a00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78so1007n6q3fetfmirivehnmur3kd5o002g00pm6atj5dhpg600ndlkmspb3e9gmct1qc5onaoavc5j6cqbed5q7i000000g000800amqqbeclhn4ob6egt66tbjehnmqnrec5mma11sfch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j3dtm6ush278h26c1g8p34cd925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh29kh2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24coj8hi58or24b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24u925gh7arj4clp6oqbecli24ej6c5m76pbt5hti4ojfdhi24ejke9qmab12cdnmorri48t248pi75348hhn48m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq49pi4b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hj6h268d33g8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8jk48m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h36kp4cgi674h2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h6i8hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26dhm8p0kcgh25gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2ccg24b12eln68pbidhkmspb448t6cobcedinqb3r49h6ur3448t78sjlckm24orfdhnn48hq48hjghi6713488hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8jb48m24tbechin4r39dpim88hqcpgmosr5fkm7m8j2dtm688hqehp7ap9c49hmur3fe8h3k8h384q4cdq68kh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278h6a8hc49qmsp35e9m6irj5cgh3kpj1dhpmav9cfch64rrccgh3kt3ieliio8j3dtm6ush278h26gho8or4chh25gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2f4h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q622801h2msor8c5n78rb5dpq762g00000220009km800dc5onaoavc5j6cqbed5q7i0g00dm7cr000400600991km8pa6dhgmeso0000222g02987aojcd5hk4tbbddkn8lj1dhqmaso800e6au33clm6opbeehhn4obkclpjkoric5q6anrbclsisqb40036qubjehkm600a003m8qbje1m62u880024sobdck23oup2ehingt1278h24b12cls78sj148t5mup2ehingt1278h4q8hc49hmur3fe8h3k8h360o4chi66kh2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbt5hti4t35f1q24eh2f4h2o8j3dtm6ush278h26c9k8p2kcdh25gh64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcedinqb3r49q6au3k48t24sp25gh66rrcdtp24eh24cp3ihi48ori4b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq49q24b12cdnmorri48t248pj8h346hho48m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8j948m24orfdhnn48hq48hjaci68933i8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278h668125gh66rrcdtp24eh24cr3chi18p124b12c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq49li4b12cdnmorri48t248po8p33ghi448m24ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmav9cfch78pboegh3k8j548m24orfdhnn48hq48hk2d266t34a8hc49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jcluioup2ehingt1278h7i8hc49hmur3fe8h3k8h388s4cdi68oh2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76pbtblugi0049hnn4p88000000o0bdti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2s6q89ik0s6q81odkjfgr91p0s6q8nodkgv58u8hc49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76pbtblug0h3r49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t248hc49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76pbtblug1irr49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t24a1841an6p90ehk6isp0ddini831egg24b12cdnmorri48t24pric5si4b12d5q62r39cch3kt3ielinqb3r49q6au3k48t24brnc5p70833e9gn8pbj40h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqehp7ap9c49kn8obcd5hi4ejke9qmav9cfch78pboegh3k8h954h2o8j3dtm6ush278h6esj1f4h2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqehp7apbtblug000a00gmqqbeclhn4ob6egt6gqb4clfm2p34d5q6irrec5m5ut3fdtm78qbg00006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79q74qbgetkn4pavd1nmuqo0
+      Ignored_For_Permissions: []
+Animation_Config: csgo
+Last_Opener: xNekio
+Last_Reward: Arrow
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 7a3c8c6d3aaa96363d4bef2578f1024781ea14e9d85a9dcfc0935847a6fb5c8d
+  Name: '&fVote Crate'
+  Item_Flags:
+  - HIDE_ADDITIONAL_TOOLTIP

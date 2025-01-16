@@ -1,0 +1,31 @@
+## LOWER_FIRST: Selects the format with the lowest priority that the user has
+## HIGHER_FIRST: Selects the format with the highest priority that the user has
+default-priority-ordering: LOWER_FIRST
+formats:
+  - ==: new-chat-format
+    name: default
+    priority: 99999
+    chat-color: '&f'
+    permission: ''
+    use-placeholder-api: true
+    parts:
+      - ==: chat-part
+        display: '&e%servervariables_display_level% &8┃ %vault_suffix%§r &3%essentials_nickname% '
+        ## Supported values:
+        ## EXECUTE, SUGGEST, OPEN
+        click-action: '[SUGGEST] /msg {name} '
+        tooltip:
+        - '&e&l(!) &6%player_name%''s stats'
+        - ''
+        - ' &6❙ &eMoney: &7⛃ %vault_eco_balance_formatted%'
+        - ' &6❙ &eExperience: &7☆ %player_exp% &o(level %player_exp_to_level%)'
+        - ' &6❙ &eJumps: &7⚡ %statistic_jump%'
+        - ' &6❙ &ePlaytime: &7⌚ %statistic_time_played%'
+        - ' &6❙ &ePlayer Kills: &7🗡 %statistic_player_kills%'
+        - ' &6❙ &eDeaths: &7☠ %statistic_deaths%'
+        - ' &6❙ &eMob Kills: &7🏹  %statistic_mob_kills%'
+        - ' &6❙ &eCrafted Items: &7🛡 %statistic_craft_item%'
+      - ==: chat-part
+        display: '&8➡ '
+        click-action: '[NONE] '
+        tooltip: []

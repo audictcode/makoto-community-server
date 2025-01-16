@@ -1,0 +1,442 @@
+    menu_title: '&l             &#64FF5D&l&nᴊ&#75FF65&l&nᴏ&#85FF6E&l&nʙ&#96FF76&l&ns'
+    register_command: true
+    open_command: jobs
+    size: 54
+    items:
+      'glasses':
+        material: LIME_STAINED_GLASS_PANE
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7&o'
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      '1':
+        material: NETHERITE_AXE
+        data: 2
+        slot: 10
+        display_name: '&e&lWoodcutter'
+        left_click_commands:
+        - '[player] jobs:jobs join woodcutter'
+        right_click_commands:
+        - '[player] jobs:jobs join woodcutter'
+        lore:
+        - '&7&oJoin to the job: &e&lWoodcutter&7'
+        - ' '
+        - '&7&o(( Cut down trees to get'
+        - '&7&opaid in this job. ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fBreaking blocks'
+        - '&e ❙ &fGrowing up plants'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '2':
+        material: NETHERITE_PICKAXE
+        slot: 11
+        display_name: '&e&lMiner'
+        left_click_commands:
+        - '[player] jobs:jobs join miner'
+        right_click_commands:
+        - '[player] jobs:jobs join miner'
+        lore:
+        - '&7&oJoin to the job: &e&lMiner&7'
+        - ' '
+        - '&7&o(( Mine some minerals and'
+        - '&7&oplace blocks. ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fBreaking blocks'
+        - '&e ❙ &fPlacing blocks'
+        - '&e ❙ &fExplode'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '3':
+        material: GRASS_BLOCK
+        data: 3
+        slot: 12
+        display_name: '&e&lBuilder'
+        left_click_commands:
+        - '[player] jobs:jobs join builder'
+        right_click_commands:
+        - '[player] jobs:jobs join builder'
+        lore:
+        - '&7&oJoin to the job: &e&lBuilder&7'
+        - ' '
+        - '&7&o(( Build structures and more'
+        - '&7&othings to get paid. ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fPlacing blocks'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '4':
+        material: NETHERITE_SHOVEL
+        slot: 13
+        display_name: '&e&lDigger'
+        left_click_commands:
+        - '[player] jobs:jobs join digger'
+        right_click_commands:
+        - '[player] jobs:jobs join cavador'
+        lore:
+        - '&7&oJoin to the job: &e&ldigger&7'
+        - ' '
+        - '&7&o(( Modify all the terrain'
+        - '&7&owith a shovel breaking blocks. ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fBreaking blocks'
+        - '&e ❙ &fGrowing up plants'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '5':
+        material: NETHERITE_HOE
+        slot: 14
+        display_name: '&e&lFarmer'
+        left_click_commands:
+        - '[player] jobs:jobs join farmer'
+        right_click_commands:
+        - '[player] jobs:jobs join farer'
+        lore:
+        - '&7&oJoin to the job: &e&lfarmer&7'
+        - ' '
+        - '&7&o(( Own or take care of a farm'
+        - '&7&oand get paid for it. ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fBreaking blocks'
+        - '&e ❙ &fPlacing blocks'
+        - '&e ❙ &fGrow animals'
+        - '&e ❙ &fTame'
+        - '&e ❙ &fShear'
+        - '&e ❙ &fMilking cows'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '6':
+        material: BOW
+        slot: 15
+        display_name: '&e&lHunter'
+        left_click_commands:
+        - '[player] jobs:jobs join hunter'
+        right_click_commands:
+        - '[player] jobs:jobs join hunter'
+        lore:
+        - '&7&oJoin to the job: &e&lHunter&7'
+        - ' '
+        - '&7&o(( Hunt and tame animals'
+        - '&7&oand kill players/mobs. ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fKills'
+        - '&e ❙ &fTame'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '7':
+        material: LEATHER_BOOTS
+        slot: 16
+        display_name: '&e&lExplorer'
+        left_click_commands:
+        - '[player] jobs:jobs join explorer'
+        right_click_commands:
+        - '[player] jobs:jobs join explorer'
+        lore:
+        - '&7&oJoin to the job: &e&lExplorer&7'
+        - ' '
+        - '&7&o(( Walk, run and explore all'
+        - '&7&othe world. ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fExplore'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '8':
+        material: FURNACE
+        slot: 29
+        display_name: '&e&lCrafter'
+        left_click_commands:
+        - '[player] jobs:jobs join crafter'
+        right_click_commands:
+        - '[player] jobs:jobs join crafter'
+        lore:
+        - '&7&oJoin to the job: &e&lCrafter&7'
+        - ' '
+        - '&7&o(( Craft multiple items'
+        - '&7&oto get paid. ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fCraft'
+        - '&e ❙ &fFurnace'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '10':
+        material: FISHING_ROD
+        slot: 30
+        display_name: '&e&lFisherman'
+        left_click_commands:
+        - '[player] jobs:jobs join fisherman'
+        right_click_commands:
+        - '[player] jobs:jobs join fisherman'
+        lore:
+        - '&7&oJoin to the job: &e&lFisherman&7'
+        - ' '
+        - '&7&o(( Catch fishes/items with your'
+        - '&7&ofishing rod to get paid. ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fKills'
+        - '&e ❙ &fFishing'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '11':
+        material: DIAMOND_SWORD
+        slot: 31
+        display_name: '&e&lWeaponsmith'
+        left_click_commands:
+        - '[player] jobs:jobs join weaponsmith'
+        right_click_commands:
+        - '[player] jobs:jobs join weaponsmith'
+        lore:
+        - '&7&oJoin to the job: &e&lWeaponsmith&7'
+        - ' '
+        - '&7&o(( Craft and repair armors,'
+        - '&7&oitems, and weapons. ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fCraft'
+        - '&e ❙ &fFurnace'
+        - '&e ❙ &fRepair'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '12':
+        material: BREWING_STAND
+        slot: 32
+        display_name: '&e&lBrewer'
+        left_click_commands:
+        - '[player] jobs:jobs join brewer'
+        right_click_commands:
+        - '[player] jobs:jobs join brewer'
+        lore:
+        - '&7&oJoin to the job: &e&lBrewer&7'
+        - ' '
+        - '&7&o(( Craft potions and'
+        - '&7&omore things. ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fPotions'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '13':
+        material: ENCHANTING_TABLE
+        slot: 33
+        display_name: '&e&lEnchanter'
+        left_click_commands:
+        - '[player] jobs:jobs join enchanter'
+        right_click_commands:
+        - '[player] jobs:jobs join enchanter'
+        lore:
+        - '&7&oJoin to the job: &e&lEnchanter&7'
+        - ' '
+        - '&7&o(( Enchant armor, weapons and'
+        - '&7&otools! ))'
+        - ' '
+        - '&e&lPaid actions'
+        - '&e ❙ &fEnchant'
+        - ' '
+        - '&e&l[!] &eRight click to join'
+      '14':
+        material: BARRIER
+        slot: 19
+        display_name: '&cWoodcutter'
+        left_click_commands:
+        - '[player] jobs leave woodcutter'
+        right_click_commands:
+        - '[player] jobs leave woodcutter'
+        lore:
+        - '&7&oLeave the job: &c&lWoodcutter&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'
+      '15':
+        material: BARRIER
+        slot: 20
+        display_name: '&cMiner'
+        left_click_commands:
+        - '[player] jobs leave miner'
+        right_click_commands:
+        - '[player] jobs leave miner'
+        lore:
+        - '&7&oLeave the job: &c&lMiner&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'
+      '16':
+        material: BARRIER
+        slot: 21
+        display_name: '&cBuilder'
+        left_click_commands:
+        - '[player] jobs leave builder'
+        right_click_commands:
+        - '[player] jobs leave builder'
+        lore:
+        - '&7&oLeave the job: &c&lBuilder&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'
+      '17':
+        material: BARRIER
+        slot: 22
+        display_name: '&cDigger'
+        left_click_commands:
+        - '[player] jobs leave digger'
+        right_click_commands:
+        - '[player] jobs leave digger'
+        lore:
+        - '&7&oLeave the job: &c&lDigger&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'
+      '18':
+        material: BARRIER
+        slot: 23
+        display_name: '&cFarmer'
+        left_click_commands:
+        - '[player] jobs leave farmer'
+        right_click_commands:
+        - '[player] jobs leave farmer'
+        lore:
+        - '&7&oLeave the job: &c&lFarmer&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'
+      '19':
+        material: BARRIER
+        slot: 24
+        display_name: '&cHunter'
+        left_click_commands:
+        - '[player] jobs leave hunter'
+        right_click_commands:
+        - '[player] jobs leave hunter'
+        lore:
+        - '&7&oLeave the job: &c&lHunter&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'
+      '20':
+        material: BARRIER
+        slot: 25
+        display_name: '&cExplorer'
+        left_click_commands:
+        - '[player] jobs leave explorer'
+        right_click_commands:
+        - '[player] jobs leave explorer'
+        lore:
+        - '&7&oLeave the job: &c&lExplorer&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'
+      '21':
+        material: BARRIER
+        slot: 38
+        display_name: '&cCrafter'
+        left_click_commands:
+        - '[player] jobs leave crafter'
+        right_click_commands:
+        - '[player] jobs leave crafter'
+        lore:
+        - '&7&oLeave the job: &c&lCrafter&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'
+      '22':
+        material: BARRIER
+        slot: 39
+        display_name: '&cFisherman'
+        left_click_commands:
+        - '[player] jobs leave fisherman'
+        right_click_commands:
+        - '[player] jobs leave fisherman'
+        lore:
+        - '&7&oLeave the job: &c&lFisherman&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'
+      '23':
+        material: BARRIER
+        slot: 40
+        display_name: '&cWeaponsmith'
+        left_click_commands:
+        - '[player] jobs leave weaponsmith'
+        right_click_commands:
+        - '[player] jobs leave weaponsmith'
+        lore:
+        - '&7&oLeave the job: &c&lWeaponsmith&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'
+      '24':
+        material: BARRIER
+        slot: 41
+        display_name: '&cBrewer'
+        left_click_commands:
+        - '[player] jobs leave brewer'
+        right_click_commands:
+        - '[player] jobs leave brewer'
+        lore:
+        - '&7&oLeave the job: &c&lBrewer&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'
+      '25':
+        material: BARRIER
+        slot: 42
+        display_name: '&cEnchanter'
+        left_click_commands:
+        - '[player] jobs leave enchanter'
+        right_click_commands:
+        - '[player] jobs leave enchanter'
+        lore:
+        - '&7&oLeave the job: &c&lEnchanter&7'
+        - ' '
+        - '&e ❙ &fRight click to leave'

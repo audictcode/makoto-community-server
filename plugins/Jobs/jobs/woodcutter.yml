@@ -1,0 +1,75 @@
+Woodcutter:
+  fullname: Woodcutter
+  shortname: T
+  description: Talador y replantador de árboles
+  ChatColour: GREEN
+  chat-display: full
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(joblevel-1)*0.01-((baseincome+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(joblevel-1)*0.01-((basepoints+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  Gui:
+    Id: 17
+    Data: 2
+  Break:
+    17-0:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    17-1:
+      income: 2.0
+      points: 2.5
+      experience: 2.0
+    17-2:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    17-3:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    18-0:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    18-1:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    18-2:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    18-3:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    161-0:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    161-1:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    162-0:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    162-1:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+  Kill:
+    Player:
+      income: 7.5
+      points: 7.5
+      experience: 7.5
+  custom-kill:
+    Woodcutter:
+      income: 10.0
+      points: 10.0
+      experience: 10.0
+  max-level: 200

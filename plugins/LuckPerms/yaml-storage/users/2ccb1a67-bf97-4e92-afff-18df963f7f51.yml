@@ -1,0 +1,18 @@
+uuid: 2ccb1a67-bf97-4e92-afff-18df963f7f51
+name: xNekio
+primary-group: default
+permissions:
+- worldguard.bypass.region.*
+- worldguard.region.bypass.*
+- ajleaderboards.dontupdate.*:
+    value: false
+- fancyholograms.viewhologram.*
+- multiverse.*
+- rankup.*:
+    value: false
+- ajleaderboards.dontupdate:
+    value: false
+- essentials.recipe
+- rankup.0
+parents:
+- default

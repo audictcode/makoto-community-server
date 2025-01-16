@@ -1,0 +1,71 @@
+name: infinity
+permissions:
+- cubeminiatures.use.*
+- ChatColor.dark_aqua
+- auctionhouse.maxsell.80
+- chatcolor.color.b
+- chatformat.galaxy
+- crazyauctions.sell.60
+- deluxechat.pm.toggle
+- deluxetags.list.all
+- discordminecraft.syncrank.galaxy-(prison)
+- essentials.hat
+- essentials.ignore
+- essentials.invsee
+- essentials.kits.Galaxy-once-keys
+- essentials.kits.Galaxy-once-loot
+- essentials.kits.galaxy
+- essentials.kits.potions
+- essentials.ptime
+- essentials.repair
+- essentials.repair.all
+- essentials.repair.armor
+- essentials.repair.enchanted
+- essentials.warps.galaxy
+- gang.create
+- jetsprisonmines.admin.reset
+- join.galaxy
+- lucky.donor
+- medorarobots.multiply.galaxy
+- multiplicador.galaxy
+- prisonranksx.autoprestige
+- reiniciarmina.galaxy
+- reiniciarmina.galaxysiendoarefy
+- revautominer.spawn
+- reward.Galaxy
+- reward.Infinity
+- shopchest.limit.60
+- superior.island.create
+- tab.change.galaxy
+- tab.group.Galaxy
+- tab.group.galaxy
+- tokenenchant.refund
+- trails.allpatterns
+- trails.alltrails
+- trails.block.7
+- trails.block.8
+- trails.mode.pulse
+- trails.mode.slinky
+- trails.particle.fire
+- trails.particle.lava
+- trails.particle.slime
+- trails.particle.snow
+- trails.particle.splash
+- trails.particle.void
+- trails.pattern.gradient1
+- trails.pattern.gradient2
+- trails.pattern.gradient3
+- trails.rains
+- trails.wings.demon
+- trails.wings.long
+- trails.wings.short
+- upgrade.size.donor
+- weight.601
+parents:
+- champion+
+suffixes:
+- '&r &f&k!&r &d&lINFINITY &f&k!&r':
+    priority: 225
+meta:
+- auctions:
+    value: '20'

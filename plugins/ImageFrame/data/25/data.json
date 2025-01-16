@@ -1,0 +1,29 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 25,
+  "name": "Auction",
+  "url": "https://i.imgur.com/6GOuVN5.png",
+  "width": 3,
+  "height": 1,
+  "ditheringType": "nearest-color",
+  "creator": "2ccb1a67-bf97-4e92-afff-18df963f7f51",
+  "hasAccess": {},
+  "creationTime": 1729777137825,
+  "mapdata": [
+    {
+      "mapid": 81,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 82,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 83,
+      "image": "2.png",
+      "markers": []
+    }
+  ]
+}

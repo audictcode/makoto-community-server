@@ -1,0 +1,124 @@
+    menu_title: "&f七七七七七七七七🚏"
+    open_command: randomtp
+    update_interval: 1
+    register_command: true
+    open_commands:
+    - '[sound] BLOCK_CHEST_OPEN'
+    size: 54
+    items:
+      '33':
+        material: MAP
+        model_data: 1010
+        slots:
+        - 0
+        - 1
+        - 2
+        - 9
+        - 10
+        - 11
+        - 18
+        - 19
+        - 20
+        - 27
+        - 28
+        - 29
+        # - 36
+        # - 37
+        # - 38
+        # - 45
+        # - 46
+        # - 47
+        left_click_commands:
+        - '[player] rtp world:world region:default'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world:world region:default'
+        - '[close]'
+        display_name: '&#33FF00&ls&#37FF05&lᴜ&#3AFF09&lʀ&#3EFF0E&lᴠ&#41FF12&lɪ&#45FF17&lᴠ&#49FF1B&lᴀ&#4CFF20&lʟ &#54FF29&lᴡ&#57FF2D&lᴏ&#5BFF32&lʀ&#5EFF36&lʟ&#62FF3B&lᴅ'
+        lore:
+        - '&7&o(( Venture into the vast lands of Survival,'
+        - '&7&oand build your own empire ))'
+        - '&7&o'
+        - '&e&lInformation'
+        - '&e ❙ &fSize: &e50k x 50k'
+        - '&e ❙ &fLand Claiming: &eEnabled'
+        - '&e ❙ &fKeep Inventory: &eDisabled'
+        - '&e ❙ &fPvp: &eDisabled'
+      '355':
+        material: MAP
+        model_data: 1010
+        slots:
+        - 3
+        - 4
+        - 5
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+        - 23
+        - 30
+        - 31
+        - 32
+        # - 39
+        # - 40
+        # - 41
+        # - 48
+        # - 49
+        # - 50
+        update: true
+        left_click_commands:
+        - '[player] rtp world:world_nether region:world_nether'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world:world_nether region:world_nether'
+        - '[close]'
+        display_name: '&#FF4545&lɴ&#FF4747&lᴇ&#FF4949&lᴛ&#FF4B4B&lʜ&#FF4C4C&lᴇ&#FF4E4E&lʀ &#FF5252&lᴅ&#FF5454&lɪ&#FF5656&lᴍ&#FF5858&lᴇ&#FF5A5A&lɴ&#FF5B5B&ls&#FF5D5D&lɪ&#FF5F5F&lᴏ&#FF6161&lɴ'
+        lore:
+        - '&7&o(( Brave the fiery depths of the'
+        - '&7&oNether and gather rare resources ))'
+        - '&7&o'
+        - '&e&lInformation'
+        - '&e ❙ &fSize: &e10k x 10k'
+        - '&e ❙ &fLand Claiming: &eDisabled'
+        - '&e ❙ &fKeep Inventory: &eDisabled'
+        - '&e ❙ &fPvp: &eDisabled'
+      '37':
+        material: MAP
+        model_data: 1010
+        slots:
+        - 6
+        - 7
+        - 8
+        - 15
+        - 16
+        - 17
+        - 24
+        - 25
+        - 26
+        - 33
+        - 34
+        - 35
+        # - 42
+        # - 43
+        # - 44
+        # - 51
+        # - 52
+        # - 53
+        update: true
+        left_click_commands:
+        - '[player] rtp world:world_the_end region:world_the_end'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world:world_the_end region:world_the_end'
+        - '[close]'
+        display_name: '&#FCFFA7&lᴇ&#FCFFAA&lɴ&#FCFFAD&lᴅ &#FCFFB2&lᴅ&#FCFFB5&lɪ&#FDFFB8&lᴍ&#FDFFBA&lᴇ&#FDFFBD&lɴ&#FDFFC0&ls&#FDFFC3&lɪ&#FDFFC5&lᴏ&#FDFFC8&lɴ'
+        lore:
+        - '&7&o(( Explore the mysterious End,'
+        - '&7&oand face the fearsome Ender Dragon ))'
+        - '&7&o'
+        - '&e&lInformation'
+        - '&e ❙ &fSize: &e10k x 10k'
+        - '&e ❙ &fLand Claiming: &eDisabled'
+        - '&e ❙ &fKeep Inventory: &eDisabled'
+        - '&e ❙ &fPvp: &eDisabled'

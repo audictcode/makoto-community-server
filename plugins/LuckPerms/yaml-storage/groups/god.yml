@@ -1,0 +1,48 @@
+name: god
+permissions:
+- auctionhouse.maxsell.5
+- chatcolor.color.f
+- chatformat.Hero
+- crazyauctions.sell.6
+- cubeminiatures.use.Pescado
+- cubeminiatures.use.Tiburon
+- discordminecraft.syncrank.Hero-(Prison)
+- essentials.hat
+- essentials.heal
+- essentials.keepxp
+- essentials.kits.Hero
+- essentials.kits.hero
+- essentials.kits.keyhero
+- essentials.nick.color
+- essentials.nick.format
+- essentials.nick.magic
+- essentials.ptime
+- essentials.sethome.multiple.hero
+- essentials.warps.Hero
+- gang.create:
+    value: false
+- lucky.donor
+- multiplicador.hero
+- multiplicador.vip
+- reward.Hero
+- tab.group.Hero
+- tab.group.hero
+- trails.block.2
+- trails.mode.magician
+- trails.particle.cloud
+- trails.particle.ender
+- trails.particle.flame
+- trails.particle.green
+- trails.particle.spark
+- trails.particle.witch
+- trails.wings.angel
+- trails.wings.butterfly
+- weight.595
+parents:
+- legacy
+suffixes:
+- '&r &b&k!&r &3&lGOD &b&k!&r':
+    priority: 225
+meta:
+- auctions:
+    value: '5'

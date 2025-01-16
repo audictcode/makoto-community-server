@@ -1,0 +1,50 @@
+chat:
+  darken-limit: 12
+  spacing: 3
+dialogue:
+  spoken:
+    instruction:
+      ticks:
+        highlighted: 10
+        base: 30
+      next: ᴄᴏɴᴛɪɴᴜᴇ
+      finish: ᴄᴏɴᴛɪɴᴜᴇ
+      color:
+        base: <gray>
+        highlight: <yellow>
+    format: "<gray>                                                            \n\
+      <white><speaker><reset>\n<message>\n\n<white> <next_color>                 \
+      \    ᴘʀᴇss<white><bold> <confirmation_key> </bold></white>ᴛᴏ <finish_text>"
+    padding: '                  '
+    minLines: 4
+    maxLineLength: 40
+entity:
+  nameplate: |-
+    <other><display_name>
+    <reset>
+  name:
+    offset: 0.2
+  activity:
+    look_close:
+      range: 10.0
+objective:
+  entity:
+    indicator:
+      tracked: <gold><b>❗
+      normal: <gold><b>❓
+      dialogue: <gold>🏺
+quest:
+  tracked:
+    none: <gray>None tracked</gray>
+cinematic:
+  dialogue:
+    spoken:
+      format: "<gray>                                                            \n\
+        <white><speaker><reset>\n<message>\n\n<white> "
+      padding: '                  '
+      minLines: 4
+      maxLineLength: 40
+      percentage: 0.5
+    actionbar:
+      format: <white><message><padding>
+      percentage: 0.4

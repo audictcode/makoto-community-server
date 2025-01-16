@@ -1,0 +1,185 @@
+menu_title: '&l             &#64FF5D&l&nᴡ&#71FF63&l&nᴀ&#7DFF6A&l&nʀ&#8AFF70&l&nᴘ&#96FF76&l&ns'
+open_command: warps
+size: 27
+open_commands:
+- '[sound] BLOCK_CHEST_OPEN'
+items:
+      '1':
+        material: LIME_STAINED_GLASS_PANE
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 1
+        - 10
+        - 19
+        - 3
+        - 12
+        - 21
+        - 5
+        - 14
+        - 23
+        - 7
+        - 16
+        - 25
+      '2':
+        material: GREEN_STAINED_GLASS_PANE
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 0
+        - 9
+        - 8
+        - 17
+        - 18
+        - 26
+      '12':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTlmMjFmNWQ4ODMzMTZmZDY1YTkzNjZmMzJhMzMwMTMxODJlMzM4MWRlYzIxYzE3Yzc4MzU1ZDliZjRmMCJ9fX0=
+        data: 0
+        slot: 22
+        left_click_commands:
+        - '[player] rtp world:world_the_end region:world_the_end'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world:world_the_end region:world_the_end'
+        - '[close]'
+        display_name: '&e&lEnd'
+        lore:
+        - '&7&o(( Teleport to the &#FFFDAF&l&oEnd'
+        - '&7&odimension ))'
+        - '&7'
+        - '&e ❙ &eRight click to teleport'
+      '14':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVjMDc3ZjNiNmZlMzk2YWYyNTZmZDdhMjEzNzcwYmJmYzNlYzRiYzAzNmVhOGI3YjJmYjc4NTE5OTRlOWEifX19
+        data: 0
+        slot: 13
+        left_click_commands:
+        - '[player] rtp world:world_nether region:world_nether'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world:world_nether region:world_nether'
+        - '[close]'
+        display_name: '&e&lNether'
+        lore:
+        - '&7&o(( Teleport to the &#880000&l&oNether'
+        - '&7&odimension ))'
+        - '&7'
+        - '&e ❙ &eRight click to teleport'
+      '33':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE1NTk1NDhkYWNjZWVmYjE0ZWU5MzhkZTJjZDc2YTNkMGMyM2NlMDUzMDQxYmY0ODc4MDA4OGRkYTZkNGMxOCJ9fX0=
+        data: 0
+        slot: 6
+        left_click_commands:
+        - '[player] warp Auction'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Auction'
+        - '[close]'
+        display_name: '&e&lAuction'
+        lore:
+        - '&7&o(( Sell and buy all type'
+        - '&7&oof items, also you can'
+        - '&7&oBID on them ))'
+        - '&7'
+        - '&e ❙ &eRight click to teleport'
+      '34':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzA2MDNjZjliYTNmN2Q3MTQyMGE0ODI4NDE3NGQ5ZTBlM2FmMTVlN2JiYzk5MjIyNWM0MjRjODgwM2ZmZjk5MiJ9fX0=
+        data: 0
+        slot: 15
+        left_click_commands:
+        - '[player] warp Crates'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Crates'
+        - '[close]'
+        display_name: '&e&lCrates'
+        lore:
+        - '&7&o(( Get rewards using keys'
+        - '&7&owhich can be obtained'
+        - '&7&obuying them or voting ))'
+        - '&7'
+        - '&e ❙ &eRight click to teleport'
+      '36':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmZmQ5NWM4ZmNkYmFlZDllOWU5YmU0N2VhMWE0MWVlMTIyOWQ4OWI1YzZkNDJhMWY3YjJmN2YxMWJkMTEyMiJ9fX0=
+        data: 0
+        slot: 20
+        left_click_commands:
+        - '[player] warp Rankups'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Rankups'
+        - '[close]'
+        display_name: '&e&lRankups'
+        lore:
+        - '&7&o(( Level up depending on your'
+        - '&7&oplay time to unlock exclusive'
+        - '&7&ocommands and perks ))'
+        - '&7'
+        - '&e ❙ &eRight click to teleport'
+      '3123':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZjYzZiODM3NjNhNjdmY2FkYTFlYTE4NGMyZDE3NTJhZDI0MDc0NmM2YmUyNThhNzM5ODNkOGI2NTdmNGJiNSJ9fX0=
+        data: 0
+        slot: 2
+        left_click_commands:
+        - '[player] warp PVP'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp PVP'
+        - '[close]'
+        display_name: '&e&lPVP zone'
+        lore:
+        - '&7&o(( Fight with the other players'
+        - '&7&oinside the &c&l&oPVP zone &7&o))'
+        - '&7'
+        - '&e ❙ &eRight click to teleport'
+      '336':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU3N2M0ZGUxZjUxYTcwNzIyMDIzZTg1NmI1NDNjZDU3MGYxZDBlZTZiOWQxNjdiNTkwMjhjZTFiYzkyZTQ1OCJ9fX0=
+        data: 0
+        slot: 4
+        left_click_commands:
+        - '[player] rtp world:world region:default'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world:world region:default'
+        - '[close]'
+        display_name: '&e&lOverworld'
+        lore:
+        - '&7&o(( Teleport to the &e&l&oOverworld'
+        - '&7&odimension to start your adventure ))'
+        - '&7'
+        - '&e ❙ &eRight click to teleport'
+      '337':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+        data: 0
+        slot: 24
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Farm'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Farm'
+        display_name: '&e&lFarm'
+        lore:
+        - '&7&o(( Teleport to the &e&ofarm'
+        - '&e&ozone &7&oand get food, etc ))'
+        - '&7'
+        - '&e ❙ &eRight click to teleport'
+      '3387':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTM3ZGNmYjY2YTYxYzUyOWYyYTEyOGFlZWY5M2MyNWY5ZDBiMDQzOWI1OWZiMTk5ZDJiMDRhY2ZlMGI4NWFhYyJ9fX0=
+        data: 0
+        slot: 11
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Shop'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Shop'
+        display_name: '&e&lShop'
+        lore:
+        - '&7&o(( Teleport to the &l&oshop'
+        - '&7&ozone to buy and sell items ))'
+        - '&7'
+        - '&e ❙ &eRight click to teleport'

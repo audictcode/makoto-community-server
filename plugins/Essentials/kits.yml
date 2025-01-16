@@ -1,0 +1,96 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {PLAYER} to specify the player receiving the kit.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  New:
+    delay: 3600
+    items:
+    - IRON_SWORD 1 name:&b&lNEW&r_
+    - IRON_AXE 1 name:&b&lNEW&r_
+    - GOLDEN_SHOVEL 1 name:&e&lCLAIM_TOOL_&7[Right_click]&r_
+    - IRON_HELMET 1 name:&b&lNEW&r_
+    - IRON_CHESTPLATE 1 name:&b&lNEW&r_
+    - IRON_LEGGINGS 1 name:&b&lNEW&r_
+    - IRON_BOOTS 1 name:&b&lNEW&r_
+    - COOKED_BEEF 32 name:&b&lNEW&r_
+  Legacy:
+    delay: 604800
+    items:
+    - NETHERITE_HELMET 1 protection_environmental:1 durability:1 name:&b&lLEGACY&r&r_
+    - NETHERITE_CHESTPLATE 1 protection_environmental:1 durability:1 name:&b&lLEGACY&r&r_
+    - NETHERITE_LEGGINGS 1 protection_environmental:1 durability:1 name:&b&lLEGACY&r&r_
+    - NETHERITE_BOOTS 1 protection_environmental:1 durability:1 name:&b&lLEGACY&r&r_
+    - NETHERITE_SWORD 1 damage_all:1 fire_aspect:1 durability:1 name:&b&lLEGACY&r&r_
+    - DIAMOND_BLOCK 16
+    - GOLD_BLOCK 16
+    - ENCHANTED_GOLDEN_APPLE 16
+  God:
+    delay: 604800
+    items:
+    - NETHERITE_HELMET 1 protection_environmental:2 durability:2 name:&3&k!&r_&3&lGOD &3&k!&r_
+    - NETHERITE_CHESTPLATE 1 protection_environmental:2 durability:2 name:&3&k!&r_&3&lGOD &3&k!&r_
+    - NETHERITE_LEGGINGS 1 protection_environmental:2 durability:2 name:&3&k!&r_&3&lGOD &3&k!&r_
+    - NETHERITE_BOOTS 1 protection_environmental:2 durability:2 name:&3&k!&r_&3&lGOD &3&k!&r_
+    - NETHERITE_SWORD 1 damage_all:2 fire_aspect:2 durability:2 name:&3&k!&r_&3&lGOD &3&k!&r_
+    - DIAMOND_BLOCK 32
+    - GOLD_BLOCK 32
+    - ENCHANTED_GOLDEN_APPLE 32
+  Overlord:
+    delay: 604800
+    items:
+    - NETHERITE_HELMET 1 protection_environmental:3 durability:3 name:&5&k!&r_&e&lOVERGOD_&5&k!&r_
+    - NETHERITE_CHESTPLATE 1 protection_environmental:3 durability:3 name:&5&k!&r_&e&lOVERGOD_&5&k!&r_
+    - NETHERITE_LEGGINGS 1 protection_environmental:3 durability:3 name:&5&k!&r_&e&lOVERGOD_&5&k!&r_
+    - NETHERITE_BOOTS 1 protection_environmental:3 durability:3 name:&5&k!&r_&e&lOVERGOD_&5&k!&r_
+    - NETHERITE_SWORD 1 damage_all:3 durability:3 fire_aspect:1 loot_bonus_mobs:1 name:&5&k!&r_&e&lOVERGOD_&5&k!&r_
+    - DIAMOND_BLOCK 64
+    - GOLD_BLOCK 64
+    - ENCHANTED_GOLDEN_APPLE 64
+  Champion:
+    delay: 604800
+    items:
+    - NETHERITE_HELMET 1 protection_environmental:3 durability:4 name:&7&k!&r_&7&lCHAMPION_&7&k!&r_
+    - NETHERITE_CHESTPLATE 1 protection_environmental:3 durability:4 name:&7&k!&r_&7&lCHAMPION_&7&k!&r_
+    - NETHERITE_LEGGINGS 1 protection_environmental:3 durability:4 name:&7&k!&r_&7&lCHAMPION_&7&k!&r_
+    - NETHERITE_BOOTS 1 protection_environmental:3 durability:4 name:&7&k!&r_&7&lCHAMPION_&7&k!&r_
+    - NETHERITE_SWORD 1 damage_all:3 durability:4 fire_aspect:2 loot_bonus_mobs:2 name:&7&k!&r_&7&lCHAMPION_&7&k!&r_
+    - DIAMOND_BLOCK 64
+    - GOLD_BLOCK 64
+    - ENCHANTED_GOLDEN_APPLE 64
+    - ENCHANTED_GOLDEN_APPLE 64
+  Champion+:
+    delay: 604800
+    items:
+    - NETHERITE_HELMET 1 protection_environmental:4 durability:4 name:&c&k!&r_&c&lCHAMPION+_&c&k!&r_
+    - NETHERITE_CHESTPLATE 1 protection_environmental:4 durability:4 name:&c&k!&r_&c&lCHAMPION+_&c&k!&r_
+    - NETHERITE_LEGGINGS 1 protection_environmental:4 durability:4 name:&c&k!&r_&c&lCHAMPION+_&c&k!&r_
+    - NETHERITE_BOOTS 1 protection_environmental:4 durability:4 name:&c&k!&r_&c&lCHAMPION+_&c&k!&r_
+    - NETHERITE_SWORD 1 damage_all:4 durability:4 fire_aspect:4 loot_bonus_mobs:3 name:&c&k!&r_&c&lCHAMPION+_&c&k!&r_
+    - DIAMOND_BLOCK 64
+    - GOLD_BLOCK 64
+    - ENCHANTED_GOLDEN_APPLE 64
+    - ENCHANTED_GOLDEN_APPLE 64
+  Infinity:
+    delay: 604800
+    items:
+    - NETHERITE_HELMET 1 protection_environmental:5 durability:4 name:&d&k!&r_&d&lINFINITY_&d&k!&r_
+    - NETHERITE_CHESTPLATE 1 protection_environmental:5 durability:4 name:&d&k!&r_&d&lINFINITY_&d&k!&r_
+    - NETHERITE_LEGGINGS 1 protection_environmental:5 durability:4 name:&d&k!&r_&d&lINFINITY_&d&k!&r_
+    - NETHERITE_BOOTS 1 protection_environmental:5 durability:4 name:&d&k!&r_&d&lINFINITY_&d&k!&r_
+    - NETHERITE_SWORD 1 damage_all:5 durability:5 fire_aspect:4 loot_bonus_mobs:4 name:&d&k!&r_&d&lINFINITY_&d&k!&r_
+    - DIAMOND_BLOCK 64
+    - DIAMOND_BLOCK 64
+    - GOLD_BLOCK 64
+    - GOLD_BLOCK 64
+    - ENCHANTED_GOLDEN_APPLE 64
+    - ENCHANTED_GOLDEN_APPLE 64
+    - ENCHANTED_GOLDEN_APPLE 64
+    - ENCHANTED_GOLDEN_APPLE 64

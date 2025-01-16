@@ -1,0 +1,15 @@
+location: Spawn:-1435.501:106.500:178.487
+enabled: true
+permission: holograma.bajo
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lAuction'
+    height: 0.3
+  - content: '&f&o(( Right click ))'
+    height: 0.3
+  actions: {}

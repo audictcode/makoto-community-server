@@ -1,0 +1,109 @@
+    menu_title: '&l              &#64FF5D&l&nᴡ&#75FF65&l&nɪ&#85FF6E&l&nʟ&#96FF76&l&nᴅ'
+    open_command: randomtp
+    update_interval: 1
+    register_command: true
+    open_commands:
+    - '[sound] BLOCK_CHEST_OPEN'
+    size: 27
+    items:
+      '1':
+        material: LIME_STAINED_GLASS_PANE
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7&o'
+        slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 10
+        - 16
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+      '2':
+        material: GREEN_STAINED_GLASS_PANE
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7&o'
+        slots:
+        - 0
+        - 9
+        - 18
+        - 8
+        - 17
+        - 26
+        - 12
+        - 14
+      '33':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU3N2M0ZGUxZjUxYTcwNzIyMDIzZTg1NmI1NDNjZDU3MGYxZDBlZTZiOWQxNjdiNTkwMjhjZTFiYzkyZTQ1OCJ9fX0=
+        data: 0
+        slot: 11
+        left_click_commands:
+        - '[player] rtp world:world region:default'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world:world region:default'
+        - '[close]'
+        display_name: '&#33FF00&ls&#37FF05&lᴜ&#3AFF09&lʀ&#3EFF0E&lᴠ&#41FF12&lɪ&#45FF17&lᴠ&#49FF1B&lᴀ&#4CFF20&lʟ &#54FF29&lᴡ&#57FF2D&lᴏ&#5BFF32&lʀ&#5EFF36&lʟ&#62FF3B&lᴅ'
+        lore:
+        - '&7&o(( Venture into the vast lands of Survival,'
+        - '&7&oand build your own empire ))'
+        - '&7&o'
+        - '&e&lInformation'
+        - '&e ❙ &fSize: &e50k x 50k'
+        - '&e ❙ &fLand Claiming: &eEnabled'
+        - '&e ❙ &fKeep Inventory: &eDisabled'
+        - '&e ❙ &fPvp: &eDisabled'
+      '355':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAzMmI2Nzg5MjhiOWQ2MGVjODFlNGMwYjA4MDlkMmM5ZDA4YTNkNWMwYzE5ZGZiYmE0ZjQ3MzkyMDczYjA2In19fQ==
+        data: 0
+        slot: 13
+        update: true
+        left_click_commands:
+        - '[player] rtp world:world_nether region:world_nether'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world:world_nether region:world_nether'
+        - '[close]'
+        display_name: '&#FF4545&lɴ&#FF4747&lᴇ&#FF4949&lᴛ&#FF4B4B&lʜ&#FF4C4C&lᴇ&#FF4E4E&lʀ &#FF5252&lᴅ&#FF5454&lɪ&#FF5656&lᴍ&#FF5858&lᴇ&#FF5A5A&lɴ&#FF5B5B&ls&#FF5D5D&lɪ&#FF5F5F&lᴏ&#FF6161&lɴ'
+        lore:
+        - '&7&o(( Brave the fiery depths of the'
+        - '&7&oNether and gather rare resources ))'
+        - '&7&o'
+        - '&e&lInformation'
+        - '&e ❙ &fSize: &e10k x 10k'
+        - '&e ❙ &fLand Claiming: &eDisabled'
+        - '&e ❙ &fKeep Inventory: &eDisabled'
+        - '&e ❙ &fPvp: &eDisabled'
+      '37':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGRiMGM1ZDIwMTY4YWFlZTQ1NjQzY2M0NTY4Y2UyYmI5YTlmNzYxODQyN2FiNWI1ZmMyMTE1ZjVlMDdmODI4ZCJ9fX0=
+        data: 0
+        slot: 15
+        update: true
+        left_click_commands:
+        - '[player] rtp world:world_the_end region:world_the_end'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world:world_the_end region:world_the_end'
+        - '[close]'
+        display_name: '&#FCFFA7&lᴇ&#FCFFAA&lɴ&#FCFFAD&lᴅ &#FCFFB2&lᴅ&#FCFFB5&lɪ&#FDFFB8&lᴍ&#FDFFBA&lᴇ&#FDFFBD&lɴ&#FDFFC0&ls&#FDFFC3&lɪ&#FDFFC5&lᴏ&#FDFFC8&lɴ'
+        lore:
+        - '&7&o(( Explore the mysterious End,'
+        - '&7&oand face the fearsome Ender Dragon ))'
+        - '&7&o'
+        - '&e&lInformation'
+        - '&e ❙ &fSize: &e10k x 10k'
+        - '&e ❙ &fLand Claiming: &eDisabled'
+        - '&e ❙ &fKeep Inventory: &eDisabled'
+        - '&e ❙ &fPvp: &eDisabled'

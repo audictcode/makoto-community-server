@@ -1,0 +1,258 @@
+name: default
+permissions:
+- fancyholograms.viewhologram.*:
+    value: true
+    context:
+      viaversion: 'true'
+- holograma.bajo:
+    value: false
+    context:
+      viaversion: 'true'
+- holograma.bajo:
+    value: true
+    context:
+      viaversion: 'false'
+- tags.discord:
+    value: true
+    context:
+      discordsrv:linked: 'true'
+- tags.booster:
+    value: true
+    context:
+      discordsrv:boosting: 'true'
+- deluxemenus.menu.*
+- crazyenchantments.limit.5
+- deluxemenus.open.*
+- essentials.warps.*
+- minecraft.command.*:
+    value: false
+- plotmines.use.*
+- shopguiplus.shops.*
+- superior.island.*
+- multiverse.*:
+    value: false
+- 40servidores.voto
+- InventoryCommand.Use
+- KOTH.HELP
+- KOTH.TIMES
+- KOTH.VIEWTIME
+- PingPlayer.use
+- ac.togglemessages
+- acc.clear
+- acc.gui
+- antidrop.use:
+    value: false
+- auctionhouse.cmd
+- auctionhouse.cmd.active
+- auctionhouse.cmd.expired
+- auctionhouse.cmd.search
+- auctionhouse.cmd.sell
+- auctionhouse.maxsell.1
+- auctionhouse.maxsell.2
+- autosell.shop.basic
+- rtp.worlds.world
+- rtp.worlds.world_nether
+- rtp.worlds.world_the_end
+- rtp.region
+- rtp.regions.*
+- bar.bar
+- battlepass.use
+- casino.coinflip
+- casino.coinflipnew
+- casino.jackpot
+- casino.rps
+- casino.rpsnew
+- casino.stats
+- chatcontrol.bypass.spamkick
+- chatformat.Sinrango
+- chatformat.default
+- chatgames.see
+- quests.command
+- chatitem.use
+- cmr.use.examplereward1.reward
+- coinflip.create
+- coinflipper.create
+- coinflipper.gui
+- coinflipper.help
+- coinflipper.stats
+- commandprompter.use
+- cr.base
+- cr.claim
+- cr.preview
+- deluxechat.pm
+- deluxechat.utf
+- deluxemenus.open
+- deluxemenus.open.miner
+- deluxetags.gui
+- deluxetags.select
+- discordminecraft.discordlink
+- discordminecraft.discordunlink
+- displayshops.user
+- economyshopgui.sellall
+- economyshopgui.sellallhand
+- economyshopgui.sellallitem
+- economyshopgui.sellgui
+- economyshopgui.shop.all
+- ejemplo.borrar
+- essentials.afk
+- essentials.balance
+- essentials.balance.others
+- essentials.balancetop
+- essentials.baltop
+- essentials.hat:
+    value: false
+- essentials.hat.prevent-type.tripwire_hook
+- essentials.helpop
+- essentials.kit
+- essentials.kits.Bombs
+- essentials.kits.Potions
+- essentials.kits.PvP
+- essentials.kits.Starter
+- essentials.kits.Wood
+- essentials.kits.nuevo
+- essentials.pay
+- essentials.pay.multiple:
+    value: false
+- essentials.ping
+- essentials.realname
+- essentials.home
+- essentials.sethome
+- essentials.rules
+- essentials.seen
+- essentials.spawn
+- essentials.tpa
+- essentials.tpaccept
+- essentials.tpdeny
+- essentials.warp
+- essentials.warp.list
+- essentials.warplist
+- essentials.warps
+- essentials.warps.A
+- essentials.warps.Auction
+- essentials.warps.Bar
+- essentials.warps.Crates
+- essentials.warps.Help
+- essentials.warps.Plot
+- essentials.warps.Plots
+- essentials.warps.Pvp
+- essentials.warps.encantar
+- essentials.warps.koth
+- essentials.warps.list
+- essentials.warps.madera
+- essentials.warps.palmera
+- essentials.warps.parkour
+- essentials.warps.piñata
+- essentials.warps.wood
+- essentials.worlds.Minas
+- essentials.worlds.Plots
+- essentials.worlds.Spawn
+- essentials.worlds.world
+- ezblocks.check
+- ezblocks.pickaxecounter
+- fadah.use
+- gang.create
+- giveaway.start:
+    value: false
+- guibalance.use
+- interactivechat.chat
+- item.hold
+- item2chat.use
+- jobs.use
+- kitpreview.use
+- koth.viewloot
+- litebans.notify.broadcast:
+    value: false
+- litebans.notify.muted
+- litebans.notify.warned
+- litebans.warnings.self
+- medoragangs.paypalview:
+    value: false
+- minecraft.command.me:
+    value: false
+- moneypouch.shop
+- moverinv.inv:
+    value: false
+- multiplicador.usuario
+- mycommand.cmd.all
+- notp.spawn
+- permissiontimer.info
+- placeholderapi.js.admin:
+    value: false
+- playerpoints.lead
+- playtime.check
+- plots.admin.interact.road
+- plots.permpack.basic
+- plots.plot.1
+- plots.use
+- plots.visit.other
+- pm.receive
+- pm.use
+- prisonranksx.prestige
+- prisonranksx.prestigemax
+- privatemines.bypass
+- privatemines.owner
+- privatemines.tax
+- privatemines.teleport
+- pt.others
+- pt.use
+- rankup.0
+- rankups.maxrankup
+- rankups.rankup
+- rps.use
+- rtp.delay
+- rtp.nodelay
+- rtp.params
+- rtp.use
+- rtp.world
+- rtp.worlds.world
+- shopchest.buy
+- shopchest.create
+- shopchest.create.buy
+- shopchest.create.sell
+- shopchest.limit.5
+- shopchest.sell
+- shopguiplus.shop
+- shopguiplus.shop.blocks
+- shopguiplus.shop.clay
+- shopguiplus.shop.coloredblocks
+- shopguiplus.shop.farming
+- shopguiplus.shop.food
+- shopguiplus.shop.glass
+- shopguiplus.shop.wool
+- shopguiplus.shops.farming
+- showcase.use
+- showitem.chat
+- showitem.chat.inv
+- showitem.chat.slot
+- showitem.chat.spam
+- showitem.command:
+    value: false
+- showitem.rightclick
+- superior.island
+- superior.island.bank:
+    value: false
+- superior.island.chest:
+    value: false
+- tokens.command
+- tokens.command.argument.balance:
+    value: false
+- tokens.command.argument.pay
+- trading.trade
+- trail.allow
+- weight.100
+- withdraw.use
+- zplugin.notifs:
+    value: false
+parents:
+- a
+- default
+prefixes:
+- '&d✮':
+    priority: 1000
+    context:
+      discordsrv:boosting: 'true'
+- '&8[&a&lA&8] &7':
+    priority: 1000
+meta:
+- default:
+    value: 'true'

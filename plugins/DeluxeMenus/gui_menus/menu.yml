@@ -1,0 +1,195 @@
+    menu_title: "&f七七七七七七七七👞"
+    open_command: menu
+    update_interval: 1
+    register_command: true
+    open_commands:
+    - '[sound] BLOCK_CHEST_OPEN'
+    size: 54
+    items:
+      # '1':
+        # material: LIME_STAINED_GLASS_PANE
+        # slot: 0
+        # display_name: '&e'
+        # lore:
+        # - '&7&o'
+        # slots:
+        # - 1
+        # - 2
+        # - 3
+        # - 4
+        # - 5
+        # - 6
+        # - 7
+        # - 10
+        # - 16
+        # - 19
+        # - 25
+        # - 28
+        # - 29
+        # - 30
+        # - 31
+        # - 32
+        # - 33
+        # - 34
+      # '2':
+        # material: GREEN_STAINED_GLASS_PANE
+        # slot: 0
+        # display_name: '&e'
+        # lore:
+        # - '&7&o'
+        # slots:
+        # - 0
+        # - 9
+        # - 18
+        # - 27
+        # - 8
+        # - 17
+        # - 26
+        # - 35
+        # - 12
+        # - 14
+        # - 21
+        # - 23
+      '33':
+        material: MAP
+        model_data: 1010
+        data: 0
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 9
+        - 10
+        - 11
+        - 12
+        - 18
+        - 19
+        - 20
+        - 21
+        - 27
+        - 28
+        - 29
+        - 30
+        - 36
+        - 37
+        - 38
+        - 39
+        left_click_commands:
+        - '[openguimenu] warps'
+        - '[close]'
+        right_click_commands:
+        - '[openguimenu] warps'
+        - '[close]'
+        display_name: '&e&lTeleports'
+        lore:
+        - '&7&o(( Teleport and explore the'
+        - '&7&oentire survival world ))'
+        - '&7&o'
+        - '&e ❙ &eRight click to open'
+      '3343':
+        material: MAP
+        model_data: 1010
+        slots:
+        - 41
+        - 42
+        - 43
+        - 44
+        - 50
+        - 51
+        - 52
+        - 53
+        left_click_commands:
+        - '[sound] ENTITY_ENDERMAN_TELEPORT'
+        - '[player] warp Enchantments'
+        - '[close]'
+        right_click_commands:
+        - '[sound] ENTITY_ENDERMAN_TELEPORT'
+        - '[player] warp Enchantments'
+        - '[close]'
+        display_name: '&e&lEnchantments'
+        lore:
+        - '&7&o(( Teleport to the'
+        - '&e&l&oenchantment &7&o zone ))'
+        - '&7&o'
+        - '&e ❙ &eRight click to teleport'
+      '38':
+        material: MAP
+        model_data: 1010
+        slots:
+        - 5
+        - 6
+        - 7
+        - 8
+        - 14
+        - 15
+        - 16
+        - 17
+        display_name: '&e&lQuests'
+        lore:
+        - '&7&o(( Completing quests will reward'
+        - '&7&oyou with &e&l&oexperience, money.. &7&o))'
+        - '&7&o'
+        - '&e&lType of quests'
+        - '&e ❙ &fFarming'
+        - '&e ❙ &fMining'
+        - '&e ❙ &fCombat'
+        - '&e ❙ &fMiscellaneous'
+        - '&e ❙ &fGathering'
+        - '&e ❙ &fNightmare'
+        - '&e ❙ &fExtreme'
+        - '&8'
+        - '&e&l[!] &eRight click to open'
+        left_click_commands:
+        - '[sound] BLOCK_CHEST_OPEN'
+        - '[player] quests'
+        right_click_commands:
+        - '[sound] BLOCK_CHEST_OPEN'
+        - '[player] quests'
+      '355':
+        material: MAP
+        model_data: 1010
+        slots:
+        - 23
+        - 24
+        - 25
+        - 26
+        - 32
+        - 33
+        - 34
+        - 35
+        update: true
+        left_click_commands:
+        - '[sound] ENTITY_ENDERMAN_TELEPORT'
+        - '[player] warp Leaderboard'
+        - '[close]'
+        right_click_commands:
+        - '[sound] ENTITY_ENDERMAN_TELEPORT'
+        - '[player] warp Leaderboard'
+        - '[close]'
+        display_name: '&e&lLeaderboard'
+        lore:
+        - '&7&o(( Teleport to the'
+        - '&7&oleaderboards zone ))'
+        - '&7&o'
+        - '&e ❙ &eRight click to teleport'
+      '39':
+        material: MAP
+        model_data: 1010
+        slots:
+        - 45
+        - 46
+        - 47
+        - 48
+        left_click_commands:
+        - '[close]'
+        - '[openguimenu] Jobs'
+        right_click_commands:
+        - '[close]'
+        - '[openguimenu] Jobs'
+        display_name: '&e&lJobs'
+        lore:
+        - '&7&o(( A full list with all jobs.'
+        - '&7&oAlso, you can join/leave them ))'
+        - '&7&o'
+        - '&e ❙ &eRight click to teleport'

@@ -1,0 +1,68 @@
+#How long should the "drunk" effect last when a player loses their drink?
+#(In seconds). Set to 0 to disable.
+drunkEffect: 10
+
+#This is the title of the inventory when the bar opens
+barTitle: "&b&lGamble &b❙ Bar"
+
+bar:
+  0:
+    name: "&cBeer"
+    lore:
+    - "&e ❙ Price: &f$%price%"
+    - "&e ❙ Reward: &f$%reward%"
+    - "&e ❙ Odds of winning: &f%odds%%"
+    - "&c✎ Drink this for a chance to win!"
+    price: 500
+    reward: 1000
+    odds: 50.00
+  1:
+    name: "&cWine"
+    lore:
+    - "&e ❙ Price: &f$%price%"
+    - "&e ❙ Reward: &f$%reward%"
+    - "&e ❙ Odds of winning: &f%odds%%"
+    - "&c✎ Drink this for a chance to win!"
+    price: 1000
+    reward: 2000
+    odds: 47.50
+  2:
+    name: "&cVodka"
+    lore:
+    - "&e ❙ Price: &f$%price%"
+    - "&e ❙ Reward: &f$%reward%"
+    - "&e ❙ Odds of winning: &f%odds%%"
+    - "&c✎ Drink this for a chance to win!"
+    price: 2000
+    reward: 4000
+    odds: 45.00
+  3:
+    name: "&cRum"
+    lore:
+    - "&e ❙ Price: &f$%price%"
+    - "&e ❙ Reward: &f$%reward%"
+    - "&e ❙ Odds of winning: &f%odds%%"
+    - "&c✎ Drink this for a chance to win!"
+    price: 5000
+    reward: 10000
+    odds: 42.50
+  4:
+    name: "&cWhiskey"
+    lore:
+    - "&e ❙ Price: &f$%price%"
+    - "&e ❙ Reward: &f$%reward%"
+    - "&e ❙ Odds of winning: &f%odds%%"
+    - "&c✎ Drink this for a chance to win!"
+    price: 10000
+    reward: 20000
+    odds: 40.00
+  5:
+    name: "&cEverclear"
+    lore:
+    - "&e ❙ Price: &f$%price%"
+    - "&e ❙ Reward: &f$%reward%"
+    - "&e ❙ Odds of winning: &f%odds%%"
+    - "&c✎ Drink this for a chance to win!"
+    price: 50000
+    reward: 100000
+    odds: 37.50

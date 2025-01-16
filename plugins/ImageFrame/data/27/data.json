@@ -1,0 +1,29 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 27,
+  "name": "Shop",
+  "url": "https://i.imgur.com/YvRDYpX.png",
+  "width": 3,
+  "height": 1,
+  "ditheringType": "nearest-color",
+  "creator": "2ccb1a67-bf97-4e92-afff-18df963f7f51",
+  "hasAccess": {},
+  "creationTime": 1729777204223,
+  "mapdata": [
+    {
+      "mapid": 87,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 88,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 89,
+      "image": "2.png",
+      "markers": []
+    }
+  ]
+}

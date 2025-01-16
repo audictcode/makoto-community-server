@@ -1,0 +1,292 @@
+# Categories are a way of grouping up quests.
+# When a player uses /quests, a menu of categories will be presented to them.
+# When a player clicks on a category, a list of quests under that category will show.
+# If categories are disabled, all quests will be shown under one big GUI.
+# Players can access specific categories by command using /quests c [category].
+# If a quest does not have a category, it will not be shown.
+categories:
+  farming:
+    display:
+      name: '&e&lғᴀʀᴍɪɴɢ ǫᴜᴇsᴛs'
+      lore:
+        - "&r"
+        - "&7&o(( Quests that require you to gather some resources"
+        - "&7&othat may involve farming are found here. ))"
+        - "&r"
+        - "&e ❙ &fNumber of quests in this category: &e&n78"
+        - "&r"
+        - "&e ❙ &fDifficulty: &a✔ Easy &f- &c☠ Hard"
+        - "&r"
+        - "&a ⓒ &aComplete a quest to get an reward"
+      type: "362"
+  mining:
+    display:
+      name: '&e&lᴍɪɴɪɴɢ ǫᴜᴇsᴛs'
+      lore:
+        - "&r"
+        - "&7&o(( Quests that require you to mine certain"
+        - "&7&oblocks can be found in this category. ))"
+        - "&r"
+        - "&e ❙ &fNumber of quests in this category: &e&n31"
+        - "&r"
+        - "&e ❙ &fDifficulty: &a✔ Easy &f- &c☠ Hard"
+        - "&r"
+        - "&a ⓒ &aComplete a quest to get an reward"
+      type: "257"
+  nightmare:
+    display:
+      name: '&e&lɴɪɢʜᴛᴍᴀʀᴇ ǫᴜᴇsᴛs'
+      lore:
+        - "&r"
+        - "&7&o(( Quests and riddles can be found here which"
+        - "&7&ocan be very hard to solve and complete! ))"
+        - "&r"
+        - "&7➤ Solve the riddle and have the necessary"
+        - "&7item in your inventory to complete the quest!"
+        - "&r"
+        - "&e ❙ &fNumber of quests in this category: &e&n22"
+        - "&r"
+        - "&e ❙ &fDifficulty: &4☠ Nightmare"
+        - "&r"
+        - "&a ⓒ &7Complete a quest to get an &nAMAZING&r&a reward!"
+      type: "397:1"
+  gathering:
+    display:
+      name: '&e&lɢᴀᴛʜᴇʀɪɴɢ ǫᴜᴇsᴛs'
+      lore:
+        - "&r"
+        - "&7&o(( Quests that require you to gather some kind"
+        - "&7 of resources can be found in the category!"
+        - "&r"
+        - "&e ❙ &fNumber of quests in this category: &e&n29"
+        - "&r"
+        - "&e ❙ &fDifficulty: &a✔ Easy &f- &c☠ Hard"
+        - "&r"
+        - "&a ⓒ &aComplete a quest to get an reward"
+      type: "325"
+  extreme:
+    display:
+      name: '&e&lᴇxᴛʀᴇᴍᴇ ǫᴜᴇsᴛs'
+      lore:
+        - "&r"
+        - "&7&o(( Quests that require you to gather A LOT of"
+        - "&7&oresources can be found in the category! ))"
+        - "&r"
+        - "&e ❙ &fNumber of quests in this category: &e&n59"
+        - "&r"
+        - "&e ❙ &fDifficulty: &c☠ Hard"
+        - "&r"
+        - "&a ⓒ &aComplete a quest to get an reward"
+      type: "264"
+  combat:
+    display:
+      name: '&e&lᴄᴏᴍʙᴀᴛ ǫᴜᴇsᴛs'
+      lore:
+        - "&r"
+        - "&7&o(( Quests that require you to attack other"
+        - "&7&oplayers and monsters can be found here. ))"
+        - "&r"
+        - "&e ❙ &fNumber of quests in this category: &e&n51"
+        - "&r"
+        - "&e ❙ &fDifficulty: &a✔ Easy &f- &c☠ Hard"
+        - "&r"
+        - "&a ⓒ &aComplete a quest to get an reward"
+      type: "322"
+  misc:
+    display:
+      name: '&e&lᴍɪsᴄ. ǫᴜᴇsᴛs'
+      lore:
+        - "&r"
+        - "&7&o(( Quests that do not fit into other categories"
+        - "&7&ocan be found here. ))"
+        - "&r"
+        - "&e ❙ &fNumber of quests in this category: &e&n19"
+        - "&r"
+        - "&e ❙ &fDifficulty: &a✔ Easy &f- &c☠ Hard"
+        - "&r"
+        - "&a ⓒ &aComplete a quest to get an reward"
+      type: "287"
+  building:
+    display:
+      name: "&e&lʙᴜɪʟᴅɪɴɢ ǫᴜᴇsᴛs"
+      lore:
+        - "&r"
+        - "&7&o(( Quests that require to build something can"
+        - "&7&obe found in this category. ))"
+        - "&r"
+        - "&e ❙ &fNumber of quests in this category: &e&n14"
+        - "&r"
+        - "&e ❙ &fDifficulty: &a✔ Easy &f- &c☠ Hard"
+        - "&r"
+        - "&a ⓒ &aComplete a quest to get an reward"
+      type: "17"
+  animal:
+    display:
+      name: '&e&lᴀɴɪᴍᴀʟ ǫᴜᴇsᴛs'
+      lore:
+        - "&7&o(( Quests that require to you to work with animals"
+        - "&7&ocan be found in this category. ))"
+        - "&r"
+        - "&e ❙ &fNumber of quests in this category: &e&n12"
+        - "&r"
+        - "&e ❙ &fDifficulty: &a✔ Easy &f- &c☠ Hard"
+        - "&r"
+        - "&a ⓒ &aComplete a quest to get an reward"
+      type: "363"
+    # This category needs the permission "quests.category.permissionexample", because the category ID is 'permissionexample'.
+    # The permission for other categories is: "quests.category.<id>".
+    permission-required: false
+
+# The items listed below are placeholder items for quests which the player cannot start.
+gui:
+  back-button:
+    name: "&c&lReturn"
+    lore:
+    - "&7&o (( Return to the categories menu ))"
+    type: "BARRIER"
+  page-prev:
+    name: "&e&lPrevious"
+    lore:
+    - "&7&o(( Switch the page to page &e{prevpage} ))"
+    type: "ARROW"
+  page-next:
+    name: "&e&lNext"
+    lore:
+    - "&7&o(( Switch the page to page &e{nextpage} ))"
+    type: "ARROW"
+  page-desc:
+    name: "&6&nPage:&r &f#{page}"
+    lore:
+    - "&7&o(( You are currently viewing page &f&o{page} ))"
+    type: "PAPER"
+  quest-locked-display:
+    name: "&c&lQuest Locked"
+    lore:
+    - "&7&oYou have not completed the requirements"
+    - "&7&ofor this quest (&c&o{quest}&7&o)"
+    - ""
+    - "&7&o&oRequires: &c&o{requirements}"
+    - "&7&oto be completed to unlock."
+    type: "160:14"
+  quest-cooldown-display:
+    name: "&e&nCooldown"
+    lore:
+    - "&7&oYou have recently completed this quest"
+    - "&7&o(&e&o{quest}&7&o) and you must"
+    - "&7&owait another &e&o{time} &7&oto unlock again."
+    type: "160:1"
+  quest-completed-display:
+    name: "&a&nQuest Complete"
+    lore:
+    - "&7&oYou have completed this quest"
+    - "&7&o(&a{quest}&7) and cannot."
+    - "&7&orepeat it."
+    type: "160:5"
+  quest-cancel-yes:
+    name: "&a&nConfirm"
+    lore:
+    - "&7&o(( Confirm you wish to cancel"
+    - "&7&othis quest and lose all"
+    - "&7&oprogress. ))"
+    type: "160:5"
+  quest-cancel-no:
+    name: "&c&nCancel"
+    lore:
+    - "&7&o(( Return to the quest menu. ))"
+    type: "160:14"
+  quest-permission-display:
+    name: "&c&nNo Permission"
+    lore:
+    - "&7&oYou do not have permission for this"
+    - "&7&oquest (&6&o{quest}&7&o)."
+    type: "160:14"
+
+options:
+  # If categories are disabled, quests will be put into one big gui.
+  categories-enabled: true
+  # If true, the gui size will automatically change based on the amount of quests inside it.
+  trim-gui-size: true
+  # Enable/disable titles
+  titles-enabled: true
+  # Players cannot start any more quests than this at a single time
+  quest-started-limit: 5
+  # Hide locked quests, quests on cooldown and completed (but not repeatable) quests
+  gui-hide-locked: false
+  # Allow players to cancel a quest
+  allow-quest-cancel: true
+  # Titles for the GUIs
+  guinames:
+    quests-category: "&l     &2&l&nǫᴜᴇsᴛs ᴄᴀᴛᴇɢᴏʀɪᴇs"
+    quests-menu: "&nQuests"
+    daily-quests: "&nDaily Quests"
+    quest-cancel: "&nCancellation"
+  # Show when quests register in console. Disable if you want less console spam at startup.
+  show-quest-registrations: false
+  # Hide quests which a player cannot start due to permissions.
+  gui-hide-quests-nopermission: true
+  # Hide categories which a player cannot open due to permissions.
+  gui-hide-categories-nopermission: true
+  # Make it so players do not have to start quest themselves
+  quest-autostart: false
+
+# This switches up the entire quest system.
+# By enabling daily-quests, players will no longer be presented with the standard Quest GUI.
+# Instead, they will be presented with 5 random quests.
+# The 'requirements' section in each quest does not apply here.
+# The 'cooldown' section in each quest does not apply here - if it's done, it's done (and will be repeatable next time they get the quest).
+# The 'repeatable' section in each quest does not apply here. It will NOT be repeatable until the next day.
+# Enabling this MAY cause previous quest progress to be modified, wiped or changed irreversibly! If you're testing this on a live server, it is wise to backup
+# the Quests/playerdata/ folder! You've been warned!
+#
+# Quests BETA: this feature is a work in progress, it does not work yet!
+daily-quests:
+  enabled: false
+
+# Configure titles
+titles:
+  quest-start:
+    title: "&a&nQuest Started"
+    subtitle: "&7{quest}"
+  quest-complete:
+    title: "&2&nQuest Complete"
+    subtitle: "&7{quest}"
+
+# Configure messages
+messages:
+  quest-start: "&e(!) Quest &7{quest} &ehas been started."
+  quest-complete: "&a(!) You have completed the quest: &7{quest}&a."
+  quest-cancel: "&c(!) You have cancelled the quest: &7{quest}&c."
+  quest-start-limit: "&c(!) You are limited to &7{limit} &7started quests at a time."
+  quest-start-disabled: "&c(!) You cannot repeat this quest."
+  quest-start-locked: "&c(!) You have not unlocked this quest yet."
+  quest-start-cooldown: "&c(!) You have recently completed this quest. You have to wait &7{time} &cuntil you are able to start it."
+  quest-start-started: "&e(!) You have already started this quest."
+  quest-start-permission: "&c(!) You do not have permission to start this quest."
+  quest-category-permission: "&c(!) You do not have permission to view this category."
+  quest-category-quest-permission: "&c(!) You do not have permission to start this quest since it is in a category you do not have permission to view."
+  quest-cancel-notstarted: "&c(!) You have not started this quest."
+  quest-updater: "&e(!) A new version &7{newver} &ewas found on Spigot. Update the plugin here: &7{link}"
+  command-quest-start-doesntexist: "&c(!) The quest &7{quest}&c does not exist."
+  command-category-open-disabled: "&c(!) Categories are currently disabled."
+  command-category-open-doesntexist: "&c(!) The specified category: &7{category}&c, does not exist."
+  command-quest-admin-playernotfound: "&c(!) &7{player}&c could not be found."
+  command-quest-openquests-admin-success: "&e(!) The quest inventory has been opened for &7{player}&e."
+  command-quest-opencategory-admin-success: "&e(!) The &7{category} &ehas been opened for &7{player}&e."
+  command-taskview-admin-fail: "&c(!) The task type &7{task}&c does not exist."
+  beta-reminder: "&e(!) You are using a beta version of the quest plugin. Please report any bugs you find."
+  command-quest-admin-loaddata: "&e(!) Quest data for &7{player}&e is being loaded."
+  command-quest-admin-nodata: "&c(!) No data could be found for &7{player}&c."
+  command-quest-admin-fullreset: "&a(!) Data for &7{player}&a has been reset."
+  command-quest-admin-start-faillocked: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. They have not yet unlocked it."
+  command-quest-admin-start-failcooldown: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. It is still on cooldown for them."
+  command-quest-admin-start-failcomplete: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. They have already completed it."
+  command-quest-admin-start-faillimit: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. They have reached their quest start limit."
+  command-quest-admin-start-failstarted: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. It is already started."
+  command-quest-admin-start-failpermission: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. They do not have permission."
+  command-quest-admin-start-failcategorypermission: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. They do not have permission for the category which the quest is in."
+  command-quest-admin-start-failother: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c."
+  command-quest-admin-start-success: "&a(!) Quest &7{quest} &ahas been started for &7{player}&a."
+  command-quest-admin-category-permission: "&c(!) Category &7{category} &ccould not be opened for &7{player}&c. They do not have permission to view it."
+  command-quest-admin-complete-success: "&a(!) Quest &7{quest} &acompleted for &7{player}&a."
+  command-quest-admin-reset-success: "&a(!) Successfully reset quest &7{quest}&a for &7{player}&a."
+

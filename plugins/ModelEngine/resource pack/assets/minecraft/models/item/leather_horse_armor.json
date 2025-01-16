@@ -1,0 +1,1 @@
+{"overrides":[{"predicate":{"custom_model_data":1},"model":"modelengine:yellow_hot_air_balloon/group"}],"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/leather_horse_armor"}}

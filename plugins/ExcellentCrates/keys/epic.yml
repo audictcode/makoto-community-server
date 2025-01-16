@@ -1,0 +1,14 @@
+Name: Epic Key
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '#0007FF&lE#1117FF&lp#2127FF&li#3237FF&lc #5358FF&lk#6368FF&le#7478FF&ly'
+  Lore:
+  - '&8ᴄʀᴀᴛᴇ ᴋᴇʏ'
+  - '&8'
+  - '&7&o(( Use this key at &7&l&o/warp crates &7&o))'
+  Enchants:
+    aqua_affinity: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ADDITIONAL_TOOLTIP

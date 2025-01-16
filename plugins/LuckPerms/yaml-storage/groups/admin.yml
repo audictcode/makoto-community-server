@@ -1,0 +1,92 @@
+name: admin
+permissions:
+- worldguard.region.bypass.spawn.robots.*
+- worldguard.region.flag.block-break.*
+- worldguard.region.flag.*
+- worldguard.region.info.*
+- worldguard.region.redefine.*
+- worldguard.region.select.*
+- essentials.kits.*
+- litebans.*
+- mine.*
+- worldedit.*
+- ChatColor.RED
+- ChestShop.admin
+- ExampleFont.use:
+    value: false
+- NormalFont.use:
+    value: false
+- PlayTime.Notify:
+    value: false
+- PlayTime.View-others-playtime
+- arefymine.mine
+- arefymines.mine
+- chatformat.Admin
+- chatformat.admin
+- chatformat.dueño:
+    value: false
+- chatsentry.clearchat
+- checkfly.staff
+- coreprotect.co
+- coreprotect.inspect
+- coreprotect.lookup
+- dargang.smod
+- essentials.balance.others
+- essentials.chat.ignoreexempt
+- essentials.enderchest
+- essentials.enderchest.modify
+- essentials.enderchest.others
+- essentials.fly
+- essentials.gamemode
+- essentials.gamemode.creative
+- essentials.gamemode.spectator
+- essentials.gamemode.survival
+- essentials.invsee
+- essentials.joinfullserver
+- essentials.kits.others
+- essentials.seen
+- essentials.skull
+- essentials.skull.modify
+- essentials.skull.others
+- essentials.time.set
+- essentials.vanish
+- fawe.admin
+- fawe.plotsquared
+- gang.create
+- invseeplusplus.endersee.view
+- invseeplusplus.invsee.view
+- litebans.lockdown.bypass
+- litebans.mutechat.bypass
+- litebans.togglechat.bypass
+- luckperms.user.permission.check
+- medoragangs.chatspy
+- minecraft.command.whitelist
+- nocheatplus.notify:
+    value: false
+- paladin.auto.freeze
+- playervaults.admin
+- plots.admin
+- plugin.minas
+- pv.see
+- pv.use
+- staff.chat
+- staffchat.use
+- sv.list
+- sv.see
+- sv.use
+- tab.complete
+- tab.group.Admin
+- tab.group.admin
+- weight.804
+- worldedit.clipboard.load
+- worldedit.clipboard.paste
+- worldedit.history.rollback
+- worldedit.history.undo
+- worldedit.schematic.clear
+- worldedit.schematic.load
+- worldedit.selection.pos
+- worldedit.wand
+- worldguard.region.define
+suffixes:
+- ' &c&lADMIN &7':
+    priority: 25

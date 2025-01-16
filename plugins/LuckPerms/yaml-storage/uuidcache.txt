@@ -1,0 +1,13 @@
+# LuckPerms UUID lookup cache
+519b2d0e-bbd0-3ea4-b001-c0eb4ecaca42:ArefyPruebas6
+2ccb1a67-bf97-4e92-afff-18df963f7f51:xNekio
+40ea7690-1411-37c9-81e5-ec37f8922b0b:ArefyPruebas10
+9bf8d096-d2d3-32ef-bc2d-21d1be055860:ArefyPruebas1
+8d402cd6-95cb-393a-8da7-2b26b2d2eb59:ArefyPruebas8
+a24a92b5-fdb4-3e22-9e89-0f5c31b3f5a1:ArefyPruebas4
+2fd3fca0-7d72-38b3-af97-fa691014664b:ArefyPruebas7
+11e34552-7f98-40a5-af00-bb3cb8330ed0:F1KKU
+99ee749d-de24-3716-893f-592d30c05765:ArefyPruebas9
+68a8f448-772f-335f-b55c-38823856c041:ArefyPruebas5
+0e2333b6-7c60-3958-b58a-e410d5d3bd78:ArefyPruebas2
+f6dcbebc-b3ef-38f5-8a6e-aa260be506ea:ArefyPruebas3

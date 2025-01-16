@@ -1,0 +1,303 @@
+menu_title: '&fPreviewing.. &e&nRanks'
+open_command: 
+- ranks
+register_command: true
+size: 9
+update_interval: 1
+items:
+  'glasses':
+    display_name: '&e'
+    material: WHITE_STAINED_GLASS_PANE
+    data: 0
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+  'legacy':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 0
+    priority: 1
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_has_kit_legacy%'
+          output: 'no'
+    display_name: '&c&lLegacy &4(Blocked)'
+    lore:
+    - ''
+    - '&c&lInformation'
+    - ' &c❙ &fAdquire it on buy.example.net'
+    left_click_commands:
+    - '[message] &c&l[!] &cNot enough permissions to claim this kit, buy this rank on buy.example.net'
+  'legacy2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 0
+    priority: 2
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_kit_is_available_legacy%'
+          output: 'yes'
+    display_name: '&a&lLegacy &2(Unlocked)'
+    lore:
+    - ''
+    - '&a&lInformation'
+    - ' &a❙ &fRedeemable, 7 days cooldown'
+    left_click_commands:
+    - '[player] essentials:kits legacy'
+    - '[refresh]'
+    update: true
+  'legacy3':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 0
+    priority: 3
+    display_name: '&e&lLegacy &6(In cooldown)'
+    lore:
+    - ''
+    - '&e&lInformation'
+    - ' &e❙ &fRedeemable in &e%essentials_kit_time_until_available_legacy%'
+    left_click_commands:
+    - '[player] essentials:kits legacy'
+  'god':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 1
+    priority: 1
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_has_kit_god%'
+          output: 'no'
+    display_name: '&c&lGod &4(Blocked)'
+    lore:
+    - ''
+    - '&c&lInformation'
+    - ' &c❙ &fAdquire it on buy.example.net'
+    left_click_commands:
+    - '[message] &c&l[!] &cNot enough permissions to claim this kit, buy this rank on buy.example.net'
+  'god2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 1
+    priority: 2
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_kit_is_available_god%'
+          output: 'yes'
+    display_name: '&a&lGod &2(Unlocked)'
+    lore:
+    - ''
+    - '&a&lInformation'
+    - ' &a❙ &fRedeemable, 7 days cooldown'
+    left_click_commands:
+    - '[player] essentials:kits god'
+    - '[refresh]'
+    update: true
+  'god3':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 1
+    priority: 3
+    display_name: '&e&lGod &6(In cooldown)'
+    lore:
+    - ''
+    - '&e&lInformation'
+    - ' &e❙ &fRedeemable in &e%essentials_kit_time_until_available_god%'
+    left_click_commands:
+    - '[player] essentials:kits god'
+  'overlord':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 2
+    priority: 1
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_has_kit_overlord%'
+          output: 'no'
+    display_name: '&c&lOverlord &4(Blocked)'
+    lore:
+    - ''
+    - '&c&lInformation'
+    - ' &c❙ &fAdquire it on buy.example.net'
+    left_click_commands:
+    - '[message] &c&l[!] &cNot enough permissions to claim this kit, buy this rank on buy.example.net'
+  'overlord2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 2
+    priority: 2
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_kit_is_available_overlord%'
+          output: 'yes'
+    display_name: '&a&lOverlord &2(Unlocked)'
+    lore:
+    - ''
+    - '&a&lInformation'
+    - ' &a❙ &fRedeemable, 7 days cooldown'
+    left_click_commands:
+    - '[player] essentials:kits overlord'
+    - '[refresh]'
+    update: true
+  'overlord3':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 2
+    priority: 3
+    display_name: '&e&lOverlord &6(In cooldown)'
+    lore:
+    - ''
+    - '&e&lInformation'
+    - ' &e❙ &fRedeemable in &e%essentials_kit_time_until_available_overlord%'
+    left_click_commands:
+    - '[player] essentials:kits overlord'
+  'champion':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 3
+    priority: 1
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_has_kit_champion%'
+          output: 'no'
+    display_name: '&c&lChampion &4(Blocked)'
+    lore:
+    - ''
+    - '&c&lInformation'
+    - ' &c❙ &fAdquire it on buy.example.net'
+    left_click_commands:
+    - '[message] &c&l[!] &cNot enough permissions to claim this kit, buy this rank on buy.example.net'
+  'champion2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 3
+    priority: 2
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_kit_is_available_champion%'
+          output: 'yes'
+    display_name: '&a&lChampion &2(Unlocked)'
+    lore:
+    - ''
+    - '&a&lInformation'
+    - ' &a❙ &fRedeemable, 7 days cooldown'
+    left_click_commands:
+    - '[player] essentials:kits champion'
+    - '[refresh]'
+    update: true
+  'champion3':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 3
+    priority: 3
+    display_name: '&e&lChampion &6(In cooldown)'
+    lore:
+    - ''
+    - '&e&lInformation'
+    - ' &e❙ &fRedeemable in &e%essentials_kit_time_until_available_champion%'
+    left_click_commands:
+    - '[player] essentials:kits champion'
+  'champion+':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 4
+    priority: 1
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_has_kit_champion+%'
+          output: 'no'
+    display_name: '&c&lChampion+ &4(Blocked)'
+    lore:
+    - ''
+    - '&c&lInformation'
+    - ' &c❙ &fAdquire it on buy.example.net'
+    left_click_commands:
+    - '[message] &c&l[!] &cNot enough permissions to claim this kit, buy this rank on buy.example.net'
+  'champion+2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 4
+    priority: 2
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_kit_is_available_champion+%'
+          output: 'yes'
+    display_name: '&a&lChampion+ &2(Unlocked)'
+    lore:
+    - ''
+    - '&a&lInformation'
+    - ' &a❙ &fRedeemable, 7 days cooldown'
+    left_click_commands:
+    - '[player] essentials:kits champion+'
+    - '[refresh]'
+    update: true
+  'champion+3':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 4
+    priority: 3
+    display_name: '&e&lChampion+ &6(In cooldown)'
+    lore:
+    - ''
+    - '&e&lInformation'
+    - ' &e❙ &fRedeemable in &e%essentials_kit_time_until_available_champion+%'
+    left_click_commands:
+    - '[player] essentials:kits champion+'
+  'infinity':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 5
+    priority: 1
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_has_kit_infinity%'
+          output: 'no'
+    display_name: '&c&lInfinity &4(Blocked)'
+    lore:
+    - ''
+    - '&c&lInformation'
+    - ' &c❙ &fAdquire it on buy.example.net'
+    left_click_commands:
+    - '[message] &c&l[!] &cNot enough permissions to claim this kit, buy this rank on buy.example.net'
+  'infinity2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 5
+    priority: 2
+    view_requirement:
+      requirements:
+        '0':
+          type: 'string equals'
+          input: '%essentials_kit_is_available_infinity%'
+          output: 'yes'
+    display_name: '&a&lInfinity &2(Unlocked)'
+    lore:
+    - ''
+    - '&a&lInformation'
+    - ' &a❙ &fRedeemable, 7 days cooldown'
+    left_click_commands:
+    - '[player] essentials:kits infinity'
+    - '[refresh]'
+    update: true
+  'infinity3':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 5
+    priority: 3
+    display_name: '&e&lInfinity &6(In cooldown)'
+    lore:
+    - ''
+    - '&e&lInformation'
+    - ' &e❙ &fRedeemable in &e%essentials_kit_time_until_available_infinity%'
+    left_click_commands:
+    - '[player] essentials:kits infinity'

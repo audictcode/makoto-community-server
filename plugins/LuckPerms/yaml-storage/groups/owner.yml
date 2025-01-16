@@ -1,0 +1,45 @@
+name: owner
+permissions:
+- minecraft.command.*
+- multiverse.*
+- plots.*
+- '*'
+- ExampleFont.use:
+    value: false
+- NormalFont.use:
+    value: false
+- PlayTime.Notify:
+    value: false
+- antidrop.allow:
+    value: false
+- bugrepgui.admin
+- chatformat.Owner
+- chatformat.owner
+- customlist.staff
+- deluxechat.socialspy.onjoin:
+    value: false
+- essentials.updatecheck:
+    value: false
+- gang.create
+- litebans.clearchat.bypass
+- magic.notify:
+    value: false
+- minecraft.command.stop
+- nocheatplus.notify:
+    value: false
+- pinataparty.update-notify:
+    value: false
+- plugin.minas
+- staff.chat
+- staffchat.use
+- sv.joinvanished:
+    value: false
+- tab.group.Dueño
+- tab.group.owner
+- weight.5000
+prefixes:
+- '&e&lOWNER &7':
+    priority: 5
+suffixes:
+- '&e&lOWNER &7':
+    priority: 5

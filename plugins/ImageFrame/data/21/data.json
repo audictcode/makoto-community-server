@@ -1,0 +1,29 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 21,
+  "name": "Leaderboard-Money",
+  "url": "https://i.imgur.com/KzDFPeR.png",
+  "width": 3,
+  "height": 1,
+  "ditheringType": "nearest-color",
+  "creator": "2ccb1a67-bf97-4e92-afff-18df963f7f51",
+  "hasAccess": {},
+  "creationTime": 1729774366475,
+  "mapdata": [
+    {
+      "mapid": 69,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 70,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 71,
+      "image": "2.png",
+      "markers": []
+    }
+  ]
+}

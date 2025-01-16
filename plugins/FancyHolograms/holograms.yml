@@ -1,0 +1,739 @@
+version: 2 # DO NOT CHANGE
+holograms:
+  shop:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1432.521484375
+      y: 106.0199966430664
+      z: 159.49368286132812
+      yaw: -96.170395
+      pitch: 90.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 2.0
+    shadow_strength: 1.0
+    text:
+    - '&#FFE800&ls&#FFEB21&lʜ&#FFEE41&lᴏ&#FFF162&lᴘ'
+    - '&f&o(( Right click ))'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  randomtp-lore:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1416.474853515625
+      y: 114.18926239013672
+      z: 186.0
+      yaw: -180.0
+      pitch: 0.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 4.0
+    scale_y: 4.0
+    scale_z: 4.0
+    shadow_radius: 1.0
+    shadow_strength: 1.0
+    billboard: fixed
+    text:
+    - ''
+    - '&7Start your adventure at &#00FF30/spawn'
+    - or travel into the &#00FF30/wild &7and explore!
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  auction:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1435.5087890625
+      y: 106.0
+      z: 178.50845336914062
+      yaw: -96.170395
+      pitch: 90.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 2.0
+    shadow_strength: 1.0
+    text:
+    - '&#FFE800&lᴀ&#FFEA10&lᴜ&#FFEB21&lᴄ&#FFED31&lᴛ&#FFEE41&lɪ&#FFF052&lᴏ&#FFF162&lɴ'
+    - '&f&o(( Right click ))'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  head:
+    type: ITEM
+    location:
+      world: Spawn
+      x: -1406.4750262803102
+      y: 138.78941645797332
+      z: 195.03524296173788
+      yaw: -180.0
+      pitch: 220.0
+    visibility_distance: 100
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 14.0
+    scale_y: 14.0
+    scale_z: 14.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"Earth","italic":false,"underlined":true,"color":"gold","bold":true}'
+        lore:
+        - '{"text":"Custom Head ID: 101572","italic":false,"color":"gray"}'
+        - '{"text":"www.minecraft-heads.com","italic":false,"color":"blue"}'
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: 6ee15920-8fb1-41a2-838d-af6a1a578b3f
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTUwMTU0NzBlMjg2ZTRlZDc3YTAzODc2Y2JiZmQ3YjNkMzU4YTYwNjA2YjQ0NmQyYzRiYzhkOGU5YzM3M2VlOSJ9fX0=
+  warps:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1398.494873046875
+      y: 109.0
+      z: 197.5455780029297
+      yaw: -96.170395
+      pitch: 90.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 2.0
+    shadow_strength: 1.0
+    text:
+    - '&#FFE800&lᴡ&#FFEA19&lᴀ&#FFED31&lʀ&#FFEF4A&lᴘ&#FFF162&ls'
+    - '&f&o(( Right click ))'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  randomtp:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1416.0
+      y: 117.19000244140625
+      z: 186.0
+      yaw: -180.0
+      pitch: 0.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 4.0
+    scale_y: 4.0
+    scale_z: 4.0
+    shadow_radius: 1.0
+    shadow_strength: 1.0
+    billboard: fixed
+    text:
+    - '&#00FF30&l&nR&#05FF34&l&nA&#0BFF39&l&nN&#10FF3D&l&nD&#15FF41&l&nO&#1AFF45&l&nM
+      &#25FF4E&l&nW&#2AFF52&l&nI&#2FFF56&l&nL&#35FF5B&l&nD &#3FFF63&l&nT&#44FF67&l&nE&#4AFF6C&l&nL&#4FFF70&l&nE&#54FF74&l&nP&#59FF78&l&nO&#5FFF7D&l&nR&#64FF81&l&nT'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  vote-item:
+    type: ITEM
+    location:
+      world: Spawn
+      x: -1410.50146484375
+      y: 105.75
+      z: 170.53176879882812
+      yaw: 0.0
+      pitch: 0.0
+    visibility_distance: 100
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.6
+    scale_y: 1.6
+    scale_z: 1.6
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"White Bundle","italic":false,"underlined":true,"color":"gold","bold":true}'
+        lore:
+        - '{"text":"Custom Head ID: 104708","italic":false,"color":"gray"}'
+        - '{"text":"www.minecraft-heads.com","italic":false,"color":"blue"}'
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: d5a0829e-b69d-4380-acd7-124ebabd328e
+          name: ''
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmEzMGU4Y2E1NjM1YmZkZDMzOGEwMDZkMmI2OGFhYjI3MzhhNjg5NjBmYzhhMTNjY2QxZGNmMzk4NDIyNDA4YyJ9fX0=
+  top-money:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1391.02001953125
+      y: 104.0
+      z: 171.4632568359375
+      yaw: 90.0
+      pitch: 0.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.2
+    scale_y: 1.2
+    scale_z: 1.2
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    text:
+    - '&e&m &e&m &e&m &e&m &e&m &e&m &e&l ᴛᴏᴘ ᴍᴏɴᴇʏ &f| ʟɪғᴇᴛɪᴍᴇ &e&m &e&m &e&m &e&m
+      &e&m &e&m'
+    - '&8'
+    - '&e➀ &7⎜ &f%ajlb_lb_vault_eco_balance_fixed_1_alltime_name% &f- &e⛃ %ajlb_lb_vault_eco_balance_fixed_1_alltime_value_formatted%'
+    - '&e➁ &7⎜ &f%ajlb_lb_vault_eco_balance_fixed_2_alltime_name% &f- &e⛃ %ajlb_lb_vault_eco_balance_fixed_2_alltime_value_formatted%'
+    - '&e➂ &7⎜ &f%ajlb_lb_vault_eco_balance_fixed_3_alltime_name% &f- &e⛃ %ajlb_lb_vault_eco_balance_fixed_3_alltime_value_formatted%'
+    - '&e➃ &7⎜ &f%ajlb_lb_vault_eco_balance_fixed_4_alltime_name% &f- &e⛃ %ajlb_lb_vault_eco_balance_fixed_4_alltime_value_formatted%'
+    - '&e➄ &7⎜ &f%ajlb_lb_vault_eco_balance_fixed_5_alltime_name% &f- &e⛃ %ajlb_lb_vault_eco_balance_fixed_5_alltime_value_formatted%'
+    - '&e➅ &7⎜ &f%ajlb_lb_vault_eco_balance_fixed_6_alltime_name% &f- &e⛃ %ajlb_lb_vault_eco_balance_fixed_6_alltime_value_formatted%'
+    - '&e➆ &7⎜ &f%ajlb_lb_vault_eco_balance_fixed_7_alltime_name% &f- &e⛃ %ajlb_lb_vault_eco_balance_fixed_7_alltime_value_formatted%'
+    - '&e➇ &7⎜ &f%ajlb_lb_vault_eco_balance_fixed_8_alltime_name% &f- &e⛃ %ajlb_lb_vault_eco_balance_fixed_8_alltime_value_formatted%'
+    - '&e➈ &7⎜ &f%ajlb_lb_vault_eco_balance_fixed_9_alltime_name% &f- &e⛃ %ajlb_lb_vault_eco_balance_fixed_9_alltime_value_formatted%'
+    - '&e➉ &7⎜ &f%ajlb_lb_vault_eco_balance_fixed_10_alltime_name% &f- &e⛃ %ajlb_lb_vault_eco_balance_fixed_10_alltime_value_formatted%'
+    - '&8'
+    - '&e#%ajlb_position_vault_eco_balance_fixed_alltime% &7⎜ &f%player_name% &f-
+      &e⛃ %ajlb_value_vault_eco_balance_fixed_alltime_formatted%'
+    - '&e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m
+      &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m
+      &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 100
+  legendary:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1422.499755859375
+      y: 106.19999694824219
+      z: 170.49737548828125
+      yaw: -96.170395
+      pitch: 90.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 2.0
+    shadow_strength: 1.0
+    text:
+    - '&#B100FF&l&nL&#B710FF&l&ne&#BD20FF&l&ng&#C32FFF&l&ne&#C93FFF&l&nn&#CE4FFF&l&nd&#D45FFF&l&na&#DA6EFF&l&nr&#E07EFF&l&ny'
+    - '&#E07EFF➡ &7Hit to &#E07EFFPreview'
+    - '&#E07EFF➡ &7Use Key to &#E07EFFOpen'
+    - '&7'
+    - '&f&o(( ʏᴏᴜ ʜᴀᴠᴇ &#E07EFF&l&o%excellentcrates_keys_legendary% &#E07EFF&oʟᴇɢᴇɴᴅᴀʀʏ
+      ᴋᴇʏs &f&o))'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 20
+    background: transparent
+  epic-item:
+    type: ITEM
+    location:
+      world: Spawn
+      x: -1414.51416015625
+      y: 105.75
+      z: 172.494384765625
+      yaw: 0.0
+      pitch: 0.0
+    visibility_distance: 100
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.6
+    scale_y: 1.6
+    scale_z: 1.6
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"Blue Bundle","italic":false,"underlined":true,"color":"gold","bold":true}'
+        lore:
+        - '{"text":"Custom Head ID: 104718","italic":false,"color":"gray"}'
+        - '{"text":"www.minecraft-heads.com","italic":false,"color":"blue"}'
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: 66ce226e-9c6e-4908-b07a-b84b164e8533
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkxYzdiZDA0MTZmNjhkNmU5YjU4NmU3ODE4Mjg2M2E0ZmQwNGY5MDI5YzgwNWY5MjFhMTdjNzAzZDUyZWRlMSJ9fX0=
+  vote:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1410.4805908203125
+      y: 106.19999694824219
+      z: 170.48031616210938
+      yaw: -96.170395
+      pitch: 90.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 2.0
+    shadow_strength: 1.0
+    text:
+    - '&#FFFFFF&l&nV&#E4FBFE&l&no&#C8F7FE&l&nt&#ADF3FD&l&ne'
+    - '&#FFFFFF➡ &7Hit to &#FFFFFFPreview'
+    - '&#FFFFFF➡ &7Use Key to &#FFFFFFOpen'
+    - '&7'
+    - '&f&o(( ʏᴏᴜ ʜᴀᴠᴇ &#FFFFFF&l&o%excellentcrates_keys_vote% &#FFFFFF&oᴠᴏᴛᴇ ᴋᴇʏs
+      &f&o))'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 20
+    background: transparent
+  mystic-item:
+    type: ITEM
+    location:
+      world: Spawn
+      x: -1418.5079345703125
+      y: 105.75
+      z: 172.4842071533203
+      yaw: 0.0
+      pitch: 0.0
+    visibility_distance: 100
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.6
+    scale_y: 1.6
+    scale_z: 1.6
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"Light Blue Bundle","italic":false,"underlined":true,"color":"gold","bold":true}'
+        lore:
+        - '{"text":"Custom Head ID: 104717","italic":false,"color":"gray"}'
+        - '{"text":"www.minecraft-heads.com","italic":false,"color":"blue"}'
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: 38115245-6ce7-467a-b05c-c546452ccf8a
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ5MjFkMjI0NTMyZTE4ZWFkZTU0MjYxYmM1ZTc0ZjZiYmZlOWVjZWE4ZWY4YzRlYTE4ODBhM2VmMmI0MWM0ZiJ9fX0=
+  epic-item2:
+    type: ITEM
+    location:
+      world: Spawn
+      x: -1414.51416015625
+      y: 105.9000015258789
+      z: 172.494384765625
+      yaw: 0.0
+      pitch: 0.0
+    visibility_distance: 100
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.1
+    scale_y: 1.1
+    scale_z: 1.1
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"Present (blue)","italic":false,"underlined":true,"color":"gold","bold":true}'
+        lore:
+        - '{"text":"Custom Head ID: 51751","italic":false,"color":"gray"}'
+        - '{"text":"www.minecraft-heads.com","italic":false,"color":"blue"}'
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: 69fa65a2-eeaf-477f-abfb-0e54b40c0bb5
+          name: ''
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEyZTk0NTFjZGIxOTZiNzgxOTVhOGYwYTRiOWMxYzBhMDRmNTgyNzg4NzkyN2I2YTgyYWFkMzljYWIyZjQzMCJ9fX0=
+  enchants:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1460.6092529296875
+      y: 108.51000213623047
+      z: 175.47889709472656
+      yaw: -96.170395
+      pitch: 90.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 2.0
+    shadow_strength: 1.0
+    text:
+    - '&#C200FF&lᴇ&#C50DFF&lɴ&#C819FF&lᴄ&#CB26FF&lʜ&#CE33FF&lᴀ&#D140FF&lɴ&#D44CFF&lᴛ&#D759FF&ls'
+    - '&f&o(( Right click ))'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  top-playtime:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1396.3851318359375
+      y: 104.0
+      z: 177.99000549316406
+      yaw: -180.0
+      pitch: 0.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.2
+    scale_y: 1.2
+    scale_z: 1.2
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    text:
+    - '&e&m &e&m &e&m &e&m &e&m &e&m &e&l ᴛᴏᴘ ᴘʟᴀʏᴛɪᴍᴇ &f| ʟɪғᴇᴛɪᴍᴇ &e&m &e&m &e&m
+      &e&m &e&m &e&m'
+    - '&8'
+    - '&e➀ &7⎜ &f%ajlb_lb_statistic_minutes_played_1_alltime_name% &f- &e⌚ %formatter_number_time_minutes_{ajlb_lb_statistic_minutes_played_1_alltime_rawvalue}%'
+    - '&e➁ &7⎜ &f%ajlb_lb_statistic_minutes_played_2_alltime_name% &f- &e⌚ %formatter_number_time_minutes_{ajlb_lb_statistic_minutes_played_2_alltime_rawvalue}%'
+    - '&e➂ &7⎜ &f%ajlb_lb_statistic_minutes_played_3_alltime_name% &f- &e⌚ %formatter_number_time_minutes_{ajlb_lb_statistic_minutes_played_3_alltime_rawvalue}%'
+    - '&e➃ &7⎜ &f%ajlb_lb_statistic_minutes_played_4_alltime_name% &f- &e⌚ %formatter_number_time_minutes_{ajlb_lb_statistic_minutes_played_4_alltime_rawvalue}%'
+    - '&e➄ &7⎜ &f%ajlb_lb_statistic_minutes_played_5_alltime_name% &f- &e⌚ %formatter_number_time_minutes_{ajlb_lb_statistic_minutes_played_5_alltime_rawvalue}%'
+    - '&e➅ &7⎜ &f%ajlb_lb_statistic_minutes_played_6_alltime_name% &f- &e⌚ %formatter_number_time_minutes_{ajlb_lb_statistic_minutes_played_6_alltime_rawvalue}%'
+    - '&e➆ &7⎜ &f%ajlb_lb_statistic_minutes_played_7_alltime_name% &f- &e⌚ %formatter_number_time_minutes_{ajlb_lb_statistic_minutes_played_7_alltime_rawvalue}%'
+    - '&e➇ &7⎜ &f%ajlb_lb_statistic_minutes_played_8_alltime_name% &f- &e⌚ %formatter_number_time_minutes_{ajlb_lb_statistic_minutes_played_8_alltime_rawvalue}%'
+    - '&e➈ &7⎜ &f%ajlb_lb_statistic_minutes_played_9_alltime_name% &f- &e⌚ %formatter_number_time_minutes_{ajlb_lb_statistic_minutes_played_9_alltime_rawvalue}%'
+    - '&e➉ &7⎜ &f%ajlb_lb_statistic_minutes_played_10_alltime_name% &f- &e⌚ %formatter_number_time_minutes_{ajlb_lb_statistic_minutes_played_10_alltime_rawvalue}%'
+    - '&8'
+    - '&e#%ajlb_position_statistic_minutes_played_alltime% &7⎜ &f%player_name% &f-
+      &e⌚ %formatter_number_time_minutes_{ajlb_value_statistic_minutes_played_alltime_raw}%'
+    - '&e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m
+      &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m
+      &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m &e&m'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 100
+  randomtp-end:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1416.474853515625
+      y: 112.18926239013672
+      z: 186.0
+      yaw: -180.0
+      pitch: 0.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 4.0
+    scale_y: 4.0
+    scale_z: 4.0
+    shadow_radius: 1.0
+    shadow_strength: 1.0
+    billboard: fixed
+    text:
+    - '&#00FF30&l&oJ&#05FF34&l&oU&#0AFF38&l&oM&#0EFF3C&l&oP &#18FF43&l&oI&#1DFF47&l&oN
+      &#26FF4F&l&oT&#2BFF53&l&oO &#34FF5A&l&oL&#39FF5E&l&oE&#3EFF62&l&oA&#43FF66&l&oV&#47FF6A&l&oE
+      &#51FF72&l&oS&#56FF75&l&oP&#5AFF79&l&oA&#5FFF7D&l&oW&#64FF81&l&oN'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  jobs:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1397.51123046875
+      y: 106.0
+      z: 158.495849609375
+      yaw: -96.170395
+      pitch: 90.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 2.0
+    shadow_strength: 1.0
+    text:
+    - '&#FFE800&lᴊ&#FFEB21&lᴏ&#FFEE41&lʙ&#FFF162&ls'
+    - '&f&o(( Right click ))'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  epic:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1414.48486328125
+      y: 106.19999694824219
+      z: 172.49227905273438
+      yaw: -96.170395
+      pitch: 90.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 2.0
+    shadow_strength: 1.0
+    text:
+    - '&#003BFF&l&nE&#1F53FF&l&np&#3D6AFF&l&nic'
+    - '&#5C82FF➡ &7Hit to &#5C82FFPreview'
+    - '&#5C82FF➡ &7Use Key to &#5C82FFOpen'
+    - '&7'
+    - '&f&o(( ʏᴏᴜ ʜᴀᴠᴇ &#5C82FF&l&o%excellentcrates_keys_epic% &#5C82FF&oᴇᴘɪᴄ ᴋᴇʏs
+      &f&o))'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 20
+    background: transparent
+  menu:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1408.5146484375
+      y: 106.0
+      z: 149.51744079589844
+      yaw: -96.170395
+      pitch: 90.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 2.0
+    shadow_strength: 1.0
+    text:
+    - '&#FFE800&lᴍ&#FFEB21&lᴇ&#FFEE41&lɴ&#FFF162&lᴜ'
+    - '&f&o(( Right click ))'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  mystic-item2:
+    type: ITEM
+    location:
+      world: Spawn
+      x: -1418.5079345703125
+      y: 105.9000015258789
+      z: 172.4842071533203
+      yaw: 0.0
+      pitch: 0.0
+    visibility_distance: 100
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.1
+    scale_y: 1.1
+    scale_z: 1.1
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"Present","italic":false,"underlined":true,"color":"gold","bold":true}'
+        lore:
+        - '{"text":"Custom Head ID: 58612","italic":false,"color":"gray"}'
+        - '{"text":"www.minecraft-heads.com","italic":false,"color":"blue"}'
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: 16428085-f71d-4b01-8f87-6c129793e589
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzIyZjAzNTdjODc0NWI4YWI0ZDZlZGY3OTc0MGQ5MmMyZTJlY2U4YTUzOWFlOWRkNjU5MmRkOGU5NmUyZTM5NCJ9fX0=
+  vote-item2:
+    type: ITEM
+    location:
+      world: Spawn
+      x: -1410.50146484375
+      y: 105.9000015258789
+      z: 170.53176879882812
+      yaw: 0.0
+      pitch: 0.0
+    visibility_distance: 100
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.1
+    scale_y: 1.1
+    scale_z: 1.1
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"Snow Present","italic":false,"underlined":true,"color":"gold","bold":true}'
+        lore:
+        - '{"text":"Custom Head ID: 65683","italic":false,"color":"gray"}'
+        - '{"text":"www.minecraft-heads.com","italic":false,"color":"blue"}'
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: b31de045-dc57-47e6-80a9-0c616b0b0113
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjliNTY0YTZmNzMyODMxMTJhNzBiOWNlN2UxNTc1M2ViODZiZDEyZTc2NTllYzRkMGRjMDg1NWM2YmVhNzZlIn19fQ==
+  mystic:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1418.520263671875
+      y: 106.19999694824219
+      z: 172.4906768798828
+      yaw: -96.170395
+      pitch: 90.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 2.0
+    shadow_strength: 1.0
+    text:
+    - '&#00EAFF&l&nM&#1AE7FF&l&ny&#34E4FF&l&ns&#4FE2FF&l&nt&#69DFFF&l&ni&#83DCFF&l&nc'
+    - '&#00FFF5➡ &7Hit to &#00FFF5Preview'
+    - '&#00FFF5➡ &7Use Key to &#00FFF5Open'
+    - '&7'
+    - '&f&o(( ʏᴏᴜ ʜᴀᴠᴇ &#00FFF5&l&o%excellentcrates_keys_mystic% &#00FFF5&oᴍʏsᴛɪᴄ
+      ᴋᴇʏs &f&o))'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 20
+    background: transparent
+  levels:
+    type: TEXT
+    location:
+      world: Spawn
+      x: -1424.4893798828125
+      y: 106.0
+      z: 149.50148010253906
+      yaw: -96.170395
+      pitch: 90.0
+    visibility_distance: 60
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 2.0
+    shadow_strength: 1.0
+    text:
+    - '&#FFE800&lʟ&#FFEA14&lᴇ&#FFEC27&lᴠ&#FFED3B&lᴇ&#FFEF4E&lʟ&#FFF162&ls'
+    - '&f&o(( Right click ))'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  enchants-item:
+    type: ITEM
+    location:
+      world: Spawn
+      x: -1457.991943359375
+      y: 104.00592041015625
+      z: 139.55746459960938
+      yaw: -90.0
+      pitch: 0.0
+    visibility_distance: 20
+    visibility: PERMISSION_REQUIRED
+    persistent: true
+    scale_x: 2.0
+    scale_y: 2.0
+    scale_z: 2.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"text":"Enchanted Books","italic":false,"underlined":true,"color":"gold","bold":true}'
+        lore:
+        - '{"text":"Custom Head ID: 40193","italic":false,"color":"gray"}'
+        - '{"text":"www.minecraft-heads.com","italic":false,"color":"blue"}'
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: d8e99e8a-8657-433d-a8a4-4ed5244191c4
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYyNjUxODc5ZDg3MDQ5OWRhNTBlMzQwMzY4MDBkZGZmZDUyZjNlNGUxOTkzYzVmYzBmYzgyNWQwMzQ0NmQ4YiJ9fX0=

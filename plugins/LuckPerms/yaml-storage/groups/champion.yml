@@ -1,0 +1,46 @@
+name: champion
+permissions:
+- auctionhouse.maxsell.10
+- chatcolor.color.f
+- chatformat.Leyenda
+- crazyauctions.sell.10
+- cubeminiatures.use.Creeper
+- cubeminiatures.use.Enderman
+- cubeminiatures.use.Golem
+- cubeminiatures.use.Slime
+- discordminecraft.syncrank.Leyenda-(Prison)
+- essentials.hat
+- essentials.kits.Leyenda
+- essentials.kits.keyleyenda
+- essentials.kits.leyenda
+- essentials.ptime
+- essentials.pweather
+- essentials.sethome.multiple.leyenda
+- essentials.warps.Leyenda
+- gang.create
+- lucky.donor
+- medorarobots.multiply.leyenda
+- multiplicador.leyenda
+- reward.Champion
+- reward.Leyenda
+- tab.group.Leyenda
+- tab.group.leyenda
+- trails.block.4
+- trails.mode.slinky
+- trails.particle.crit
+- trails.particle.enchant
+- trails.particle.lava
+- trails.particle.smoke
+- trails.particle.spell
+- trails.particle.white
+- trails.wings.butterfly2
+- upgrade.size.donor
+- weight.597
+parents:
+- overlord
+suffixes:
+- '&r &8&k!&r &7&lCHAMPION &8&k!&r':
+    priority: 225
+meta:
+- auctions:
+    value: '10'

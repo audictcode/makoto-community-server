@@ -1,0 +1,431 @@
+exampleJob:
+  # full name of the job (displayed when browsing a job, used when joining and leaving)
+  # also can be used as a prefix for the user's name if the option is enabled.
+  # Shown as a prefix only when the user has 1 job.
+  #
+  # NOTE: Must be 1 word
+  fullname: Woodcutter
+  # Shortened version of the name of the job. Used as a prefix when the user has more 
+  # than 1 job
+  shortname: T
+  description: Talador y plantador de árboles
+  # The colour of the name, for a full list of supported colours, go to the message config.
+  ChatColour: GREEN
+  # Option to let you choose what kind of prefix this job adds to your name.
+  # options are: full, title, job, shortfull, shorttitle, shortjob and none
+  chat-display: full
+  # [OPTIONAL] - the maximum level of this class
+  max-level: 10
+  # [OPTIONAL] - the maximum level of this class with specific permission
+  # use jobs.[jobsname].vipmaxlevel, in this case it will be jobs.exampleJob.vipmaxlevel
+  vip-max-level: 20
+  # [OPTIONAL] - the maximum number of users on the server that can have this job at 
+  # any one time (includes offline players).
+  slots: 1
+  # Equation used for calculating how much experience is needed to go to the next level.
+  # Available parameters:
+  #   numjobs - the number of jobs the player has
+  #   joblevel - the level the player has attained in the job.
+  # NOTE: Please take care of the brackets when modifying this equation.
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  # Equation used for calculating how much income is given per action for the job level.
+  # Available parameters:
+  #   numjobs - the number of jobs the player has
+  #   baseincome - the income for the action at level 1 (as set in the configuration).
+  #   joblevel - the level the player has attained in the job.
+  # NOTE: Please take care of the brackets when modifying this equation.
+  income-progression-equation: baseincome+(joblevel-1)*0.01-((baseincome+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
+  # Equation used for calculating how much points is given per action for the job level.
+  # Available parameters:
+  #   numjobs - the number of jobs the player has
+  #   basepoints - the points for the action at level 1 (as set in the configuration).
+  #   joblevel - the level the player has attained in the job.
+  # NOTE: Please take care of the brackets when modifying this equation.
+  points-progression-equation: basepoints+(joblevel-1)*0.01-((basepoints+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
+  # Equation used for calculating how much experience is given per action for the job level.
+  # Available parameters:
+  #   numjobs - the number of jobs the player has
+  #   baseexperience - the experience for the action at level 1 (as set in the configuration).
+  #   joblevel - the level the player has attained in the job.
+  # NOTE: Please take care of the brackets when modifying this equation.
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  # GUI icon information when using GUI function
+  Gui:
+    # id of block
+    Id: 17
+    # data of block, usualy its 0, but in example Diorite will have id of 1 and data of 3
+    Data: 2
+  # #######################################################################
+  # Section used to configure what items the job gets paid for, how much
+  # they get paid and how much experience they gain.
+  #
+  # For break and place, the block name or id is used.
+  # You can select a sub-type by using a '-' between the id and the bit
+  # value for the sub-type. e.g LOG-0 = usual log, LOG-2 = birch log
+  # 17-2 = birch log.
+  #
+  # If no sub-type is give, the payout will be for all sub-types.
+  #
+  # To get a list of all available block types, check the
+  # bukkit JavaDocs for a complete list of block types
+  # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  #
+  # For kill tags (Kill and custom-kill), the name is the name of the
+  # mob.
+  # Available mobs:
+  #   Bat
+  #   Blaze
+  #   Cave_spider
+  #   Chicken
+  #   Cow
+  #   Creeper
+  #   Ender_dragon
+  #   Enderman
+  #   Endermite
+  #   Ghast
+  #   Giant
+  #   Guardian
+  #   Horse
+  #   Iron_golem
+  #   Magma_cube
+  #   Mushroom_cow
+  #   Ocelot
+  #   Pig
+  #   Player
+  #   Rabbit
+  #   Sheep
+  #   Silverfish
+  #   Skeleton
+  #   Shulker
+  #   Slime
+  #   Snowman
+  #   Spider
+  #   Squid
+  #   Villager
+  #   Witch
+  #   Wither
+  #   Wolf
+  #   Zombie  
+  #       
+  #
+  # NOTE: mob names are case sensitive.
+  #
+  # For custom-kill, it is the name of the job (also case sensitive).
+  #
+  # NOTE: If a job has both the pay for killing a player and for killing a
+  # specific class, they will get both payments.
+  # #######################################################################
+  # payment for breaking a block
+  Break:
+    # block name/id (with optional sub-type)
+    LOG:
+      # base income, can be not used if using point system
+      income: 5.0
+      # base points, can be not used if using income system
+      points: 5.0
+      # base experience
+      experience: 5.0
+      # (OPTIONAL) from which level of this job player can get money for this action  
+      # if not given, then player will always get money for this action
+      # this can be used for any action
+      from-level: 1
+      # (OPTIONAL) until which level player can get money for this action.
+      # if not given, then there is no limit
+      # this can be used for any action
+      until-level: 30
+  # payment for breaking a block with tnt
+  TNTBreak:
+    LOG:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+  # payment for placing a block
+  Place:
+    SAPLING:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    WOOD:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+  # killing a mob
+  Kill:
+    # mob name
+    Player:
+      # base income
+      income: 7.5
+      # base experience
+      experience: 7.5
+  # killing a MythicMob
+  MMKill:
+    # mob name
+    CustomNameHere:
+      # base income
+      income: 7.5
+      # base experience
+      experience: 7.5
+  # Killing player with certain job
+  custom-kill:
+    Woodcutter:
+      income: 10.0
+      experience: 10.0
+  # Tamig animals
+  Tame:
+    Wolf:
+      income: 2.0
+      experience: 5.0
+  # Breeding animals
+  Breed:
+    Wolf:
+      income: 2.0
+      experience: 5.0
+  # Eating food
+  Eat:
+    cooked_rabbit:
+      income: 5
+      experience: 5
+    baked_potato:
+      income: 5
+      experience: 5
+  # Milking cows, only one option is available
+  Milk:
+    Cow:
+      income: 2.0
+      experience: 5.0
+    Mushroomcow:
+      income: 5.0
+      experience: 10.0
+  # Shear sheeps by its color
+  Shear:
+    Black:
+      income: 2.0
+      experience: 5.0
+    Blue:
+      income: 2.0
+      experience: 5.0
+    Brown:
+      income: 2.0
+      experience: 5.0
+    Cyan:
+      income: 2.0
+      experience: 5.0
+    Gray:
+      income: 2.0
+      experience: 5.0
+    Green:
+      income: 2.0
+      experience: 5.0
+    Light_blue:
+      income: 2.0
+      experience: 5.0
+    Lime:
+      income: 2.0
+      experience: 5.0
+    Magenta:
+      income: 2.0
+      experience: 5.0
+    Orange:
+      income: 2.0
+      experience: 5.0
+    Pink:
+      income: 2.0
+      experience: 5.0
+    Purple:
+      income: 2.0
+      experience: 5.0
+    Red:
+      income: 2.0
+      experience: 5.0
+    Silver:
+      income: 2.0
+      experience: 5.0
+    White:
+      income: 2.0
+      experience: 5.0
+    Yellow:
+      income: 2.0
+      experience: 5.0
+  # dyeing armor
+  Dye:
+    LEATHER_BOOTS:
+      income: 1.0
+      experience: 1.0
+    LEATHER_CHESTPLATE:
+      income: 1.0
+      experience: 1.0
+    LEATHER_HELMET:
+      income: 1.0
+      experience: 1.0
+    LEATHER_LEGGINGS:
+      income: 1.0
+      experience: 1.0
+    '351':
+      income: 1.0
+      experience: 1.0
+  # Catching fish
+  Fish:
+    '349':
+      income: 20.0
+      experience: 25.0
+  # Repairing items
+  Repair:
+    WOOD_SWORD:
+      income: 1.0
+      experience: 1.0
+    IRON_SWORD:
+      income: 2.0
+      experience: 2.0
+  # Crafting items
+  Craft:
+    WOOD_SWORD:
+      income: 1.5
+      experience: 3.0
+    LEATHER_BOOTS:
+      income: 1.0
+      experience: 6.0
+  # Smelting ores
+  Smelt:
+    IRON_INGOT:
+      income: 2.0
+      experience: 8.0
+    GOLD_INGOT:
+      income: 4.5
+      experience: 12
+  # Enchanting items
+  Enchant:
+    # You can set item for which player will get money
+    WOOD_SWORD:
+      income: 1.5
+      experience: 3.0
+    LEATHER_BOOTS:
+      income: 1.0
+      experience: 6.0
+    # Or/and you can give money for each enchantment they got
+    DIG_SPEED-1:
+      income: 3.0
+      experience: 10.0
+    DIG_SPEED-2:
+      income: 6.0
+      experience: 20.0
+  # Brewing potions
+  Brew:
+    NETHER_STALK:
+      income: 5.0
+      experience: 3.0
+    REDSTONE:
+      income: 5.0
+      experience: 3.0
+  # Explore options. Each number represents players number in exploring that chunk
+  # 1 means that player is first in this chunk, 2 is second and so on, so you can give money not only for first player ho discovers that chunk
+  Explore:
+    '1':
+      income: 5.0
+      experience: 5.0
+    '2':
+      income: 2.5
+      experience: 2.5
+    '3':
+      income: 1.0
+      experience: 1.0
+    '4':
+      income: 0.5
+      experience: 0.5
+    '5':
+      income: 0.1
+      experience: 0.1
+  # permissions granted for joining class
+  permissions:
+    aaaaaatest:
+      # example node
+      node:
+        # true to give, false to revoke
+        value: true
+        # minimum level needed to grant permission.  Use 0 for all levels
+        level: 0
+      node2:
+        value: true
+        # Permission granted when reaching level 10
+        level: 10
+  # Permissions granted when perticular conditions are meet
+  conditions:
+    # Condition mane, irelevent, you can write anything in here
+    first:
+      requires:
+      - j:Miner-50
+      - j:Digger-50
+      - p:essentials.notnoob
+      perform:
+      - p:essentials.fly-true
+  # Commands executed when player reached level
+  commands:
+    # command name, just to have better idea what this do
+    fly:
+      # Command its self, this will be executed from console, so all commands should work
+      # Possible variables are: [player] [jobname] [oldlevel] [newlevel]
+      command: manuaddp [player] essentials.fly
+      # When to execute this command first time
+      levelFrom: 100
+      # Until when to do this command
+      # This can be set to same level as levelFrom, so this command will be executed only once
+      levelUntil: 100
+    kit:
+      command: manuaddp [player] essentials.kits.woodcutter
+      levelFrom: 150
+      levelUntil: 150
+  # Getting more money when equiped with specific weapon/tool ar wearing armor
+  items:
+    # Just name, dont have any impact
+    firstOne:
+      # Tool/Weapon id. Works for block Break, Fish, Animal tame, Breed, Monster/Player kill.
+      id: 278
+      # Items name, should be with color codes
+      name: '&8Miner Pickaxe'
+      # Item lore, again should come with color codes
+      lore:
+      - '&eBobs pick'
+      - '&710% bonus XP'
+      # Item enchantments, all enchantment names can be found https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+      enchants:
+      - DAMAGE_ALL=1
+      - FIRE_ASPECT=1
+      # Money boost: 1.1 is equals 10% more income when 0.9 is equals 10% less from base income
+      moneyBoost: 1.1
+      # Exp boost
+      expBoost: 1.1
+    helmet:
+      # Armor id. This one works with all jobs
+      id: 310
+      name: '&8Armor'
+      lore:
+      - '&eBobs armor'
+      - '&710% bonus XP'
+      moneyBoost: 1.1
+      expBoost: 1.1
+  # Limit item use to jobs level
+  limitedItems:
+    # Just name, dont have any impact
+    firstOne:
+      # Tool/Weapon id. Works for any interact action.
+      id: 278
+      # Level of this job player can start using this item
+      level: 5
+      # (optional) Items name, option to use color codes
+      name: '&8Miner Pickaxe'
+      # (optional) Item lore, again can come with color codes
+      lore:
+      - '&eBobs pick'
+      - '&710% bonus XP'
+      # (optional) Item enchantments, all enchantment names can be found https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+      # enchant level can inrease with jobs level to give best RPG experiance
+      enchants:
+      - DAMAGE_ALL=1
+      - FIRE_ASPECT=1
+  cmd-on-join:
+  - msg [name] Thx for joining this job!
+  - msg [name] Now start working and get money from [jobname] job!
+  cmd-on-leave:
+  - msg [name] You have left this awesome [jobname] job
+  - msg [name] See you soon!

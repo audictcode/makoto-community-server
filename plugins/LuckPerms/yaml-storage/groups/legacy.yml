@@ -1,0 +1,54 @@
+name: legacy
+permissions:
+- auctionhouse.maxsell.4
+- chatcolor.color.f
+- chatformat.donador
+- crazyauctions.sell.4
+- cubeminiatures.remove
+- cubeminiatures.use.Pajaro
+- discordminecraft.syncrank.VIP-(Prison)
+- essentials.craft
+- essentials.delhome
+- essentials.enderchest
+- essentials.feed
+- essentials.hat
+- essentials.home
+- essentials.joinfullserver
+- essentials.kits.VIP
+- essentials.kits.keyvip
+- essentials.kits.vip
+- essentials.nick
+- essentials.nick.color
+- essentials.nick.format
+- essentials.nick.magic
+- essentials.pweather
+- essentials.sethome
+- essentials.sethome.multiple.vip
+- essentials.signs.color
+- essentials.signs.format
+- essentials.warps.vip
+- essentials.workbench
+- gang.create:
+    value: false
+- lucky.donor
+- multiplicador.vip
+- pm.everyone
+- ps.sellall
+- reward.Vip
+- tab.group.VIP
+- tab.group.vip
+- trails.block.1
+- trails.mode.circle
+- trails.particle.angry
+- trails.particle.cloud
+- trails.particle.fun
+- trails.particle.heart
+- trails.particle.magic
+- trails.wings.angel
+- weight.594
+suffixes:
+- '&r &2&k!&r &a&lLEGACY &2&k!&r':
+    priority: 225
+meta:
+- auctions:
+    value: '4'

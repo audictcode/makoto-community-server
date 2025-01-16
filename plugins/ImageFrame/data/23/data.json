@@ -1,0 +1,29 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 23,
+  "name": "Levels",
+  "url": "https://i.imgur.com/dOaNmBo.png",
+  "width": 3,
+  "height": 1,
+  "ditheringType": "nearest-color",
+  "creator": "2ccb1a67-bf97-4e92-afff-18df963f7f51",
+  "hasAccess": {},
+  "creationTime": 1729775920923,
+  "mapdata": [
+    {
+      "mapid": 75,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 76,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 77,
+      "image": "2.png",
+      "markers": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1729496174122
+  login: 1729495984645
+money: '0'
+last-account-name: ArefyPruebas5
+lastlocation:
+  world: 12ebec25-b6fe-4c9f-a1d9-bd3265d78c8f
+  world-name: world
+  x: 226.0
+  y: 70.0
+  z: 437.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: f69e889e-5f17-48b8-8c7e-6d1a7e460f11
+  world-name: Spawn
+  x: -1416.5
+  y: 104.0
+  z: 106.5
+  yaw: 0.18552017211914062
+  pitch: 3.124486207962036

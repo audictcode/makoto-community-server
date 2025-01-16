@@ -1,0 +1,26 @@
+# DeluxeMenus 1.14.1-DEV-184 main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+check_updates: false
+debug: false
+gui_menus:
+  kits:
+    file: kits.yml
+  kits-normals:
+    file: kits-normals.yml
+  kits-ranks:
+    file: kits-ranks.yml
+  randomtp:
+    file: randomtp.yml
+  levels:
+    file: levels.yml
+  menu:
+    file: menu.yml
+  warps:
+    file: warps.yml
+  jobs:
+    file: jobs.yml
+  ce:
+    file: ce.yml

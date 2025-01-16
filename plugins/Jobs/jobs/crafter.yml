@@ -1,0 +1,249 @@
+Crafter:
+  fullname: Crafter
+  shortname: Cr
+  description: Crafteador de múltiples objetos
+  ChatColour: RED
+  chat-display: full
+  # max-level: 10
+  # slots: 10
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(joblevel-1)*0.01-((baseincome+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(joblevel-1)*0.01-((basepoints+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  Gui:
+    Id: 61
+    Data: 0
+  Craft:
+    '280':
+      income: 0.1
+      points: 0.1
+      experience: 0.1
+    '23':
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    '25':
+      income: 1.5
+      points: 1.5
+      experience: 3.0
+    '27':
+      income: 5.0
+      points: 5
+      experience: 5.0
+    '28':
+      income: 5.0
+      points: 4.0
+      experience: 5.0
+    '29':
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    tnt:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    chest:
+      income: 1.3
+      points: 1.3
+      experience: 1.3
+    '58':
+      income: 0.7
+      points: 0.7
+      experience: 1.0
+    '61':
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    '65':
+      income: 0.1
+      points: 0.1
+      experience: 0.1
+    '66':
+      income: 1.1
+      points: 1.0
+      experience: 1.1
+    '84':
+      income: 10.0
+      points: 10.0
+      experience: 20.0
+    '95':
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    '108':
+      income: 2.5
+      points: 2.5
+      experience: 3.0
+    '109':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '116':
+      income: 30.0
+      points: 30.0
+      experience: 40.0
+    '138':
+      income: 100.0
+      points: 100.0
+      experience: 300.0
+    '145':
+      income: 20.0
+      points: 20.0
+      experience: 25.0
+    '146':
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    '147':
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    '148':
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    '151':
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    hopper:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    '157':
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    '158':
+      income: 2.0
+      points: 2.0
+      experience: 3.0
+    '159':
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    '160':
+      income: 0.2
+      points: 0.2
+      experience: 0.2
+    '165':
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    '168':
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    '169':
+      income: 10.0
+      points: 10.0
+      experience: 10.0
+    '183':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '184':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '185':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '186':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '187':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '188':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '189':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '190':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '191':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '192':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '324':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '330':
+      income: 8.0
+      points: 8.0
+      experience: 8.0
+    '340':
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    '345':
+      income: 4.0
+      points: 4.0
+      experience: 7.0
+    '347':
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    '354':
+      income: 8.0
+      points: 8.0
+      experience: 10.0
+    '355':
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    '379':
+      income: 2.8
+      points: 2.8
+      experience: 3.5
+    '380':
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    '427':
+      income: 0.15
+      points: 0.15
+      experience: 0.15
+    '428':
+      income: 0.15
+      points: 0.15
+      experience: 0.15
+    '429':
+      income: 0.15
+      points: 0.15
+      experience: 0.15
+    '430':
+      income: 0.15
+      points: 0.15
+      experience: 0.15
+    '431':
+      income: 0.15
+      points: 0.15
+      experience: 0.15
+  Smelt:
+    COOKED_CHICKEN:
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+  Kill:
+    Player:
+      income: 7.5
+      points: 7.5
+      experience: 7.5
+  max-level: 200

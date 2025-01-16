@@ -1,0 +1,57 @@
+Digger:
+  fullname: Digger
+  shortname: C
+  description: Modificador de tierras
+  ChatColour: GOLD
+  chat-display: full
+  # max-level: 10
+  # slots: 10
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(joblevel-1)*0.01-((baseincome+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(joblevel-1)*0.01-((basepoints+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  Gui:
+    Id: 269
+    Data: 0
+  Break:
+    '179':
+      income: 1
+      points: 1
+      experience: 1
+    DIRT:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    GRASS:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    GRAVEL:
+      income: 1
+      points: 1
+      experience: 1.0
+    SAND:
+      income: 0.4
+      points: 0.4
+      experience: 0.5
+    CLAY:
+      income: 1
+      points: 1
+      experience: 1.0
+    '159':
+      income: 1
+      points: 1
+      experience: 1.0
+  Kill:
+    Player:
+      income: 7.5
+      points: 7.5
+      experience: 7.5
+  custom-kill:
+    Digger:
+      income: 10.0
+      points: 10.0
+      experience: 10.0
+  max-level: 200

@@ -1,0 +1,1390 @@
+05-06-2024 11:51 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 11:51 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 11:51 [INFO] [MyPet] No Update available.
+05-06-2024 11:51 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 11:51 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 11:51 [INFO] [MyPet] Current Exp-Cache is invalid, it will be recalculated.
+05-06-2024 11:51 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 11:51 [INFO] [MyPet]    added world to 'default' group.
+05-06-2024 11:51 [INFO] [MyPet]    added Survival_nether to 'default' group.
+05-06-2024 11:51 [INFO] [MyPet]    added Survival_the_end to 'default' group.
+05-06-2024 11:51 [INFO] [MyPet]    added Plots to 'default' group.
+05-06-2024 11:51 [INFO] [MyPet]    added Survival to 'default' group.
+05-06-2024 11:51 [INFO] [MyPet] Default skilltree files created.
+05-06-2024 11:51 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 11:51 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 11:51 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+05-06-2024 11:51 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+05-06-2024 11:51 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 11:51 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 11:51 [WARNING] [MyPet] Error occured while enabling StackMob (2.2.18) hook.
+05-06-2024 11:51 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: PermissionsEx) hook activated.
+05-06-2024 11:51 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 12:02 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 12:02 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 12:02 [INFO] [MyPet] No Update available.
+05-06-2024 12:02 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_20_R1.util.CustomEntityRegistry
+05-06-2024 12:02 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 12:02 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 12:02 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 12:02 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 12:02 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 12:02 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 12:02 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 12:02 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 12:02 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 12:02 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 12:02 [INFO] [MyPet] Citizens (2.0.32-SNAPSHOT (build 3208)) hook activated.
+05-06-2024 12:02 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+05-06-2024 12:02 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 12:02 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 12:02 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 12:02 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: PermissionsEx) hook activated.
+05-06-2024 12:02 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 12:02 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 12:07 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 12:08 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 12:08 [INFO] [MyPet] No Update available.
+05-06-2024 12:08 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_20_R1.util.CustomEntityRegistry
+05-06-2024 12:08 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 12:08 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 12:08 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 12:08 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 12:08 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 12:08 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 12:08 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 12:08 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 12:08 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 12:08 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 12:08 [INFO] [MyPet] Citizens (2.0.32-SNAPSHOT (build 3208)) hook activated.
+05-06-2024 12:08 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+05-06-2024 12:08 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 12:08 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 12:08 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 12:08 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: PermissionsEx) hook activated.
+05-06-2024 12:08 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 12:08 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 12:10 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 12:11 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 12:11 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 12:11 [INFO] [MyPet] No Update available.
+05-06-2024 12:11 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 12:11 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 12:11 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 12:11 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 12:11 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 12:11 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 12:11 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 12:11 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 12:11 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 12:11 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 12:11 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+05-06-2024 12:11 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 12:11 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 12:11 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 12:11 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 12:11 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 12:11 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 12:13 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 12:14 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 12:14 [INFO] [MyPet] No Update available.
+05-06-2024 12:14 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 12:14 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 12:14 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 12:14 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 12:14 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 12:14 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 12:14 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 12:14 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 12:14 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 12:14 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 12:14 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 12:14 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 12:14 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 12:14 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 12:14 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 12:14 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 12:14 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 12:14 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 12:15 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 12:15 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 12:15 [INFO] [MyPet] No Update available.
+05-06-2024 12:15 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 12:15 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 12:15 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 12:15 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 12:15 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 12:15 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 12:15 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 12:15 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 12:15 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 12:15 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 12:15 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 12:15 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 12:15 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 12:15 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 12:15 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 12:15 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 12:15 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 12:16 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 12:16 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 12:16 [INFO] [MyPet] No Update available.
+05-06-2024 12:16 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 12:16 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 12:16 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 12:16 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 12:16 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 12:16 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 12:16 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 12:16 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 12:16 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 12:16 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 12:16 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 12:16 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 12:16 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 12:16 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 12:16 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 12:16 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 12:16 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 12:17 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 12:17 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 12:17 [INFO] [MyPet] No Update available.
+05-06-2024 12:17 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 12:17 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 12:17 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 12:17 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 12:17 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 12:17 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 12:17 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 12:17 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 12:17 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 12:17 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 12:17 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 12:17 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 12:17 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 12:17 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 12:17 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 12:17 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 12:17 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 12:32 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 12:33 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 12:33 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 12:33 [INFO] [MyPet] No Update available.
+05-06-2024 12:33 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 12:33 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 12:33 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 12:33 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 12:33 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 12:33 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 12:33 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 12:33 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 12:33 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 12:33 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 12:33 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 12:33 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 12:33 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 12:33 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 12:33 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 12:33 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 12:33 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 12:45 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 12:53 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 12:53 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 12:53 [INFO] [MyPet] No Update available.
+05-06-2024 12:53 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 12:53 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 12:53 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 12:53 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 12:53 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 12:53 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 12:53 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 12:53 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 12:53 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 12:53 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 12:53 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 12:53 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 12:53 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 12:53 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 12:53 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 12:53 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 12:53 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 12:54 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 12:54 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 12:54 [INFO] [MyPet] No Update available.
+05-06-2024 12:54 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 12:54 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 12:54 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 12:54 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 12:54 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 12:54 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 12:54 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 12:54 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 12:54 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 12:54 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 12:54 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 12:54 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 12:54 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 12:54 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 12:54 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 12:54 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 12:54 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 13:09 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 13:09 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 13:09 [INFO] [MyPet] No Update available.
+05-06-2024 13:09 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 13:09 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 13:09 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 13:09 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 13:09 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 13:09 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 13:09 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 13:09 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 13:09 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 13:09 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 13:09 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 13:09 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 13:09 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 13:09 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 13:09 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 13:09 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 13:09 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 13:12 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 13:12 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 13:12 [INFO] [MyPet] No Update available.
+05-06-2024 13:12 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 13:12 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 13:12 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 13:12 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 13:12 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 13:12 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 13:12 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 13:12 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 13:12 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 13:12 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 13:12 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 13:12 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 13:12 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 13:12 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 13:12 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 13:12 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 13:12 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 13:24 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 13:25 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 13:25 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 13:25 [INFO] [MyPet] No Update available.
+05-06-2024 13:25 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 13:25 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 13:25 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 13:25 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 13:25 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 13:25 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 13:25 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 13:25 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 13:25 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 13:25 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 13:25 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 13:25 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 13:25 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 13:25 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 13:25 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 13:25 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 13:25 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 13:29 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 13:29 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 13:29 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 13:29 [INFO] [MyPet] No Update available.
+05-06-2024 13:29 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 13:29 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 13:29 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 13:29 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 13:29 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 13:29 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 13:29 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 13:29 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 13:29 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 13:29 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 13:29 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 13:29 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 13:29 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 13:29 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 13:29 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 13:29 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 13:29 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 13:32 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 13:32 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 13:33 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 13:33 [INFO] [MyPet] No Update available.
+05-06-2024 13:33 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 13:33 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 13:33 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 13:33 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 13:33 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 13:33 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 13:33 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 13:33 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 13:33 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 13:33 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 13:33 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 13:33 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 13:33 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 13:33 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 13:33 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 13:33 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 13:33 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 13:36 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 13:37 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 13:37 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 13:37 [INFO] [MyPet] No Update available.
+05-06-2024 13:37 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 13:37 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 13:37 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 13:37 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 13:37 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 13:37 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 13:37 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 13:37 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 13:37 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 13:37 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 13:37 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 13:37 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 13:37 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) (Legacy) hook activated.
+05-06-2024 13:37 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 13:37 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 13:37 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 13:37 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 13:39 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 13:40 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 13:40 [INFO] [MyPet] No Update available.
+05-06-2024 13:40 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 13:40 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 13:40 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 13:40 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 13:40 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 13:40 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 13:40 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 13:40 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 13:40 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 13:40 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 13:40 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 13:40 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 13:40 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 13:40 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 13:40 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 13:40 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 13:43 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 13:44 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 13:44 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 13:44 [INFO] [MyPet] No Update available.
+05-06-2024 13:44 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 13:44 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 13:44 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 13:44 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 13:44 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 13:44 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 13:44 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 13:44 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 13:44 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 13:44 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 13:44 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 13:44 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 13:44 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 13:44 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 13:44 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 13:44 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 14:09 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 14:10 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 14:10 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 14:10 [INFO] [MyPet] No Update available.
+05-06-2024 14:10 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 14:10 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 14:10 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 14:10 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 14:10 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 14:10 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 14:10 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 14:10 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 14:10 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 14:10 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 14:10 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 14:10 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 14:10 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 14:10 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 14:10 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 14:10 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 14:12 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 14:12 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 14:12 [INFO] [MyPet] No Update available.
+05-06-2024 14:12 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 14:12 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 14:12 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 14:12 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 14:12 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 14:12 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 14:12 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 14:12 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 14:12 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 14:12 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 14:12 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 14:12 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 14:12 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 14:12 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 14:12 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 14:12 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 14:16 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 14:16 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 14:16 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 14:16 [INFO] [MyPet] No Update available.
+05-06-2024 14:16 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 14:16 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 14:16 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 14:16 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 14:16 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 14:16 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 14:16 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 14:16 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 14:16 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 14:16 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 14:16 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 14:16 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 14:16 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 14:16 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 14:16 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 14:16 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 14:33 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 15:42 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 15:43 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 15:43 [INFO] [MyPet] No Update available.
+05-06-2024 15:43 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 15:43 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 15:43 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 15:43 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 15:43 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 15:43 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 15:43 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 15:43 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 15:43 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 15:43 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 15:43 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 15:43 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 15:43 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 15:43 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 15:43 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 15:43 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 15:45 [INFO] [MyPet] Disabling MyPet v3.12
+05-06-2024 15:46 [INFO] [MyPet] Error-Reporter ENABLED
+05-06-2024 15:46 [INFO] [MyPet] Enabling MyPet v3.12
+05-06-2024 15:46 [INFO] [MyPet] No Update available.
+05-06-2024 15:46 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-06-2024 15:46 [INFO] [MyPet] Exp calculation mode: MyPet
+05-06-2024 15:46 [INFO] [MyPet] Loading WorldGroups...
+05-06-2024 15:46 [INFO] [MyPet]    added 'world' to 'default'
+05-06-2024 15:46 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-06-2024 15:46 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-06-2024 15:46 [INFO] [MyPet]    added 'Plots' to 'default'
+05-06-2024 15:46 [INFO] [MyPet]    added 'Survival' to 'default'
+05-06-2024 15:46 [INFO] [MyPet] Connect to SQLite database...
+05-06-2024 15:46 [INFO] [MyPet] SQLite connection successful.
+05-06-2024 15:46 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-06-2024 15:46 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-06-2024 15:46 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-06-2024 15:46 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-06-2024 15:46 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-06-2024 15:46 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-06-2024 17:43 [INFO] [MyPet] Disabling MyPet v3.12
+05-08-2024 09:54 [INFO] [MyPet] Error-Reporter ENABLED
+05-08-2024 09:54 [INFO] [MyPet] Enabling MyPet v3.12
+05-08-2024 09:54 [INFO] [MyPet] No Update available.
+05-08-2024 09:54 [INFO] [MyPet] Compat mode for v1_20_R1 loaded.
+05-08-2024 09:54 [INFO] [MyPet] Exp calculation mode: MyPet
+05-08-2024 09:54 [INFO] [MyPet] Loading WorldGroups...
+05-08-2024 09:54 [INFO] [MyPet]    added 'world' to 'default'
+05-08-2024 09:54 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+05-08-2024 09:54 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+05-08-2024 09:54 [INFO] [MyPet]    added 'Plots' to 'default'
+05-08-2024 09:54 [INFO] [MyPet]    added 'Survival' to 'default'
+05-08-2024 09:54 [INFO] [MyPet] Connect to SQLite database...
+05-08-2024 09:54 [INFO] [MyPet] SQLite connection successful.
+05-08-2024 09:54 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+05-08-2024 09:54 [INFO] [MyPet] PlaceholderAPI (2.11.5) hook activated.
+05-08-2024 09:54 [INFO] [MyPet] ProtocolLib (5.2.0-SNAPSHOT-679) hook activated.
+05-08-2024 09:54 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+05-08-2024 09:54 [INFO] [MyPet] WorldGuard (7.0.9+5934e49) hook activated.
+05-08-2024 09:54 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1757 ENABLED
+05-08-2024 10:02 [INFO] [MyPet] Disabling MyPet v3.12
+10-15-2024 16:19 [INFO] [MyPet] Error-Reporter ENABLED
+10-15-2024 16:28 [INFO] [MyPet] Error-Reporter ENABLED
+10-15-2024 16:28 [INFO] [MyPet] Enabling MyPet v3.12
+10-15-2024 16:28 [INFO] [MyPet] No Update available.
+10-15-2024 16:28 [WARNING] [MyPet] This version of MyPet is not compatible with "null on 1.21.1". Is MyPet up to date?
+10-15-2024 16:40 [INFO] [MyPet] Error-Reporter ENABLED
+10-15-2024 16:40 [INFO] [MyPet] Enabling MyPet v3.12
+10-15-2024 16:40 [INFO] [MyPet] No Update available.
+10-15-2024 16:40 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-15-2024 16:40 [INFO] [MyPet] Exp calculation mode: MyPet
+10-15-2024 16:40 [INFO] [MyPet] Loading WorldGroups...
+10-15-2024 16:40 [INFO] [MyPet]    added 'world' to 'default'
+10-15-2024 16:40 [INFO] [MyPet] Connect to SQLite database...
+10-15-2024 16:40 [INFO] [MyPet] SQLite connection successful.
+10-15-2024 16:40 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-15-2024 16:40 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-15-2024 16:40 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-15-2024 16:40 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-15-2024 16:40 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-15-2024 16:40 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-15-2024 16:41 [INFO] [MyPet] Error-Reporter ENABLED
+10-15-2024 16:41 [INFO] [MyPet] Enabling MyPet v3.12
+10-15-2024 16:41 [INFO] [MyPet] No Update available.
+10-15-2024 16:41 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-15-2024 16:41 [INFO] [MyPet] Exp calculation mode: MyPet
+10-15-2024 16:41 [INFO] [MyPet] Loading WorldGroups...
+10-15-2024 16:41 [INFO] [MyPet]    added 'world' to 'default'
+10-15-2024 16:41 [INFO] [MyPet] Connect to SQLite database...
+10-15-2024 16:41 [INFO] [MyPet] SQLite connection successful.
+10-15-2024 16:41 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-15-2024 16:41 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-15-2024 16:41 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-15-2024 16:41 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-15-2024 16:41 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-15-2024 16:41 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-15-2024 16:48 [INFO] [MyPet] Error-Reporter ENABLED
+10-15-2024 16:48 [INFO] [MyPet] Enabling MyPet v3.12
+10-15-2024 16:48 [INFO] [MyPet] No Update available.
+10-15-2024 16:48 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-15-2024 16:48 [INFO] [MyPet] Exp calculation mode: MyPet
+10-15-2024 16:48 [INFO] [MyPet] Loading WorldGroups...
+10-15-2024 16:48 [INFO] [MyPet]    added 'world' to 'default'
+10-15-2024 16:48 [INFO] [MyPet] Connect to SQLite database...
+10-15-2024 16:48 [INFO] [MyPet] SQLite connection successful.
+10-15-2024 16:48 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-15-2024 16:48 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-15-2024 16:48 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-15-2024 16:48 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-15-2024 16:48 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-15-2024 16:48 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-15-2024 16:58 [INFO] [MyPet] Error-Reporter ENABLED
+10-15-2024 16:59 [INFO] [MyPet] Enabling MyPet v3.12
+10-15-2024 16:59 [INFO] [MyPet] No Update available.
+10-15-2024 16:59 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-15-2024 16:59 [INFO] [MyPet] Exp calculation mode: MyPet
+10-15-2024 16:59 [INFO] [MyPet] Loading WorldGroups...
+10-15-2024 16:59 [INFO] [MyPet]    added 'world' to 'default'
+10-15-2024 16:59 [INFO] [MyPet] Connect to SQLite database...
+10-15-2024 16:59 [INFO] [MyPet] SQLite connection successful.
+10-15-2024 16:59 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-15-2024 16:59 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-15-2024 16:59 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-15-2024 16:59 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-15-2024 16:59 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-15-2024 16:59 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-15-2024 18:16 [INFO] [MyPet] Disabling MyPet v3.12
+10-15-2024 18:16 [INFO] [MyPet] Error-Reporter ENABLED
+10-15-2024 18:17 [INFO] [MyPet] Enabling MyPet v3.12
+10-15-2024 18:17 [INFO] [MyPet] No Update available.
+10-15-2024 18:17 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-15-2024 18:17 [INFO] [MyPet] Exp calculation mode: MyPet
+10-15-2024 18:17 [INFO] [MyPet] Loading WorldGroups...
+10-15-2024 18:17 [INFO] [MyPet]    added 'world' to 'default'
+10-15-2024 18:17 [INFO] [MyPet] Connect to SQLite database...
+10-15-2024 18:17 [INFO] [MyPet] SQLite connection successful.
+10-15-2024 18:17 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-15-2024 18:17 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-15-2024 18:17 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-15-2024 18:17 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-15-2024 18:17 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-15-2024 18:17 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-15-2024 18:40 [INFO] [MyPet] Disabling MyPet v3.12
+10-15-2024 18:41 [INFO] [MyPet] Error-Reporter ENABLED
+10-15-2024 18:41 [INFO] [MyPet] Enabling MyPet v3.12
+10-15-2024 18:41 [INFO] [MyPet] No Update available.
+10-15-2024 18:41 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-15-2024 18:41 [INFO] [MyPet] Exp calculation mode: MyPet
+10-15-2024 18:41 [INFO] [MyPet] Loading WorldGroups...
+10-15-2024 18:41 [INFO] [MyPet]    added 'world' to 'default'
+10-15-2024 18:41 [INFO] [MyPet] Connect to SQLite database...
+10-15-2024 18:41 [INFO] [MyPet] SQLite connection successful.
+10-15-2024 18:41 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-15-2024 18:41 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-15-2024 18:41 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-15-2024 18:41 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-15-2024 18:41 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-15-2024 18:41 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-15-2024 18:44 [INFO] [MyPet] Disabling MyPet v3.12
+10-15-2024 18:46 [INFO] [MyPet] Error-Reporter ENABLED
+10-15-2024 18:46 [INFO] [MyPet] Enabling MyPet v3.12
+10-15-2024 18:46 [INFO] [MyPet] No Update available.
+10-15-2024 18:46 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-15-2024 18:46 [INFO] [MyPet] Exp calculation mode: MyPet
+10-15-2024 18:46 [INFO] [MyPet] Loading WorldGroups...
+10-15-2024 18:46 [INFO] [MyPet]    added 'world' to 'default'
+10-15-2024 18:46 [INFO] [MyPet] Connect to SQLite database...
+10-15-2024 18:46 [INFO] [MyPet] SQLite connection successful.
+10-15-2024 18:46 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-15-2024 18:46 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-15-2024 18:46 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-15-2024 18:46 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-15-2024 18:46 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-15-2024 18:46 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-15-2024 19:19 [INFO] [MyPet] Disabling MyPet v3.12
+10-16-2024 08:59 [INFO] [MyPet] Error-Reporter ENABLED
+10-16-2024 08:59 [INFO] [MyPet] Enabling MyPet v3.12
+10-16-2024 08:59 [INFO] [MyPet] No Update available.
+10-16-2024 08:59 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-16-2024 08:59 [INFO] [MyPet] Exp calculation mode: MyPet
+10-16-2024 08:59 [INFO] [MyPet] Loading WorldGroups...
+10-16-2024 08:59 [INFO] [MyPet]    added 'world' to 'default'
+10-16-2024 08:59 [INFO] [MyPet] Connect to SQLite database...
+10-16-2024 08:59 [INFO] [MyPet] SQLite connection successful.
+10-16-2024 08:59 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-16-2024 08:59 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-16-2024 08:59 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-16-2024 08:59 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-16-2024 08:59 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-16-2024 08:59 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-16-2024 12:00 [INFO] [MyPet] added Spawn to 'default' group.
+10-16-2024 12:53 [INFO] [MyPet] added PikaNetwork1 to 'default' group.
+10-16-2024 12:54 [INFO] [MyPet] added PikaNetwork2 to 'default' group.
+10-16-2024 12:59 [INFO] [MyPet] added PikaNetwork to 'default' group.
+10-16-2024 15:23 [INFO] [MyPet] Disabling MyPet v3.12
+10-16-2024 15:31 [INFO] [MyPet] Error-Reporter ENABLED
+10-16-2024 15:32 [INFO] [MyPet] Enabling MyPet v3.12
+10-16-2024 15:32 [INFO] [MyPet] No Update available.
+10-16-2024 15:32 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-16-2024 15:32 [INFO] [MyPet] Exp calculation mode: MyPet
+10-16-2024 15:32 [INFO] [MyPet] Loading WorldGroups...
+10-16-2024 15:32 [INFO] [MyPet]    added 'world' to 'default'
+10-16-2024 15:32 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-16-2024 15:32 [INFO] [MyPet]    added world_nether to 'default' group.
+10-16-2024 15:32 [INFO] [MyPet]    added world_the_end to 'default' group.
+10-16-2024 15:32 [INFO] [MyPet] Connect to SQLite database...
+10-16-2024 15:32 [INFO] [MyPet] SQLite connection successful.
+10-16-2024 15:32 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-16-2024 15:32 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-16-2024 15:32 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-16-2024 15:32 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-16-2024 15:32 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-16-2024 15:32 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-16-2024 16:48 [INFO] [MyPet] Disabling MyPet v3.12
+10-16-2024 16:48 [INFO] [MyPet] Error-Reporter ENABLED
+10-16-2024 16:49 [INFO] [MyPet] Enabling MyPet v3.12
+10-16-2024 16:49 [INFO] [MyPet] No Update available.
+10-16-2024 16:49 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-16-2024 16:49 [INFO] [MyPet] Exp calculation mode: MyPet
+10-16-2024 16:49 [INFO] [MyPet] Loading WorldGroups...
+10-16-2024 16:49 [INFO] [MyPet]    added 'world' to 'default'
+10-16-2024 16:49 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-16-2024 16:49 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-16-2024 16:49 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-16-2024 16:49 [INFO] [MyPet] Connect to SQLite database...
+10-16-2024 16:49 [INFO] [MyPet] SQLite connection successful.
+10-16-2024 16:49 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-16-2024 16:49 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-16-2024 16:49 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-16-2024 16:49 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-16-2024 16:49 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-16-2024 16:49 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-16-2024 17:31 [INFO] [MyPet] Disabling MyPet v3.12
+10-16-2024 17:32 [INFO] [MyPet] Error-Reporter ENABLED
+10-16-2024 17:32 [INFO] [MyPet] Enabling MyPet v3.12
+10-16-2024 17:32 [INFO] [MyPet] No Update available.
+10-16-2024 17:32 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-16-2024 17:32 [INFO] [MyPet] Exp calculation mode: MyPet
+10-16-2024 17:32 [INFO] [MyPet] Loading WorldGroups...
+10-16-2024 17:32 [INFO] [MyPet]    added 'world' to 'default'
+10-16-2024 17:32 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-16-2024 17:32 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-16-2024 17:32 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-16-2024 17:32 [INFO] [MyPet] Connect to SQLite database...
+10-16-2024 17:32 [INFO] [MyPet] SQLite connection successful.
+10-16-2024 17:32 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-16-2024 17:32 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-16-2024 17:32 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-16-2024 17:32 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-16-2024 17:32 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-16-2024 17:32 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-16-2024 18:06 [INFO] [MyPet] Disabling MyPet v3.12
+10-16-2024 19:43 [INFO] [MyPet] Error-Reporter ENABLED
+10-16-2024 19:43 [INFO] [MyPet] Enabling MyPet v3.12
+10-16-2024 19:44 [INFO] [MyPet] No Update available.
+10-16-2024 19:44 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-16-2024 19:44 [INFO] [MyPet] Exp calculation mode: MyPet
+10-16-2024 19:44 [INFO] [MyPet] Loading WorldGroups...
+10-16-2024 19:44 [INFO] [MyPet]    added 'world' to 'default'
+10-16-2024 19:44 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-16-2024 19:44 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-16-2024 19:44 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-16-2024 19:44 [INFO] [MyPet] Connect to SQLite database...
+10-16-2024 19:44 [INFO] [MyPet] SQLite connection successful.
+10-16-2024 19:44 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-16-2024 19:44 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-16-2024 19:44 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-16-2024 19:44 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-16-2024 19:44 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-16-2024 19:44 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-16-2024 19:45 [INFO] [MyPet] Disabling MyPet v3.12
+10-16-2024 19:46 [INFO] [MyPet] Error-Reporter ENABLED
+10-16-2024 19:46 [INFO] [MyPet] Enabling MyPet v3.12
+10-16-2024 19:46 [INFO] [MyPet] No Update available.
+10-16-2024 19:46 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-16-2024 19:46 [INFO] [MyPet] Exp calculation mode: MyPet
+10-16-2024 19:46 [INFO] [MyPet] Loading WorldGroups...
+10-16-2024 19:46 [INFO] [MyPet]    added 'world' to 'default'
+10-16-2024 19:46 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-16-2024 19:46 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-16-2024 19:46 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-16-2024 19:46 [INFO] [MyPet] Connect to SQLite database...
+10-16-2024 19:46 [INFO] [MyPet] SQLite connection successful.
+10-16-2024 19:46 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-16-2024 19:46 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-16-2024 19:46 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-16-2024 19:46 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-16-2024 19:46 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-16-2024 19:46 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-16-2024 20:55 [INFO] [MyPet] added Jartex to 'default' group.
+10-16-2024 23:04 [INFO] [MyPet] Disabling MyPet v3.12
+10-17-2024 11:43 [INFO] [MyPet] Error-Reporter ENABLED
+10-17-2024 11:43 [INFO] [MyPet] Enabling MyPet v3.12
+10-17-2024 11:43 [INFO] [MyPet] No Update available.
+10-17-2024 11:43 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-17-2024 11:43 [INFO] [MyPet] Exp calculation mode: MyPet
+10-17-2024 11:43 [INFO] [MyPet] Loading WorldGroups...
+10-17-2024 11:43 [INFO] [MyPet]    added 'world' to 'default'
+10-17-2024 11:43 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-17-2024 11:43 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-17-2024 11:43 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-17-2024 11:43 [INFO] [MyPet]    added 'Jartex' to 'default'
+10-17-2024 11:43 [INFO] [MyPet] Connect to SQLite database...
+10-17-2024 11:43 [INFO] [MyPet] SQLite connection successful.
+10-17-2024 11:43 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-17-2024 11:43 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-17-2024 11:43 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-17-2024 11:43 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-17-2024 11:43 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-17-2024 11:43 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-17-2024 12:31 [INFO] [MyPet] Disabling MyPet v3.12
+10-17-2024 12:32 [INFO] [MyPet] Error-Reporter ENABLED
+10-17-2024 12:32 [INFO] [MyPet] Enabling MyPet v3.12
+10-17-2024 12:32 [INFO] [MyPet] No Update available.
+10-17-2024 12:32 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-17-2024 12:32 [INFO] [MyPet] Exp calculation mode: MyPet
+10-17-2024 12:32 [INFO] [MyPet] Loading WorldGroups...
+10-17-2024 12:32 [INFO] [MyPet]    added 'world' to 'default'
+10-17-2024 12:32 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-17-2024 12:32 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-17-2024 12:32 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-17-2024 12:32 [INFO] [MyPet]    added 'Jartex' to 'default'
+10-17-2024 12:32 [INFO] [MyPet] Connect to SQLite database...
+10-17-2024 12:32 [INFO] [MyPet] SQLite connection successful.
+10-17-2024 12:32 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-17-2024 12:32 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-17-2024 12:32 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-17-2024 12:32 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-17-2024 12:32 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-17-2024 12:32 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-17-2024 12:34 [INFO] [MyPet] Error-Reporter ENABLED
+10-17-2024 12:34 [INFO] [MyPet] Enabling MyPet v3.12
+10-17-2024 12:34 [INFO] [MyPet] No Update available.
+10-17-2024 12:34 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-17-2024 12:34 [INFO] [MyPet] Exp calculation mode: MyPet
+10-17-2024 12:34 [INFO] [MyPet] Loading WorldGroups...
+10-17-2024 12:34 [INFO] [MyPet]    added 'world' to 'default'
+10-17-2024 12:34 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-17-2024 12:34 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-17-2024 12:34 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-17-2024 12:34 [INFO] [MyPet]    added 'Jartex' to 'default'
+10-17-2024 12:34 [INFO] [MyPet] Connect to SQLite database...
+10-17-2024 12:34 [INFO] [MyPet] SQLite connection successful.
+10-17-2024 12:34 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-17-2024 12:34 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-17-2024 12:34 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-17-2024 12:34 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-17-2024 12:34 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-17-2024 12:34 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-17-2024 12:42 [INFO] [MyPet] Disabling MyPet v3.12
+10-17-2024 12:43 [INFO] [MyPet] Error-Reporter ENABLED
+10-17-2024 12:43 [INFO] [MyPet] Enabling MyPet v3.12
+10-17-2024 12:43 [INFO] [MyPet] No Update available.
+10-17-2024 12:43 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-17-2024 12:43 [INFO] [MyPet] Exp calculation mode: MyPet
+10-17-2024 12:43 [INFO] [MyPet] Loading WorldGroups...
+10-17-2024 12:43 [INFO] [MyPet]    added 'world' to 'default'
+10-17-2024 12:43 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-17-2024 12:43 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-17-2024 12:43 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-17-2024 12:43 [INFO] [MyPet] Connect to SQLite database...
+10-17-2024 12:43 [INFO] [MyPet] SQLite connection successful.
+10-17-2024 12:43 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-17-2024 12:43 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-17-2024 12:43 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-17-2024 12:43 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-17-2024 12:43 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-17-2024 12:43 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-17-2024 12:55 [INFO] [MyPet] Disabling MyPet v3.12
+10-17-2024 12:56 [INFO] [MyPet] Error-Reporter ENABLED
+10-17-2024 12:56 [INFO] [MyPet] Enabling MyPet v3.12
+10-17-2024 12:56 [INFO] [MyPet] No Update available.
+10-17-2024 12:56 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-17-2024 12:56 [INFO] [MyPet] Exp calculation mode: MyPet
+10-17-2024 12:56 [INFO] [MyPet] Loading WorldGroups...
+10-17-2024 12:56 [INFO] [MyPet]    added 'world' to 'default'
+10-17-2024 12:56 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-17-2024 12:56 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-17-2024 12:56 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-17-2024 12:56 [INFO] [MyPet] Connect to SQLite database...
+10-17-2024 12:56 [INFO] [MyPet] SQLite connection successful.
+10-17-2024 12:56 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-17-2024 12:56 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-17-2024 12:56 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-17-2024 12:56 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-17-2024 12:56 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-17-2024 12:56 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-17-2024 14:35 [INFO] [MyPet] added Portal to 'default' group.
+10-17-2024 14:42 [INFO] [MyPet] Disabling MyPet v3.12
+10-17-2024 14:43 [INFO] [MyPet] Error-Reporter ENABLED
+10-17-2024 14:43 [INFO] [MyPet] Enabling MyPet v3.12
+10-17-2024 14:43 [INFO] [MyPet] No Update available.
+10-17-2024 14:43 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-17-2024 14:43 [INFO] [MyPet] Exp calculation mode: MyPet
+10-17-2024 14:43 [INFO] [MyPet] Loading WorldGroups...
+10-17-2024 14:43 [INFO] [MyPet]    added 'world' to 'default'
+10-17-2024 14:43 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-17-2024 14:43 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-17-2024 14:43 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-17-2024 14:43 [INFO] [MyPet] Connect to SQLite database...
+10-17-2024 14:43 [INFO] [MyPet] SQLite connection successful.
+10-17-2024 14:43 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-17-2024 14:43 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-17-2024 14:43 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-17-2024 14:43 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-17-2024 14:43 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-17-2024 14:43 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-17-2024 20:00 [INFO] [MyPet] Error-Reporter ENABLED
+10-17-2024 20:00 [INFO] [MyPet] Enabling MyPet v3.12
+10-17-2024 20:00 [INFO] [MyPet] No Update available.
+10-17-2024 20:00 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-17-2024 20:00 [INFO] [MyPet] Exp calculation mode: MyPet
+10-17-2024 20:00 [INFO] [MyPet] Loading WorldGroups...
+10-17-2024 20:00 [INFO] [MyPet]    added 'world' to 'default'
+10-17-2024 20:00 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-17-2024 20:00 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-17-2024 20:00 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-17-2024 20:00 [INFO] [MyPet] Connect to SQLite database...
+10-17-2024 20:00 [INFO] [MyPet] SQLite connection successful.
+10-17-2024 20:00 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-17-2024 20:00 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-17-2024 20:00 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-17-2024 20:00 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-17-2024 20:00 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-17-2024 20:00 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-17-2024 21:50 [INFO] [MyPet] Disabling MyPet v3.12
+10-17-2024 21:51 [INFO] [MyPet] Error-Reporter ENABLED
+10-17-2024 21:51 [INFO] [MyPet] Enabling MyPet v3.12
+10-17-2024 21:51 [INFO] [MyPet] No Update available.
+10-17-2024 21:51 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-17-2024 21:51 [INFO] [MyPet] Exp calculation mode: MyPet
+10-17-2024 21:51 [INFO] [MyPet] Loading WorldGroups...
+10-17-2024 21:51 [INFO] [MyPet]    added 'world' to 'default'
+10-17-2024 21:51 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-17-2024 21:51 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-17-2024 21:51 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-17-2024 21:51 [INFO] [MyPet] Connect to SQLite database...
+10-17-2024 21:51 [INFO] [MyPet] SQLite connection successful.
+10-17-2024 21:51 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-17-2024 21:51 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-17-2024 21:51 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-17-2024 21:51 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-17-2024 21:51 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-17-2024 21:51 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-17-2024 23:35 [INFO] [MyPet] Disabling MyPet v3.12
+10-17-2024 23:52 [INFO] [MyPet] Error-Reporter ENABLED
+10-17-2024 23:53 [INFO] [MyPet] Enabling MyPet v3.12
+10-17-2024 23:53 [INFO] [MyPet] No Update available.
+10-17-2024 23:53 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-17-2024 23:53 [INFO] [MyPet] Exp calculation mode: MyPet
+10-17-2024 23:53 [INFO] [MyPet] Loading WorldGroups...
+10-17-2024 23:53 [INFO] [MyPet]    added 'world' to 'default'
+10-17-2024 23:53 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-17-2024 23:53 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-17-2024 23:53 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-17-2024 23:53 [INFO] [MyPet] Connect to SQLite database...
+10-17-2024 23:53 [INFO] [MyPet] SQLite connection successful.
+10-17-2024 23:53 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-17-2024 23:53 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-17-2024 23:53 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-17-2024 23:53 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-17-2024 23:53 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-17-2024 23:53 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-18-2024 01:17 [INFO] [MyPet] Disabling MyPet v3.12
+10-18-2024 01:18 [INFO] [MyPet] Error-Reporter ENABLED
+10-18-2024 01:18 [INFO] [MyPet] Enabling MyPet v3.12
+10-18-2024 01:18 [INFO] [MyPet] No Update available.
+10-18-2024 01:18 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-18-2024 01:18 [INFO] [MyPet] Exp calculation mode: MyPet
+10-18-2024 01:18 [INFO] [MyPet] Loading WorldGroups...
+10-18-2024 01:18 [INFO] [MyPet]    added 'world' to 'default'
+10-18-2024 01:18 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-18-2024 01:18 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-18-2024 01:18 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-18-2024 01:18 [INFO] [MyPet] Connect to SQLite database...
+10-18-2024 01:18 [INFO] [MyPet] SQLite connection successful.
+10-18-2024 01:18 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-18-2024 01:18 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-18-2024 01:18 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-18-2024 01:18 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-18-2024 01:18 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-18-2024 01:18 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-18-2024 01:42 [INFO] [MyPet] Disabling MyPet v3.12
+10-18-2024 09:29 [INFO] [MyPet] Error-Reporter ENABLED
+10-18-2024 09:30 [INFO] [MyPet] Enabling MyPet v3.12
+10-18-2024 09:30 [INFO] [MyPet] No Update available.
+10-18-2024 09:30 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-18-2024 09:30 [INFO] [MyPet] Exp calculation mode: MyPet
+10-18-2024 09:30 [INFO] [MyPet] Loading WorldGroups...
+10-18-2024 09:30 [INFO] [MyPet]    added 'world' to 'default'
+10-18-2024 09:30 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-18-2024 09:30 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-18-2024 09:30 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-18-2024 09:30 [INFO] [MyPet] Connect to SQLite database...
+10-18-2024 09:30 [INFO] [MyPet] SQLite connection successful.
+10-18-2024 09:30 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-18-2024 09:30 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-18-2024 09:30 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-18-2024 09:30 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-18-2024 09:30 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-18-2024 09:30 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-18-2024 09:30 [INFO] [MyPet] Disabling MyPet v3.12
+10-18-2024 09:31 [INFO] [MyPet] Error-Reporter ENABLED
+10-18-2024 09:32 [INFO] [MyPet] Enabling MyPet v3.12
+10-18-2024 09:32 [INFO] [MyPet] No Update available.
+10-18-2024 09:32 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-18-2024 09:32 [INFO] [MyPet] Exp calculation mode: MyPet
+10-18-2024 09:32 [INFO] [MyPet] Loading WorldGroups...
+10-18-2024 09:32 [INFO] [MyPet]    added 'world' to 'default'
+10-18-2024 09:32 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-18-2024 09:32 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-18-2024 09:32 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-18-2024 09:32 [INFO] [MyPet] Connect to SQLite database...
+10-18-2024 09:32 [INFO] [MyPet] SQLite connection successful.
+10-18-2024 09:32 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-18-2024 09:32 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-18-2024 09:32 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-18-2024 09:32 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-18-2024 09:32 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-18-2024 09:32 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-18-2024 10:24 [INFO] [MyPet] Disabling MyPet v3.12
+10-18-2024 10:25 [INFO] [MyPet] Error-Reporter ENABLED
+10-18-2024 10:25 [INFO] [MyPet] Enabling MyPet v3.12
+10-18-2024 10:25 [INFO] [MyPet] No Update available.
+10-18-2024 10:25 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-18-2024 10:25 [INFO] [MyPet] Exp calculation mode: MyPet
+10-18-2024 10:25 [INFO] [MyPet] Loading WorldGroups...
+10-18-2024 10:25 [INFO] [MyPet]    added 'world' to 'default'
+10-18-2024 10:25 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-18-2024 10:25 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-18-2024 10:25 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-18-2024 10:25 [INFO] [MyPet] Connect to SQLite database...
+10-18-2024 10:25 [INFO] [MyPet] SQLite connection successful.
+10-18-2024 10:25 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-18-2024 10:25 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-18-2024 10:25 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-18-2024 10:25 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-18-2024 10:25 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-18-2024 10:25 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-18-2024 11:07 [INFO] [MyPet] Disabling MyPet v3.12
+10-21-2024 08:21 [INFO] [MyPet] Error-Reporter ENABLED
+10-21-2024 08:22 [INFO] [MyPet] Enabling MyPet v3.12
+10-21-2024 08:22 [INFO] [MyPet] No Update available.
+10-21-2024 08:22 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-21-2024 08:22 [INFO] [MyPet] Exp calculation mode: MyPet
+10-21-2024 08:22 [INFO] [MyPet] Loading WorldGroups...
+10-21-2024 08:22 [INFO] [MyPet]    added 'world' to 'default'
+10-21-2024 08:22 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-21-2024 08:22 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-21-2024 08:22 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-21-2024 08:22 [INFO] [MyPet] Connect to SQLite database...
+10-21-2024 08:22 [INFO] [MyPet] SQLite connection successful.
+10-21-2024 08:22 [INFO] [MyPet] GriefPrevention (16.18.3) hook activated.
+10-21-2024 08:22 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-21-2024 08:22 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-21-2024 08:22 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-21-2024 08:22 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-21-2024 08:22 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-21-2024 08:44 [INFO] [MyPet] Disabling MyPet v3.12
+10-21-2024 08:46 [INFO] [MyPet] Error-Reporter ENABLED
+10-21-2024 08:47 [INFO] [MyPet] Enabling MyPet v3.12
+10-21-2024 08:47 [INFO] [MyPet] No Update available.
+10-21-2024 08:47 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-21-2024 08:47 [INFO] [MyPet] Exp calculation mode: MyPet
+10-21-2024 08:47 [INFO] [MyPet] Loading WorldGroups...
+10-21-2024 08:47 [INFO] [MyPet]    added 'world' to 'default'
+10-21-2024 08:47 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-21-2024 08:47 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-21-2024 08:47 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-21-2024 08:47 [INFO] [MyPet] Connect to SQLite database...
+10-21-2024 08:47 [INFO] [MyPet] SQLite connection successful.
+10-21-2024 08:47 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-21-2024 08:47 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-21-2024 08:47 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-21-2024 08:47 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-21-2024 08:47 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-21-2024 08:47 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-21-2024 09:25 [INFO] [MyPet] Disabling MyPet v3.12
+10-21-2024 09:26 [INFO] [MyPet] Error-Reporter ENABLED
+10-21-2024 09:26 [INFO] [MyPet] Enabling MyPet v3.12
+10-21-2024 09:26 [INFO] [MyPet] No Update available.
+10-21-2024 09:26 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-21-2024 09:26 [INFO] [MyPet] Exp calculation mode: MyPet
+10-21-2024 09:26 [INFO] [MyPet] Loading WorldGroups...
+10-21-2024 09:26 [INFO] [MyPet]    added 'world' to 'default'
+10-21-2024 09:26 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-21-2024 09:26 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-21-2024 09:26 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-21-2024 09:26 [INFO] [MyPet] Connect to SQLite database...
+10-21-2024 09:26 [INFO] [MyPet] SQLite connection successful.
+10-21-2024 09:26 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-21-2024 09:26 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-21-2024 09:26 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-21-2024 09:26 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-21-2024 09:26 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-21-2024 09:26 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-21-2024 09:27 [INFO] [MyPet] Disabling MyPet v3.12
+10-21-2024 09:28 [INFO] [MyPet] Error-Reporter ENABLED
+10-21-2024 09:28 [INFO] [MyPet] Enabling MyPet v3.12
+10-21-2024 09:28 [INFO] [MyPet] No Update available.
+10-21-2024 09:28 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-21-2024 09:28 [INFO] [MyPet] Exp calculation mode: MyPet
+10-21-2024 09:28 [INFO] [MyPet] Loading WorldGroups...
+10-21-2024 09:28 [INFO] [MyPet]    added 'world' to 'default'
+10-21-2024 09:28 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-21-2024 09:28 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-21-2024 09:28 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-21-2024 09:28 [INFO] [MyPet] Connect to SQLite database...
+10-21-2024 09:28 [INFO] [MyPet] SQLite connection successful.
+10-21-2024 09:28 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-21-2024 09:28 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-21-2024 09:28 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-21-2024 09:28 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-21-2024 09:28 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-21-2024 09:28 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-21-2024 09:30 [INFO] [MyPet] Error-Reporter ENABLED
+10-21-2024 09:30 [INFO] [MyPet] Enabling MyPet v3.12
+10-21-2024 09:30 [INFO] [MyPet] No Update available.
+10-21-2024 09:30 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-21-2024 09:30 [INFO] [MyPet] Exp calculation mode: MyPet
+10-21-2024 09:30 [INFO] [MyPet] Loading WorldGroups...
+10-21-2024 09:30 [INFO] [MyPet]    added 'world' to 'default'
+10-21-2024 09:30 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-21-2024 09:30 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-21-2024 09:30 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-21-2024 09:30 [INFO] [MyPet] Connect to SQLite database...
+10-21-2024 09:30 [INFO] [MyPet] SQLite connection successful.
+10-21-2024 09:30 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-21-2024 09:30 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-21-2024 09:30 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-21-2024 09:30 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-21-2024 09:30 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-21-2024 09:30 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-21-2024 09:36 [INFO] [MyPet] Disabling MyPet v3.12
+10-21-2024 09:58 [INFO] [MyPet] Error-Reporter ENABLED
+10-21-2024 09:58 [INFO] [MyPet] Enabling MyPet v3.12
+10-21-2024 09:58 [INFO] [MyPet] No Update available.
+10-21-2024 09:58 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-21-2024 09:58 [INFO] [MyPet] Exp calculation mode: MyPet
+10-21-2024 09:58 [INFO] [MyPet] Loading WorldGroups...
+10-21-2024 09:58 [INFO] [MyPet]    added 'world' to 'default'
+10-21-2024 09:58 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-21-2024 09:58 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-21-2024 09:58 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-21-2024 09:58 [INFO] [MyPet] Connect to SQLite database...
+10-21-2024 09:58 [INFO] [MyPet] SQLite connection successful.
+10-21-2024 09:58 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-21-2024 09:58 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-21-2024 09:58 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-21-2024 09:58 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-21-2024 09:58 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-21-2024 09:58 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-21-2024 15:12 [INFO] [MyPet] Disabling MyPet v3.12
+10-21-2024 13:16 [INFO] [MyPet] Error-Reporter ENABLED
+10-21-2024 13:17 [INFO] [MyPet] Enabling MyPet v3.12
+10-21-2024 13:17 [INFO] [MyPet] No Update available.
+10-21-2024 13:17 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-21-2024 13:17 [INFO] [MyPet] Exp calculation mode: MyPet
+10-21-2024 13:17 [INFO] [MyPet] Loading WorldGroups...
+10-21-2024 13:17 [INFO] [MyPet]    added 'world' to 'default'
+10-21-2024 13:17 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-21-2024 13:17 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-21-2024 13:17 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-21-2024 13:17 [INFO] [MyPet] Connect to SQLite database...
+10-21-2024 13:17 [INFO] [MyPet] SQLite connection successful.
+10-21-2024 13:17 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-21-2024 13:17 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-21-2024 13:17 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-21-2024 13:17 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-21-2024 13:17 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-21-2024 13:17 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-21-2024 13:19 [INFO] [MyPet] Disabling MyPet v3.12
+10-21-2024 13:20 [INFO] [MyPet] Error-Reporter ENABLED
+10-21-2024 13:21 [INFO] [MyPet] Enabling MyPet v3.12
+10-21-2024 13:21 [INFO] [MyPet] No Update available.
+10-21-2024 13:21 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-21-2024 13:21 [INFO] [MyPet] Exp calculation mode: MyPet
+10-21-2024 13:21 [INFO] [MyPet] Loading WorldGroups...
+10-21-2024 13:21 [INFO] [MyPet]    added 'world' to 'default'
+10-21-2024 13:21 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-21-2024 13:21 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-21-2024 13:21 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-21-2024 13:21 [INFO] [MyPet] Connect to SQLite database...
+10-21-2024 13:21 [INFO] [MyPet] SQLite connection successful.
+10-21-2024 13:21 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-21-2024 13:21 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-21-2024 13:21 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-21-2024 13:21 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-21-2024 13:21 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-21-2024 13:21 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-21-2024 14:23 [INFO] [MyPet] Disabling MyPet v3.12
+10-21-2024 14:23 [INFO] [MyPet] Error-Reporter ENABLED
+10-21-2024 14:24 [INFO] [MyPet] Enabling MyPet v3.12
+10-21-2024 14:24 [INFO] [MyPet] No Update available.
+10-21-2024 14:24 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-21-2024 14:24 [INFO] [MyPet] Exp calculation mode: MyPet
+10-21-2024 14:24 [INFO] [MyPet] Loading WorldGroups...
+10-21-2024 14:24 [INFO] [MyPet]    added 'world' to 'default'
+10-21-2024 14:24 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-21-2024 14:24 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-21-2024 14:24 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-21-2024 14:24 [INFO] [MyPet] Connect to SQLite database...
+10-21-2024 14:24 [INFO] [MyPet] SQLite connection successful.
+10-21-2024 14:24 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-21-2024 14:24 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-21-2024 14:24 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-21-2024 14:24 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-21-2024 14:24 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-21-2024 14:24 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-21-2024 14:39 [INFO] [MyPet] Disabling MyPet v3.12
+10-21-2024 14:40 [INFO] [MyPet] Error-Reporter ENABLED
+10-21-2024 14:40 [INFO] [MyPet] Enabling MyPet v3.12
+10-21-2024 14:40 [INFO] [MyPet] No Update available.
+10-21-2024 14:40 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-21-2024 14:40 [INFO] [MyPet] Exp calculation mode: MyPet
+10-21-2024 14:40 [INFO] [MyPet] Loading WorldGroups...
+10-21-2024 14:40 [INFO] [MyPet]    added 'world' to 'default'
+10-21-2024 14:40 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-21-2024 14:40 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-21-2024 14:40 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-21-2024 14:40 [INFO] [MyPet] Connect to SQLite database...
+10-21-2024 14:40 [INFO] [MyPet] SQLite connection successful.
+10-21-2024 14:40 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-21-2024 14:40 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-21-2024 14:40 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-21-2024 14:40 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-21-2024 14:40 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-21-2024 14:40 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-21-2024 16:29 [INFO] [MyPet] Disabling MyPet v3.12
+10-21-2024 16:30 [INFO] [MyPet] Error-Reporter ENABLED
+10-21-2024 16:30 [INFO] [MyPet] Enabling MyPet v3.12
+10-21-2024 16:30 [INFO] [MyPet] No Update available.
+10-21-2024 16:30 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-21-2024 16:30 [INFO] [MyPet] Exp calculation mode: MyPet
+10-21-2024 16:30 [INFO] [MyPet] Loading WorldGroups...
+10-21-2024 16:30 [INFO] [MyPet]    added 'world' to 'default'
+10-21-2024 16:30 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-21-2024 16:30 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-21-2024 16:30 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-21-2024 16:30 [INFO] [MyPet] Connect to SQLite database...
+10-21-2024 16:30 [INFO] [MyPet] SQLite connection successful.
+10-21-2024 16:30 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-21-2024 16:30 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-21-2024 16:30 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-21-2024 16:30 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-21-2024 16:30 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-21-2024 16:30 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-22-2024 08:00 [INFO] [MyPet] Disabling MyPet v3.12
+10-22-2024 08:00 [INFO] [MyPet] Error-Reporter ENABLED
+10-22-2024 08:00 [INFO] [MyPet] Enabling MyPet v3.12
+10-22-2024 08:00 [INFO] [MyPet] No Update available.
+10-22-2024 08:00 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-22-2024 08:00 [INFO] [MyPet] Exp calculation mode: MyPet
+10-22-2024 08:00 [INFO] [MyPet] Loading WorldGroups...
+10-22-2024 08:00 [INFO] [MyPet]    added 'world' to 'default'
+10-22-2024 08:00 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-22-2024 08:00 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-22-2024 08:00 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-22-2024 08:00 [INFO] [MyPet] Connect to SQLite database...
+10-22-2024 08:00 [INFO] [MyPet] SQLite connection successful.
+10-22-2024 08:00 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-22-2024 08:00 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-22-2024 08:00 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-22-2024 08:00 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-22-2024 08:00 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-22-2024 08:00 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-23-2024 08:00 [INFO] [MyPet] Disabling MyPet v3.12
+10-23-2024 08:00 [INFO] [MyPet] Error-Reporter ENABLED
+10-23-2024 08:00 [INFO] [MyPet] Enabling MyPet v3.12
+10-23-2024 08:00 [INFO] [MyPet] No Update available.
+10-23-2024 08:00 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-23-2024 08:00 [INFO] [MyPet] Exp calculation mode: MyPet
+10-23-2024 08:00 [INFO] [MyPet] Loading WorldGroups...
+10-23-2024 08:00 [INFO] [MyPet]    added 'world' to 'default'
+10-23-2024 08:00 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-23-2024 08:00 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-23-2024 08:00 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-23-2024 08:00 [INFO] [MyPet] Connect to SQLite database...
+10-23-2024 08:00 [INFO] [MyPet] SQLite connection successful.
+10-23-2024 08:00 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-23-2024 08:00 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-23-2024 08:00 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-23-2024 08:00 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-23-2024 08:00 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-23-2024 08:00 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-24-2024 08:00 [INFO] [MyPet] Disabling MyPet v3.12
+10-24-2024 08:00 [INFO] [MyPet] Error-Reporter ENABLED
+10-24-2024 08:01 [INFO] [MyPet] Enabling MyPet v3.12
+10-24-2024 08:01 [INFO] [MyPet] No Update available.
+10-24-2024 08:01 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-24-2024 08:01 [INFO] [MyPet] Exp calculation mode: MyPet
+10-24-2024 08:01 [INFO] [MyPet] Loading WorldGroups...
+10-24-2024 08:01 [INFO] [MyPet]    added 'world' to 'default'
+10-24-2024 08:01 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-24-2024 08:01 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-24-2024 08:01 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-24-2024 08:01 [INFO] [MyPet] Connect to SQLite database...
+10-24-2024 08:01 [INFO] [MyPet] SQLite connection successful.
+10-24-2024 08:01 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-24-2024 08:01 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-24-2024 08:01 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-24-2024 08:01 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-24-2024 08:01 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-24-2024 08:01 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-24-2024 11:20 [INFO] [MyPet] Disabling MyPet v3.12
+10-24-2024 11:22 [INFO] [MyPet] Error-Reporter ENABLED
+10-24-2024 11:22 [INFO] [MyPet] Enabling MyPet v3.12
+10-24-2024 11:22 [INFO] [MyPet] No Update available.
+10-24-2024 11:22 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-24-2024 11:22 [INFO] [MyPet] Exp calculation mode: MyPet
+10-24-2024 11:22 [INFO] [MyPet] Loading WorldGroups...
+10-24-2024 11:22 [INFO] [MyPet]    added 'world' to 'default'
+10-24-2024 11:22 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-24-2024 11:22 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-24-2024 11:22 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-24-2024 11:22 [INFO] [MyPet] Connect to SQLite database...
+10-24-2024 11:22 [INFO] [MyPet] SQLite connection successful.
+10-24-2024 11:22 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-24-2024 11:22 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-24-2024 11:22 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-24-2024 11:22 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-24-2024 11:22 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-24-2024 11:22 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-24-2024 14:09 [INFO] [MyPet] Disabling MyPet v3.12
+10-24-2024 14:10 [INFO] [MyPet] Error-Reporter ENABLED
+10-24-2024 14:10 [INFO] [MyPet] Enabling MyPet v3.12
+10-24-2024 14:10 [INFO] [MyPet] No Update available.
+10-24-2024 14:10 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-24-2024 14:10 [INFO] [MyPet] Exp calculation mode: MyPet
+10-24-2024 14:10 [INFO] [MyPet] Loading WorldGroups...
+10-24-2024 14:10 [INFO] [MyPet]    added 'world' to 'default'
+10-24-2024 14:10 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-24-2024 14:10 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-24-2024 14:10 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-24-2024 14:10 [INFO] [MyPet] Connect to SQLite database...
+10-24-2024 14:10 [INFO] [MyPet] SQLite connection successful.
+10-24-2024 14:10 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-24-2024 14:10 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-24-2024 14:10 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-24-2024 14:10 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-24-2024 14:10 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-24-2024 14:10 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-24-2024 14:56 [INFO] [MyPet] Disabling MyPet v3.12
+10-24-2024 14:57 [INFO] [MyPet] Error-Reporter ENABLED
+10-24-2024 14:57 [INFO] [MyPet] Enabling MyPet v3.12
+10-24-2024 14:57 [INFO] [MyPet] No Update available.
+10-24-2024 14:57 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-24-2024 14:57 [INFO] [MyPet] Exp calculation mode: MyPet
+10-24-2024 14:57 [INFO] [MyPet] Loading WorldGroups...
+10-24-2024 14:57 [INFO] [MyPet]    added 'world' to 'default'
+10-24-2024 14:57 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-24-2024 14:57 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-24-2024 14:57 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-24-2024 14:57 [INFO] [MyPet] Connect to SQLite database...
+10-24-2024 14:57 [INFO] [MyPet] SQLite connection successful.
+10-24-2024 14:57 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-24-2024 14:57 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-24-2024 14:57 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-24-2024 14:57 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-24-2024 14:57 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-24-2024 14:57 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-24-2024 14:59 [INFO] [MyPet] Disabling MyPet v3.12
+10-24-2024 15:00 [INFO] [MyPet] Error-Reporter ENABLED
+10-24-2024 15:00 [INFO] [MyPet] Enabling MyPet v3.12
+10-24-2024 15:00 [INFO] [MyPet] No Update available.
+10-24-2024 15:00 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-24-2024 15:00 [INFO] [MyPet] Exp calculation mode: MyPet
+10-24-2024 15:00 [INFO] [MyPet] Loading WorldGroups...
+10-24-2024 15:00 [INFO] [MyPet]    added 'world' to 'default'
+10-24-2024 15:00 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-24-2024 15:00 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-24-2024 15:00 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-24-2024 15:00 [INFO] [MyPet] Connect to SQLite database...
+10-24-2024 15:00 [INFO] [MyPet] SQLite connection successful.
+10-24-2024 15:00 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-24-2024 15:00 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-24-2024 15:00 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-24-2024 15:00 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-24-2024 15:00 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-24-2024 15:00 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-24-2024 15:11 [INFO] [MyPet] Disabling MyPet v3.12
+10-24-2024 15:12 [INFO] [MyPet] Error-Reporter ENABLED
+10-24-2024 15:12 [INFO] [MyPet] Enabling MyPet v3.12
+10-24-2024 15:12 [INFO] [MyPet] No Update available.
+10-24-2024 15:12 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-24-2024 15:12 [INFO] [MyPet] Exp calculation mode: MyPet
+10-24-2024 15:12 [INFO] [MyPet] Loading WorldGroups...
+10-24-2024 15:12 [INFO] [MyPet]    added 'world' to 'default'
+10-24-2024 15:12 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-24-2024 15:12 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-24-2024 15:12 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-24-2024 15:12 [INFO] [MyPet] Connect to SQLite database...
+10-24-2024 15:12 [INFO] [MyPet] SQLite connection successful.
+10-24-2024 15:12 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-24-2024 15:12 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-24-2024 15:12 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-24-2024 15:12 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-24-2024 15:12 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-24-2024 15:12 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-25-2024 08:00 [INFO] [MyPet] Disabling MyPet v3.12
+10-25-2024 08:00 [INFO] [MyPet] Error-Reporter ENABLED
+10-25-2024 08:01 [INFO] [MyPet] Enabling MyPet v3.12
+10-25-2024 08:01 [INFO] [MyPet] No Update available.
+10-25-2024 08:01 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-25-2024 08:01 [INFO] [MyPet] Exp calculation mode: MyPet
+10-25-2024 08:01 [INFO] [MyPet] Loading WorldGroups...
+10-25-2024 08:01 [INFO] [MyPet]    added 'world' to 'default'
+10-25-2024 08:01 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-25-2024 08:01 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-25-2024 08:01 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-25-2024 08:01 [INFO] [MyPet] Connect to SQLite database...
+10-25-2024 08:01 [INFO] [MyPet] SQLite connection successful.
+10-25-2024 08:01 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-25-2024 08:01 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-25-2024 08:01 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-25-2024 08:01 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-25-2024 08:01 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-25-2024 08:01 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-25-2024 08:23 [INFO] [MyPet] Disabling MyPet v3.12
+10-25-2024 08:24 [INFO] [MyPet] Error-Reporter ENABLED
+10-25-2024 08:24 [INFO] [MyPet] Enabling MyPet v3.12
+10-25-2024 08:24 [INFO] [MyPet] No Update available.
+10-25-2024 08:24 [INFO] [MyPet] Compat mode for v1_21_R1 loaded.
+10-25-2024 08:24 [INFO] [MyPet] Exp calculation mode: MyPet
+10-25-2024 08:24 [INFO] [MyPet] Loading WorldGroups...
+10-25-2024 08:24 [INFO] [MyPet]    added 'world' to 'default'
+10-25-2024 08:24 [INFO] [MyPet]    added 'Spawn' to 'default'
+10-25-2024 08:24 [INFO] [MyPet]    added 'world_nether' to 'default'
+10-25-2024 08:24 [INFO] [MyPet]    added 'world_the_end' to 'default'
+10-25-2024 08:24 [INFO] [MyPet] Connect to SQLite database...
+10-25-2024 08:24 [INFO] [MyPet] SQLite connection successful.
+10-25-2024 08:24 [INFO] [MyPet] GriefPrevention (16.18.4) hook activated.
+10-25-2024 08:24 [INFO] [MyPet] PlaceholderAPI (2.11.7-DEV-200) hook activated.
+10-25-2024 08:24 [INFO] [MyPet] ProtocolLib (5.3.0-SNAPSHOT-732) hook activated.
+10-25-2024 08:24 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: EssentialsX Economy) (Permissions: LuckPerms) hook activated.
+10-25-2024 08:24 [INFO] [MyPet] WorldGuard (7.0.12+829a4a4) hook activated.
+10-25-2024 08:24 [INFO] [MyPet] Version 3.12-SNAPSHOT-b1768 ENABLED
+10-25-2024 15:54 [INFO] [MyPet] Disabling MyPet v3.12

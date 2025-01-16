@@ -1,0 +1,1580 @@
+menu_title: '&l           &#64FF5D&l&nʀ&#6CFF61&l&nᴀ&#75FF65&l&nɴ&#7DFF6A&l&nᴋ&#85FF6E&l&nᴜ&#8EFF72&l&nᴘ&#96FF76&l&ns'
+open_command: levels
+register_command: true
+size: 36
+open_commands:
+- '[sound] BLOCK_CHEST_OPEN'
+items:
+  'glasses':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 0
+    display_name: '&e'
+    lore:
+    - '&7&o'
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+  'glasses-red':
+    material: RED_STAINED_GLASS_PANE
+    slot: 0
+    display_name: '&e'
+    lore:
+    - '&7&o'
+    slots:
+    - 17
+    - 26
+    - 35
+  'level':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE1NTk1NDhkYWNjZWVmYjE0ZWU5MzhkZTJjZDc2YTNkMGMyM2NlMDUzMDQxYmY0ODc4MDA4OGRkYTZkNGMxOCJ9fX0=
+    slot: 0
+    amount: 1
+    display_name: '&e&lRankups'
+    lore:
+      - '&7&o(( Unlock new levels/ranks by voting and'
+      - '&7&oplaying to get exclusive rewards ))'
+  '1-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 9
+    amount: 1
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.1
+    display_name: '&cLevel ⎜ &d「1 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l1 &fHours of Playtime'
+      - '&e ❙ &f&l5 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_2500%'
+      - '&e ❙ &f&l1 &fVote Keys'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.0
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l0&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "1"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l1 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "5"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l5 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「1 &d「1 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.1'
+      - '[console] cr give %player_name% vote 1'
+      - '[console] eco give %player_name% 2500'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '1-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 9
+    amount: 1
+    priority: 2
+    display_name: '&eRankup ⎜ &d「1 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l1 &fHours of Playtime'
+      - '&e ❙ &f&l5 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_2500%'
+      - '&e ❙ &f&l1 &fVote Keys'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '2-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 18
+    amount: 2
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.2
+    display_name: '&cLevel ⎜ &b「2 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l4 &fHours of Playtime'
+      - '&e ❙ &f&l10 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_55000%'
+      - '&e ❙ &f&l2 &fVote Keys'
+      - '&e ❙ &f&lNick &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.1
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l1&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "4"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l4 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "10"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l10 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「2 &b「2 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.2'
+      - '[console] cr give %player_name% vote 2'
+      - '[console] eco give %player_name% 55000'
+      - '[console] lp user %player_name% permission set essentials.nick'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '2-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 18
+    amount: 2
+    priority: 2
+    display_name: '&eRankup ⎜ &b「2 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l4 &fHours of Playtime'
+      - '&e ❙ &f&l10 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_55000%'
+      - '&e ❙ &f&l2 &fVote Keys'
+      - '&e ❙ &f&lNick &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '3-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 27
+    amount: 3
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.3
+    display_name: '&cLevel ⎜ &a「3 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l12 &fHours of Playtime'
+      - '&e ❙ &f&l20 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_107500%'
+      - '&e ❙ &f&l3 &fVote Keys'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.2
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l2&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "12"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l12 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "20"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l20 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「3 &a「3 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.3'
+      - '[console] cr give %player_name% vote 3'
+      - '[console] eco give %player_name% 107500'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '3-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 27
+    amount: 3
+    priority: 2
+    display_name: '&eRankup ⎜ &a「3 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l12 &fHours of Playtime'
+      - '&e ❙ &f&l20 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_107500%'
+      - '&e ❙ &f&l3 &fVote Keys'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '4-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 28
+    amount: 4
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.4
+    display_name: '&cLevel ⎜ &e「4 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l24 &fHours of Playtime'
+      - '&e ❙ &f&l30 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_160000%'
+      - '&e ❙ &f&l4 &fVote Keys'
+      - '&e ❙ &f&lBack &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.3
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l3&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "24"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l24 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "30"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l30 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「4 &e「4 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.4'
+      - '[console] cr give %player_name% vote 4'
+      - '[console] eco give %player_name% 160000'
+      - '[console] lp user %player_name% permission set essentials.back'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '4-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 28
+    amount: 4
+    priority: 2
+    display_name: '&eRankup ⎜ &e「4 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l24 &fHours of Playtime'
+      - '&e ❙ &f&l30 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_160000%'
+      - '&e ❙ &f&l4 &fVote Keys'
+      - '&e ❙ &f&lBack &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '5-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 29
+    amount: 5
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.5
+    display_name: '&cLevel ⎜ &c「5 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l32 &fHours of Playtime'
+      - '&e ❙ &f&l40 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_212500%'
+      - '&e ❙ &f&l5 &fVote Keys'
+      - '&e ❙ &f&lColored Signs &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.4
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l4&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "32"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l32 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "40"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l40 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「5 &c「5 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.5'
+      - '[console] cr give %player_name% vote 5'
+      - '[console] eco give %player_name% 212500'
+      - '[console] lp user %player_name% permission set essentials.signs'
+      - '[console] lp user %player_name% permission set essentials.signs.color'
+      - '[console] lp user %player_name% permission set essentials.signs.rgb'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '5-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 29
+    amount: 5
+    priority: 2
+    display_name: '&eRankup ⎜ &c「5 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l32 &fHours of Playtime'
+      - '&e ❙ &f&l40 &fServer Votes'
+      - '&e ❙ &f&lColored Signs &f&o(command)'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_212500%'
+      - '&e ❙ &f&l5 &fVote Keys'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '6-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 20
+    amount: 6
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.6
+    display_name: '&cLevel ⎜ &d「6 ✧✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l48 &fHours of Playtime'
+      - '&e ❙ &f&l50 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_265000%'
+      - '&e ❙ &f&l6 &fVote Keys'
+      - '&e ❙ &f&lRecipe &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.5
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l5&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "48"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l48 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "50"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l50 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「6 &d「6 ✧✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.6'
+      - '[console] cr give %player_name% vote 6'
+      - '[console] eco give %player_name% 265000'
+      - '[console] lp user %player_name% permission set essentials.recipe'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '6-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 20
+    amount: 6
+    priority: 2
+    display_name: '&eRankup ⎜ &d「6 ✧✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l48 &fHours of Playtime'
+      - '&e ❙ &f&l50 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_265000%'
+      - '&e ❙ &f&l6 &fVote Keys'
+      - '&e ❙ &f&lRecipe &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '7-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 11
+    amount: 7
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.7
+    display_name: '&cLevel ⎜ &b「7 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l56 &fHours of Playtime'
+      - '&e ❙ &f&l60 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_317500%'
+      - '&e ❙ &f&l7 &fVote Keys'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.6
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l6&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "56"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l56 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "60"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l60 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「7 &b「7 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.7'
+      - '[console] cr give %player_name% vote 7'
+      - '[console] eco give %player_name% 317500'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '7-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 11
+    amount: 7
+    priority: 2
+    display_name: '&eRankup ⎜ &b「7 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l56 &fHours of Playtime'
+      - '&e ❙ &f&l60 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_317500%'
+      - '&e ❙ &f&l7 &fVote Keys'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '8-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 2
+    amount: 8
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.8
+    display_name: '&cLevel ⎜ &a「8 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l75 &fHours of Playtime'
+      - '&e ❙ &f&l70 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_370000%'
+      - '&e ❙ &f&l8 &fVote Keys'
+      - '&e ❙ &f&lFeed &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.7
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l7&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "75"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l75 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "70"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l70 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「8 &a「8 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.8'
+      - '[console] cr give %player_name% vote 8'
+      - '[console] eco give %player_name% 370000'
+      - '[console] lp user %player_name% permission set essentials.feed'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '8-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 2
+    amount: 8
+    priority: 2
+    display_name: '&eRankup ⎜ &a「8 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l75 &fHours of Playtime'
+      - '&e ❙ &f&l70 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_370000%'
+      - '&e ❙ &f&l8 &fVote Keys'
+      - '&e ❙ &f&lFeed &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '9-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 3
+    amount: 9
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.9
+    display_name: '&cLevel ⎜ &e「9 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l100 &fHours of Playtime'
+      - '&e ❙ &f&l80 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_422500%'
+      - '&e ❙ &f&l9 &fVote Keys'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.8
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l8&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "100"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l100 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "80"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l80 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「9 &e「9 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.9'
+      - '[console] cr give %player_name% vote 9'
+      - '[console] eco give %player_name% 422500'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '9-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 3
+    amount: 9
+    priority: 2
+    display_name: '&eRankup ⎜ &e「9 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l100 &fHours of Playtime'
+      - '&e ❙ &f&l80 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_422500%'
+      - '&e ❙ &f&l9 &fVote Keys'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '10-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 4
+    amount: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.10
+    display_name: '&cLevel ⎜ &c「10 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l125 &fHours of Playtime'
+      - '&e ❙ &f&l90 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_475000%'
+      - '&e ❙ &f&l10 &fVote Keys'
+      - '&e ❙ &f&lDisposal &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.9
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l9&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "125"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l125 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "90"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l90 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「10 &c「10 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.10'
+      - '[console] cr give %player_name% vote 10'
+      - '[console] eco give %player_name% 475000'
+      - '[console] lp user %player_name% permission set essentials.disposal'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '10-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 4
+    amount: 10
+    priority: 2
+    display_name: '&eRankup ⎜ &c「10 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l125 &fHours of Playtime'
+      - '&e ❙ &f&l90 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_475000%'
+      - '&e ❙ &f&l10 &fVote Keys'
+      - '&e ❙ &f&lDisposal &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '11-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 13
+    amount: 11
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.11
+    display_name: '&cLevel ⎜ &d「11 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l150 &fHours of Playtime'
+      - '&e ❙ &f&l100 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_527500%'
+      - '&e ❙ &f&l11 &fVote Keys'
+      - '&e ❙ &f&lNear &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.10
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l10&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "150"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l150 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "100"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l100 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「11 &d「11 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.11'
+      - '[console] cr give %player_name% vote 11'
+      - '[console] eco give %player_name% 527500'
+      - '[console] lp user %player_name% permission set essentials.near'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '11-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 13
+    amount: 11
+    priority: 2
+    display_name: '&eRankup ⎜ &d「11 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l150 &fHours of Playtime'
+      - '&e ❙ &f&l100 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_527500%'
+      - '&e ❙ &f&l11 &fVote Keys'
+      - '&e ❙ &f&lNear &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '12-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 22
+    amount: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.12
+    display_name: '&cLevel ⎜ &b「12 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l175 &fHours of Playtime'
+      - '&e ❙ &f&l125 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_580000%'
+      - '&e ❙ &f&l12 &fVote Keys'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.11
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l11&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "175"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l175 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "125"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l125 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「12 &b「12 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.12'
+      - '[console] cr give %player_name% vote 12'
+      - '[console] eco give %player_name% 580000'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '12-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 22
+    amount: 12
+    priority: 2
+    display_name: '&eRankup ⎜ &b「12 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l175 &fHours of Playtime'
+      - '&e ❙ &f&l125 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_580000%'
+      - '&e ❙ &f&l12 &fVote Keys'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '13-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 31
+    amount: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.13
+    display_name: '&cLevel ⎜ &a「13 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l200 &fHours of Playtime'
+      - '&e ❙ &f&l150 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_632500%'
+      - '&e ❙ &f&l13 &fVote Keys'
+      - '&e ❙ &f&lCraft &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.12
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l12&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "200"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l200 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "150"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l150 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「13 &a「13 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.13'
+      - '[console] cr give %player_name% vote 13'
+      - '[console] eco give %player_name% 632500'
+      - '[console] lp user %player_name% permission set essentials.workbench'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '13-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 31
+    amount: 13
+    priority: 2
+    display_name: '&eRankup ⎜ &a「13 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l200 &fHours of Playtime'
+      - '&e ❙ &f&l150 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_632500%'
+      - '&e ❙ &f&l13 &fVote Keys'
+      - '&e ❙ &f&lCraft &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '14-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 32
+    amount: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.14
+    display_name: '&cLevel ⎜ &e「14 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l250 &fHours of Playtime'
+      - '&e ❙ &f&l175 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_685000%'
+      - '&e ❙ &f&l14 &fVote Keys'
+      - '&e ❙ &f&lFormatted Signs &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.13
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l13&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "250"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l250 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "175"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l175 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「14 &e「14 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.14'
+      - '[console] cr give %player_name% vote 14'
+      - '[console] eco give %player_name% 685000'
+      - '[console] lp user %player_name% permission set essentials.signs.format'
+      - '[console] lp user %player_name% permission set essentials.signs.underline'
+      - '[console] lp user %player_name% permission set essentials.signs.obfuscated'
+      - '[console] lp user %player_name% permission set essentials.signs.magic'
+      - '[console] lp user %player_name% permission set essentials.signs.bold'
+      - '[console] lp user %player_name% permission set essentials.signs.strikethrough'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '14-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 32
+    amount: 14
+    priority: 2
+    display_name: '&eRankup ⎜ &e「14 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l250 &fHours of Playtime'
+      - '&e ❙ &f&l175 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_685000%'
+      - '&e ❙ &f&l14 &fVote Keys'
+      - '&e ❙ &f&lFormatted Signs &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '15-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 33
+    amount: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.15
+    display_name: '&cLevel ⎜ &c「15 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l300 &fHours of Playtime'
+      - '&e ❙ &f&l200 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_737500%'
+      - '&e ❙ &f&l15 &fVote Keys'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.14
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l14&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "300"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l300 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "200"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l200 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「15 &c「15 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.15'
+      - '[console] cr give %player_name% vote 15'
+      - '[console] eco give %player_name% 737500'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '15-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 33
+    amount: 15
+    priority: 2
+    display_name: '&eRankup ⎜ &c「15 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l300 &fHours of Playtime'
+      - '&e ❙ &f&l200 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_737500%'
+      - '&e ❙ &f&l15 &fVote Keys'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '16-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 24
+    amount: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.16
+    display_name: '&cLevel ⎜ &d「16 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l400 &fHours of Playtime'
+      - '&e ❙ &f&l225 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_790000%'
+      - '&e ❙ &f&l16 &fVote Keys'
+      - '&e ❙ &f&lEnderchest &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.15
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l15&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "400"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l400 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "225"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l225 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「16 &d「16 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.16'
+      - '[console] cr give %player_name% vote 16'
+      - '[console] eco give %player_name% 790000'
+      - '[console] lp user %player_name% permission set essentials.enderchest'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '16-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 24
+    amount: 16
+    priority: 2
+    display_name: '&eRankup ⎜ &d「16 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l400 &fHours of Playtime'
+      - '&e ❙ &f&l225 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_790000%'
+      - '&e ❙ &f&l16 &fVote Keys'
+      - '&e ❙ &f&lEnderchest &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '17-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 15
+    amount: 17
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.17
+    display_name: '&cLevel ⎜ &b「17 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l550 &fHours of Playtime'
+      - '&e ❙ &f&l250 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_842500%'
+      - '&e ❙ &f&l17 &fVote Keys'
+      - '&e ❙ &f&lPtime &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.16
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l16&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "550"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l550 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "250"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l250 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「17 &b「17 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.17'
+      - '[console] cr give %player_name% vote 17'
+      - '[console] eco give %player_name% 842500'
+      - '[console] lp user %player_name% permission set essentials.ptime'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '17-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 15
+    amount: 17
+    priority: 2
+    display_name: '&eRankup ⎜ &b「17 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l550 &fHours of Playtime'
+      - '&e ❙ &f&l250 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_842500%'
+      - '&e ❙ &f&l17 &fVote Keys'
+      - '&e ❙ &f&lPtime &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '18-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 6
+    amount: 18
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.18
+    display_name: '&cLevel ⎜ &a「18 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l700 &fHours of Playtime'
+      - '&e ❙ &f&l275 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_895000%'
+      - '&e ❙ &f&l18 &fVote Keys'
+      - '&e ❙ &f&lHeal &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.17
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l17&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "700"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l700 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "275"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l275 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「18 &a「18 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.18'
+      - '[console] cr give %player_name% vote 18'
+      - '[console] eco give %player_name% 895000'
+      - '[console] lp user %player_name% permission set essentials.heal'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '18-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 6
+    amount: 18
+    priority: 2
+    display_name: '&eRankup ⎜ &a「18 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l700 &fHours of Playtime'
+      - '&e ❙ &f&l275 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_895000%'
+      - '&e ❙ &f&l18 &fVote Keys'
+      - '&e ❙ &f&lHeal &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '19-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 7
+    amount: 19
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.19
+    display_name: '&cLevel ⎜ &e「19 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l850 &fHours of Playtime'
+      - '&e ❙ &f&l300 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_947500%'
+      - '&e ❙ &f&l19 &fVote Keys'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.18
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l18&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "850"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l850 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "300"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l300 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「19 &e「19 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.19'
+      - '[console] cr give %player_name% vote 19'
+      - '[console] eco give %player_name% 947500'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '19-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 7
+    amount: 19
+    priority: 2
+    display_name: '&eRankup ⎜ &e「19 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l850 &fHours of Playtime'
+      - '&e ❙ &f&l300 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_947500%'
+      - '&e ❙ &f&l19 &fVote Keys'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'
+
+  '20-1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 8
+    amount: 20
+    priority: 1
+    view_requirement:
+      requirements:
+        rankup:
+          type: "!has permission"
+          permission: rankup.20
+    display_name: '&cLevel ⎜ &c「20 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l1000 &fHours of Playtime'
+      - '&e ❙ &f&l325 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_1000000%'
+      - '&e ❙ &f&l20 &fVote Keys'
+      - '&e ❙ &f&lInvsee &f&o(command)'
+      - '&e ❙ &f&lFly &f&o(command)'
+      - '&e ❙ &f&lUnlimited Homes &f&o(command)'
+      - ''
+      - '&e➥ &e&nClick&e to Rankup&e!'
+    left_click_requirement:
+      requirements:
+        rankup:
+          type: has permission
+          permission: rankup.19
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to be level &l19&c! &7&o(( You need previous level before leveling up again ))'
+            - '[sound] BLOCK_ANVIL_LAND'
+        horas:
+          type: ">="
+          input: "%statistic_hours_played%"
+          output: "1000"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l1000 played hours &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+        votes:
+          type: ">="
+          input: "%zvoteparty_player_votes%"
+          output: "325"
+          deny_commands:
+            - '[close]'
+            - '[message] &c&l[!] &cYou need to have &l325 votes &cto leveling up!'
+            - '[sound] BLOCK_ANVIL_LAND'
+    left_click_commands:
+      - '[console] rawmsg all false &d&l[!] &d&l%player_name% &dhas leveled up to level &5「20 &c「20 ✧」&r」&d!'
+      - '[console] execute at %player_name% run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0.5 500'
+      - '[console] lp user %player_name% permission set rankup.20'
+      - '[console] cr give %player_name% vote 20'
+      - '[console] eco give %player_name% 1000000'
+      - '[console] lp user %player_name% permission set essentials.invsee'
+      - '[console] lp user %player_name% permission set essentials.fly'
+      - '[console] lp user %player_name% permission set essentials.sethome'
+      - '[console] lp user %player_name% permission set essentials.sethome.multiple'
+      - '[broadcastsound] ENTITY_WITHER_HURT 1 0.2'
+      - '[refresh]'
+  '20-2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 8
+    amount: 20
+    priority: 2
+    display_name: '&eRankup ⎜ &c「20 ✧」&r'
+    lore:
+      - ''
+      - '&e&lRequirements'
+      - '&e ❙ &f&l1000 &fHours of Playtime'
+      - '&e ❙ &f&l325 &fServer Votes'
+      - ''
+      - '&e&lRewards'
+      - '&e ❙ &f⛃ &l%formatter_number_format_1000000%'
+      - '&e ❙ &f&l20 &fVote Keys'
+      - '&e ❙ &f&lInvsee &f&o(command)'
+      - '&e ❙ &f&lFly &f&o(command)'
+      - '&e ❙ &f&lUnlimited Homes &f&o(command)'
+      - ''
+      - '&c&l[!] &cYou have already claimed this level'

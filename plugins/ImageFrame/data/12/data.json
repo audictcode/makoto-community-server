@@ -1,0 +1,29 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 12,
+  "name": "Leaderboard-Playtime",
+  "url": "https://i.imgur.com/0j9vvMu.png",
+  "width": 3,
+  "height": 1,
+  "ditheringType": "nearest-color",
+  "creator": "2ccb1a67-bf97-4e92-afff-18df963f7f51",
+  "hasAccess": {},
+  "creationTime": 1729517866100,
+  "mapdata": [
+    {
+      "mapid": 42,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 43,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 44,
+      "image": "2.png",
+      "markers": []
+    }
+  ]
+}

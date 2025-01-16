@@ -1,0 +1,81 @@
+menu_title: '&e&nKits'
+open_command:
+- kits
+register_command: true
+size: 27
+items:
+  'glasses':
+    display_name: '&e'
+    material: WHITE_STAINED_GLASS_PANE
+    data: 0
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+  'normals':
+    material: CHEST
+    slot: 11
+    display_name: '&6&lMembers'
+    lore:
+      - '&7&o(( Right click to claim default'
+      - '&7&okits ))'
+    left_click_commands:
+     - '[sound] ENTITY_BAT_TAKEOFF'
+     - '[openguimenu] kits-normals'
+    right_click_commands:
+     - '[sound] ENTITY_BAT_TAKEOFF'
+     - '[openguimenu] kits-normals'
+  'ranks':
+    material: ENDER_CHEST
+    slot: 13
+    display_name: '&e&lRanks'
+    lore:
+      - '&7&o(( Right click to claim all'
+      - '&7&okits from your ranks ))'
+      - ''
+      - '&e&l[!] &eUnlock them through &f&nbuy.example.net'
+    left_click_commands:
+     - '[sound] ENTITY_BAT_TAKEOFF'
+     - '[openguimenu] kits-ranks'
+    right_click_commands:
+     - '[sound] ENTITY_BAT_TAKEOFF'
+     - '[openguimenu] kits-ranks'
+  'gkits':
+    material: MAGENTA_STAINED_GLASS
+    slot: 15
+    display_name: '&5&lGkits'
+    lore:
+      - '&7&o(( Right click to claim gkits'
+      - '&7&ounlocked on your account ))'
+      - ''
+      - '&5&l[!] &5Unlock them through &d&nbuy.example.net'
+    left_click_commands:
+     - '[sound] ENTITY_BAT_TAKEOFF'
+     - '[openguimenu] kitsespeciales'
+    right_click_commands:
+     - '[sound] ENTITY_BAT_TAKEOFF'
+     - '[openguimenu] kitsespeciales'

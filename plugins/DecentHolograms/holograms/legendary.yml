@@ -1,0 +1,22 @@
+location: Spawn:-1422.500:107.500:170.503
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#B100FF&l&nL&#B710FF&l&ne&#BD20FF&l&ng&#C32FFF&l&ne&#C93FFF&l&nn&#CE4FFF&l&nd&#D45FFF&l&na&#DA6EFF&l&nr&#E07EFF&l&ny'
+    height: 0.3
+  - content: '&#E07EFF➡ &7Hit to &#E07EFFPreview'
+    height: 0.3
+  - content: '&#E07EFF➡ &7Use Key to &#E07EFFOpen'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&f&o(( ʏᴏᴜ ʜᴀᴠᴇ &#E07EFF&l&o%excellentcrates_keys_legendary% &#E07EFF&oʟᴇɢᴇɴᴅᴀʀʏ
+      ᴋᴇʏs &f&o))'
+    height: 0.3
+  actions: {}
+permission: holograma.bajo

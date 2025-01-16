@@ -1,0 +1,19 @@
+location: Spawn:-1416.274:112.532:185.063
+enabled: true
+permission: holograma.bajo
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&n&lRANDOM WILD TELEPORT'
+    height: 0.6
+  - content: '&7Start your adventure at &a/spawn'
+    height: 0.3
+  - content: '&aor travel into the /wild &7and explore!'
+    height: 0.6
+  - content: '&a&l&oJUMP IN TO LEAVE SPAWN'
+    height: 0.6
+  actions: {}

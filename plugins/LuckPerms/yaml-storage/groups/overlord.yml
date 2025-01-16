@@ -1,0 +1,45 @@
+name: overlord
+permissions:
+- auctionhouse.maxsell.8
+- chatcolor.color.f
+- chatformat.Titan
+- crazyauctions.sell.8
+- cubeminiatures.use.Alien
+- cubeminiatures.use.Barco
+- cubeminiatures.use.Coche
+- discordminecraft.syncrank.Titan-(Prison)
+- essentials.feed
+- essentials.hat
+- essentials.kits.Titan
+- essentials.kits.keytitan
+- essentials.kits.titan
+- essentials.sethome.multiple.titan
+- essentials.warps.Titan
+- gang.create
+- lucky.donor
+- medorarobots.multiply.titan
+- multiplicador.titan
+- reward.Titan
+- superior.island.create
+- tab.group.Titan
+- tab.group.titan
+- trail.block.3
+- trails.block.3
+- trails.mode.shooter
+- trails.particle.crit
+- trails.particle.lava
+- trails.particle.note
+- trails.particle.snow
+- trails.particle.water
+- trails.particle.white
+- trails.wings.elf
+- upgrade.size.donor
+- weight.596
+parents:
+- god
+suffixes:
+- '&r &d&k!&r &5&lOVERLORD &d&k!&r':
+    priority: 225
+meta:
+- auctions:
+    value: '8'

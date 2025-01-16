@@ -1,0 +1,98 @@
+tools:
+  name: '&e&lTools'
+  priority: 2
+  icon: DIAMOND_PICKAXE
+  icon-model-data: 0
+  description:
+  - '&f&o(( Pickaxes, Axes, Hoes, etc ))'
+  materials:
+  - '*_AXE'
+  - '*_PICKAXE'
+  - '*_HOE'
+  - '*_SHOVEL'
+  custom-items: false
+  custom-item-mode: API
+  custom-item-ids: []
+
+combat:
+  name: '&e&lCombat'
+  priority: 2
+  icon: DIAMOND_SWORD
+  icon-model-data: 0
+  description:
+  - '&f&o(( Swords, Armour and Bows ))'
+  materials:
+  - '*_SWORD'
+  - '*_BOOTS'
+  - '*_LEGGINGS'
+  - '*_CHESTPLATE'
+  - '*_HELMET'
+  - BOW
+  custom-items: false
+  custom-item-mode: API
+  custom-item-ids: []
+
+spawners-and-eggs:
+  name: '&e&lSpawners and Mob Eggs'
+  priority: 2
+  icon: CHICKEN_SPAWN_EGG
+  icon-model-data: 0
+  description:
+  - '&f&o(( Mob eggs and spawners ))'
+  materials:
+  - SPAWNER
+  - '*_SPAWN_EGG'
+  custom-items: false
+  custom-item-mode: API
+  custom-item-ids: []
+
+building-blocks:
+  name: '&e&lBuilding Blocks'
+  priority: 2
+  icon: BRICKS
+  icon-model-data: 0
+  description:
+  - '&f&o(( Building blocks ))'
+  materials:
+  - COARSE_DIRT
+  - TERRACOTTA
+  - '*_WOOL'
+  - '*_TERRACOTTA'
+  - '*_CONCRETE'
+  - '*_CONCRETE_POWDER'
+  - GLASS
+  - '*_GLASS'
+  - '*_GLASS_PANE'
+  custom-items: false
+  custom-item-mode: API
+  custom-item-ids: []
+
+redstone:
+  name: '&e&lRedstone'
+  priority: 3
+  icon: REPEATER
+  icon-model-data: 0
+  description:
+  - '&f&o(( Redstone components ))'
+  materials:
+  - REDSTONE
+  - REPEATER
+  - COMPARATOR
+  - '*_REDSTONE'
+  - REDSTONE_*
+  custom-items: false
+  custom-item-mode: ECO_ITEMS
+  custom-item-ids: []
+
+misc:
+  name: '&e&lMisc'
+  priority: 1
+  icon: LEATHER
+  icon-model-data: 0
+  description:
+  - '&f&o(( Items that don''t fit under any other category ))'
+  materials:
+  - '*'
+  custom-items: false
+  custom-item-mode: API
+  custom-item-ids: []

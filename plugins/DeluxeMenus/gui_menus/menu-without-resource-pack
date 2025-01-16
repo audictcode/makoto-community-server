@@ -1,0 +1,161 @@
+    menu_title: '&l             &#64FF5D&l&nᴍ&#75FF65&l&nᴇ&#85FF6E&l&nɴ&#96FF76&l&nᴜ'
+    open_command: menu
+    update_interval: 1
+    register_command: true
+    open_commands:
+    - '[sound] BLOCK_CHEST_OPEN'
+    size: 36
+    items:
+      '1':
+        material: LIME_STAINED_GLASS_PANE
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7&o'
+        slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 10
+        - 16
+        - 19
+        - 25
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+      '2':
+        material: GREEN_STAINED_GLASS_PANE
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7&o'
+        slots:
+        - 0
+        - 9
+        - 18
+        - 27
+        - 8
+        - 17
+        - 26
+        - 35
+        - 12
+        - 14
+        - 21
+        - 23
+      '33':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU3N2M0ZGUxZjUxYTcwNzIyMDIzZTg1NmI1NDNjZDU3MGYxZDBlZTZiOWQxNjdiNTkwMjhjZTFiYzkyZTQ1OCJ9fX0=
+        data: 0
+        slot: 11
+        left_click_commands:
+        - '[sound] BLOCK_CHEST_OPEN'
+        - '[openguimenu] warps'
+        - '[close]'
+        right_click_commands:
+        - '[sound] BLOCK_CHEST_OPEN'
+        - '[openguimenu] warps'
+        - '[close]'
+        display_name: '&e&lWarps'
+        lore:
+        - '&7&o(( Teleport and explore the'
+        - '&7&oentire survival world ))'
+        - '&7&o'
+        - '&e ❙ &eRight click to open'
+      '3343':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRkNGQwODVmNmNlZTk5NmUxZGJmNWQyOWVkODIxNjRkMGQ1NTdmNmU0YTRhMDBmZDA3OWY4NGMwNjU3MTlkMSJ9fX0=
+        data: 0
+        slot: 22
+        left_click_commands:
+        - '[player] warp Enchantments'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Enchantments'
+        - '[close]'
+        display_name: '&e&lEnchantments'
+        lore:
+        - '&7&o(( Teleport to the'
+        - '&e&l&oenchantment &7&o zone ))'
+        - '&7&o'
+        - '&e ❙ &eRight click to teleport'
+      '38':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjdkYTA3ZmMwZTRhZTEwMWNkM2Q2YjYwODBiMDRhYTc1MzgxZWY4MDc0ZTAyZWQ1Mzk3NTk0ZjQ5YjcxY2IwYyJ9fX0=
+        data: 0
+        slot: 20
+        display_name: '&e&lQuests'
+        lore:
+        - '&7&o(( Completing quests will reward'
+        - '&7&oyou with &e&l&oexperience, money.. &7&o))'
+        - '&7&o'
+        - '&e&lType of quests'
+        - '&e ❙ &fFarming'
+        - '&e ❙ &fMining'
+        - '&e ❙ &fCombat'
+        - '&e ❙ &fMiscellaneous'
+        - '&e ❙ &fGathering'
+        - '&e ❙ &fNightmare'
+        - '&e ❙ &fExtreme'
+        - '&8'
+        - '&e&l[!] &eRight click to open'
+        left_click_commands:
+        - '[sound] BLOCK_CHEST_OPEN'
+        - '[player] quests'
+        right_click_commands:
+        - '[sound] BLOCK_CHEST_OPEN'
+        - '[player] quests'
+      '355':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQzMDhhZTI3YjU4YjY5NjQ1NDk3ZjlkYTg2NTk3ZWRhOTQ3ZWFjZDEwYzI5ZTNkNGJiZjNiYzc2Y2ViMWVhYiJ9fX0=
+        data: 0
+        slot: 15
+        update: true
+        left_click_commands:
+        - '[player] warp Leaderboard'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Leaderboard'
+        - '[close]'
+        display_name: '&e&lLeaderboard'
+        lore:
+        - '&7&o(( Teleport to the'
+        - '&7&oleaderboards zone ))'
+        - '&7&o'
+        - '&e ❙ &eRight click to teleport'
+      '37':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBiZmMyNTc3ZjZlMjZjNmM2ZjczNjVjMmM0MDc2YmNjZWU2NTMxMjQ5ODkzODJjZTkzYmNhNGZjOWUzOWIifX19
+        data: 0
+        slot: 13
+        update: true
+        left_click_commands:
+        - '[player] wild'
+        - '[close]'
+        right_click_commands:
+        - '[player] wild'
+        - '[close]'
+        display_name: '&e&lTeleport'
+        lore:
+        - '&7&o(( Teleport to a &e&l&orandom'
+        - '&e&l&ozone &7&oto start your adventure ))'
+        - '&7&o'
+        - '&e ❙ &eRight click to teleport'
+      '39':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjAyYjhiZDhkOWY0OWNkMmY1ZjY3MWRkZDViMGY5ZDgyMjM3MTM5ODg2ZDhhMjFiNmY4OWE3ZmE3YjEwOTZmIn19fQ==
+        data: 0
+        slot: 24
+        left_click_commands:
+        - '[close]'
+        - '[openguimenu] randomtp'
+        right_click_commands:
+        - '[close]'
+        - '[openguimenu] randomtp'
+        display_name: '&e&lJobs'
+        lore:
+        - '&7&o(( A full list with all jobs.'
+        - '&7&oAlso, you can join/leave them ))'
+        - '&7&o'
+        - '&e ❙ &eRight click to teleport'
